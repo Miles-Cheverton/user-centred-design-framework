@@ -1,0 +1,14 @@
+FICTIONAL EVALUATION TRANSCRIPT — NOT REAL RESEARCH
+Session: SES-001
+Round: RND-001
+Version: v01
+Status: Machine-generated; superseded by v02
+Participants: PAR-001; PAR-002
+Prototype discussed: PRT-001 v1
+This retained version contains a deliberate transcription error at 00:03:10.
+Use the Current transcript link in research-sessions.xlsx to identify the reviewed version.
+
+00:03:10 PAR-001: I do not need to know the collection time before I leave work.
+00:05:20 PAR-002: I would rather have a wider collection window because my caring arrangements can change.
+00:07:40 RESEARCHER OBSERVATION: In PRT-001 v1, the Tab key did not move focus to the collection-time selector, so the keyboard-only task could not be completed.
+

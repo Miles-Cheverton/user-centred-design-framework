@@ -1,0 +1,14 @@
+FICTIONAL EVALUATION TRANSCRIPT — NOT REAL RESEARCH
+Session: SES-001
+Round: RND-001
+Version: v02
+Status: Corrected
+Participants: PAR-001; PAR-002
+Prototype discussed: PRT-001 v1
+Correction: v01 incorrectly inserted "not" into PAR-001's statement at 00:03:10.
+The fictional record marks this version corrected; no original audio is supplied to the evaluator.
+
+00:03:10 PAR-001: I do need to know the collection time before I leave work.
+00:05:20 PAR-002: I would rather have a wider collection window because my caring arrangements can change.
+00:07:40 RESEARCHER OBSERVATION: In PRT-001 v1, the Tab key did not move focus to the collection-time selector, so the keyboard-only task could not be completed.
+

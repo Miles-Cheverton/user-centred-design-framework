@@ -1,23 +1,46 @@
-# A framework for better user-centred design with an AI assistant
+# UCD Project Foundations
 
-## What it’s for
+**Version 0.3.1 — draft for review · 16 November 2026**
 
-This is a user-centred approach to service and product design. It uses Government Digital Service (GDS) best practice. Start with what people need, use research to guide decisions, and test and improve designs as you learn. [Government Design Principles](https://www.gov.uk/guidance/government-design-principles)
+A reusable starter for the shared records a multidisciplinary team needs to understand, design, develop and improve a service.
 
-The framework gives the team a loose structure for keeping track of what they’re trying to achieve, what they’ve found out and what they still want to explore. Use the parts that help and adapt them as the project changes.
+The structure gives each core concept a clearly named home. People discussing “user needs”, “assumptions” or “decisions” should mean the same records, whether they open a file themselves or ask an AI to help.
 
-## The problems it helps solve
+Human critical thinking comes first. The researcher and team analyse observations, discuss interpretations and reach conclusions. AI supports the subsequent source-checking and documentation; it does not supply the research analysis or findings for people to approve. See [the working method](template/how-to/evidence-and-interpretation.md#human-analysis-before-documentation).
 
-Research findings can end up in a report, ideas on a workshop board and the reasons for a decision in someone’s head. When those things are hard to bring together, teams can repeat research or lose a good idea before they get a chance to try it. An AI assistant can do some of the donkey work. It can sort notes, find the source of a claim and bring earlier findings back into the conversation.
+## Start here
 
-## How people stay in control
+1. Copy the contents of [template/](template/) into the approved working location for your service.
+2. Open the [project README](template/README.md).
+3. Choose what you are doing now from the project README and use the few records that task needs.
+4. Capture the essentials first. Use the individual guides when a record needs further detail or review.
 
-The team gives the assistant a question and chooses which material it can use. The assistant shows where its findings came from and marks its suggestions as suggestions. People check what it found, bring their own judgement and intuition, and decide what to investigate, test or change.
+All substantive project knowledge belongs in the structure, including contradictory findings, unmet needs and reasons for discarding options. The task routes reduce upfront administration; they do not make learning optional. Working material may remain in approved tools when its location, relevant meaning and access limits are recorded here.
 
-## How it helps teams spot missed opportunities
+The [FigJam structure map](https://www.figma.com/board/Rf4f7nAsCXwx5wH3mGcti7) illustrates an earlier draft. Diagram updates are paused; the files and their guides describe the current structure.
 
-People might say in interviews that they don’t know what happens after they apply. Separately, staff might report spending a lot of time answering calls about progress. An assistant can bring those findings together. The team can then ask whether clearer updates would help, check why people are calling and decide what to test.
+The public starter contains blank records, reusable instructions and illustrative folder names. It contains no actual participants, research sessions or service decisions. RND-001, JNY-001 and PRT-001 demonstrate repeatable folders; they are not evidence that this work has happened.
 
-## Get involved
+## What is included
 
-We welcome feedback, ideas and contributions. Tell us what helped, what got in the way or what you’d change. Open an issue to share an idea or submit a pull request with an improvement.
+- **Excel workbooks** for structured registers, one concept per workbook, with clearly named fields and appropriate dropdowns.
+- **Markdown documents** for the problem statement, findings, design proposals, decisions, measures and instructions.
+- **Research folders** for protocols, recordings and transcripts in the private working copy.
+- **Journey and prototype folders** for retained versions, their descriptions and their source material.
+- **Focused how-to guides** describing the fields, method, examples and completion checks.
+- **Explicit relationship rules** defining which records each reference can point to, including retained versions and replacements.
+- **Model-neutral AI prompts** for answering project questions, preparing for refinement and identifying evidence gaps.
+- **Reusable skills** for populating records, assessing user-need coverage and checking or repairing project integrity within the user's authority.
+- **User-need coverage** that distinguishes fulfilment from a decision to address, defer or not address a need.
+
+Teams edit the working files directly. There is no routine CSV import/export step. Use an editor that preserves the workbook’s tables and validation. The structure and prompts are model-neutral; the chosen AI tool must be able to read the relevant formats accurately and report partial or missing access.
+
+## Scope of this draft
+
+This is a proposed starter kit, not an established organisational rollout or an official GDS template. It supports good practice; filling in files does not establish that a service meets a standard.
+
+For the assessment behind this draft, read the [multidisciplinary team simulation](framework/team-simulation/README.md) and the separately recorded [AI-usability checks](framework/ai-usability/results.md). The simulation contains 18 fictional discovery, alpha and beta episodes informed by published research and practitioner accounts. It is not evidence from a real-team trial.
+
+The template supports the whole service, including non-digital channels, staff, operations, policy and organisational constraints.
+
+Actual research data and participant details belong in appropriately restricted project storage. The public repository is for the reusable template, guidance and fictional examples. Local folder names alone do not create access controls.
