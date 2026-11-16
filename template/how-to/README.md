@@ -29,6 +29,8 @@ Do not keep only findings that support the preferred option. An inconclusive res
 
 The minimal first capture never substitutes for consent, a usable protocol or evidence needed before relying on a result.
 
+For discussion guides, questionnaires, original survey responses, working calculations and Whiteboards, use [the material-storage route](research-protocol.md#discussion-guides-surveys-and-whiteboards). Keep each with its research round, using only the companions that activity needs. Survey exports keep their original format; analysis notes preserve the team's thinking before AI documentation.
+
 ## Explore a design
 
 1. Use normal design tools to sketch and compare ideas. Create a [design proposal](files/design-proposals.md) when an option is substantive enough to retain; start with its ID, proposed change and Draft status.
@@ -87,7 +89,7 @@ For an authorised capture or update, select a [portable procedure](../skills/REA
 
 Activate a record when its relevant activity happens. “Optional” does not mean optional retention of substantive learning: all substantive findings, user needs, consequential decisions, retained options and their meaning belong in the structure. Raw material may remain in approved tools, but exact sources must be registered and the substantive meaning available as accessible text. State coverage and access gaps rather than implying completeness.
 
-Work directly in Excel; no import/export workflow is required. Do not routinely copy a delivery backlog, operational system or private data into the project. Link the authoritative source and capture only the project knowledge needed to understand the work.
+Edit project registers directly in Excel; there is no routine CSV exchange step. Preserve an external survey tool's original export in its supplied format, without re-entry or a competing editable copy. Do not routinely copy a delivery backlog, operational system or private data into the project. Link the authoritative source and capture only the project knowledge needed to understand the work.
 
 Update records at the event: learning after research, a choice when made, and a record when its meaning changes. Use existing team review conversations. The template does not create another reporting cycle.
 

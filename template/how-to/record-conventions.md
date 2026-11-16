@@ -1,5 +1,7 @@
 # Record conventions
 
+Research instruments, response exports, calculation working, analysis notes and Whiteboard references live with their round or design activity. They are supporting material, not new global register types. Register a cited non-session dataset or retained board as a DOC source; EV records then identify the exact source version and locator. Q1-style question IDs belong to a particular questionnaire version, and response IDs do not imply participant identities. See [research-materials conventions](research-protocol.md#discussion-guides-surveys-and-whiteboards).
+
 These conventions make the files understandable to people and AI tools. They define exact relationships; they do not decide what the evidence establishes.
 
 ## One concept and one maintained home

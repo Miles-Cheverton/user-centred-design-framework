@@ -2,6 +2,8 @@
 
 This starter is a draft. Improvements should make it easier for a team to do useful work and maintain dependable project knowledge.
 
+The original framework is shared under [CC BY 4.0](LICENSE). Submit material you have the right to contribute on those terms, and identify any third-party material and its separate licence.
+
 ## Give useful feedback
 
 Describe:

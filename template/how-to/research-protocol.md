@@ -14,6 +14,31 @@ Use this guide to prepare, conduct and close a focused research round. Each roun
 
 The round protocol has six sections: decision to inform; participants or data sources; procedure; consent and data handling; analysis; sharing and action.
 
+## Discussion guides, surveys and Whiteboards
+
+Keep material with the activity it supports. Each round can use these companions; complete only those needed:
+
+| File | Purpose |
+|---|---|
+| [discussion-guide.md](../research/RND-001/discussion-guide.md) | The questions, tasks and prompts used in a moderated session. Retain the version actually used. |
+| [survey-questionnaire.md](../research/RND-001/survey-questionnaire.md) | Exact question wording, options, codes, branching and the live survey link. |
+| [survey-responses.xlsx](../research/RND-001/survey-responses.xlsx) | Optional blank response starter. An existing survey export remains authoritative in its supplied format; do not convert or re-enter it merely to fit the template. |
+| [survey-analysis.xlsx](../research/RND-001/survey-analysis.xlsx) | Working calculations using the method people chose, with source and denominator information. It does not contain automatically generated findings. |
+| [analysis-notes.md](../research/RND-001/analysis-notes.md) | The human discussion, explanations considered, disagreement and unresolved interpretation. Final findings retain their existing owner. |
+| [whiteboard.md](../research/RND-001/whiteboard.md) | A live board reference, relevant retained snapshot/version and access limits. Meaning lives in human notes and the owning records. |
+
+Use stable question IDs such as Q1 within the questionnaire version. Preserve the mapping to the survey tool's export columns. Identify the exact instrument respondents received, including mid-fieldwork changes; do not assume a current live survey is the one behind an older export.
+
+When a used instrument changes materially, retain its earlier version with a clear name such as `discussion-guide_v01.md` or `survey-questionnaire_v01.md`, and point the protocol/session notes to the version actually used. For a board snapshot, use an actual date, round or design ID and version, for example `2026-11-16_RND-001_whiteboard_v01.png`, keeping the real export format. A version-specific approved external location is also valid; do not create a duplicate merely to satisfy a filename pattern.
+
+Keep original response exports unchanged in the approved research location. Give retained exports an actual date and version, for example `2026-11-16_RND-001_survey-responses_v01.xlsx`, preserving the real extension. Register a cited dataset in document-register.xlsx as a DOC source, identifying collection period, questionnaire version, export filters and limits. Do not create a session or participant record for every anonymous survey row merely to fit the structure. Any legitimate respondent linkage requires the agreed protocol and a known mapping; a response ID is not automatically a participant ID.
+
+Put cleaning, exclusions and calculations in a separate working file with the exact original source identified. People choose the method and interpret the results. AI may carry out their specified calculations and check arithmetic and references. Record question-specific bases, filters and missing-answer treatment: unanswered is not zero, skipped is not necessarily a refusal, and a multiple-choice selection total is not necessarily a count of respondents. State whether a percentage uses respondents or selections. Keep free-text interpretation human-led and preserve its context.
+
+Microsoft Whiteboard remains the live canvas where appropriate. For substantive analysis, decisions or handover, retain an identifiable state and enough human-authored text to preserve its meaning. Put research boards with the round and design boards with the relevant journey/prototype; no separate tool-specific folder is required. A snapshot may omit off-screen, hidden or interactive material, so record its limits. AI must not derive themes, findings or agreement from a raw board or use a link as proof of full access.
+
+The template contains no response data, live survey or Whiteboard snapshot. Real datasets and boards follow the protocol's access and retention arrangements; share only suitably restricted or approved material.
+
 ## Before a participant session
 
 - Allocate a participant code and session ID. Keep names, contact details and any identity key separately restricted.

@@ -1,5 +1,11 @@
 # AI-usability evaluation results
 
+## 0.3.2 research-material checks — 16 November 2026
+
+The six new round companions were checked alongside the updated guidance and skills. The two optional workbooks were rendered and visually inspected; their native contents confirmed named tables, filters, frozen panes and blank data areas, with no formulas, macros or external workbook links. Calculations remain blank because the research method and actual data must be supplied by people. Native Microsoft Excel interaction was not tested.
+
+All ten existing skills passed format validation, and the updated material links resolved. Structural validation passed for the existing 23 central registers, nine fictional fixture workbooks and their checked references. The new survey workbooks are supporting round materials, not additional central registers. No new model benchmark, survey analysis or human-team trial was performed.
+
 ## 0.3.1 guidance checks — 16 November 2026
 
 This revision makes human analysis a prerequisite to AI documentation. All ten skills passed their format validators. A separate read-only document review considered three cases: raw transcript only; a supplied human conclusion with a contrary source passage; and an established human conclusion with authority to save. The reviewed instructions consistently require human synthesis in the first case, return meaning-changing discrepancies to people in the second, and allow routine authorised recording without another approval ritual in the third. Two wording ambiguities were corrected. This was a review of instructions, not an execution benchmark or human usability trial.

@@ -2,6 +2,8 @@
 
 Use [document-register.xlsx](document-register.xlsx) to identify what was supplied, where the authoritative material lives and how it can reasonably inform the work. Keep an original copy in originals/ only when that storage is appropriate; otherwise register the approved source link.
 
+Use the same register for retained non-session sources created during the project, including survey datasets, working results and Whiteboard states. Keep them with their research round or design activity; do not copy them into originals/ merely because the register lives here. Refer to the [research-material conventions](../how-to/research-protocol.md#discussion-guides-surveys-and-whiteboards) for instrument versions, response exports and board snapshots.
+
 ## Interpret the register
 
 | Role | How to use it |

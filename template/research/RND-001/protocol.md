@@ -21,6 +21,8 @@ Use coded participant references in shared working records. Keep contact details
 
 [Describe the method, sequence, roles, tasks and approximate timing. Link the discussion guide or other materials if needed.]
 
+Use the relevant companion only: [discussion guide](discussion-guide.md) for moderated activities, or [survey questionnaire](survey-questionnaire.md) for a survey. Identify the exact version used. Remove unused template prompts when preparing the real protocol; unused companions do not indicate missing research.
+
 **Journey or prototype versions:** [Exact JNY or PRT IDs and versions used, separated by semicolons]  
 **Recording and note-taking approach:** [What will be collected and by whom]  
 **Pilot or readiness check:** [What must be checked before sessions begin]
@@ -41,6 +43,10 @@ Describe any transcription or other service processing the data. Do not infer pe
 ## 5. Analysis
 
 [Describe how the researcher, observers and relevant team members will meet to analyse observations, discuss alternative explanations and reach conclusions. Note who contributed and where existing analysis notes can be found when available. Retain substantive disagreement. Humans perform this thinking before AI may tidy conclusions, check them against authorised transcripts or sources, flag discrepancies and record them in research-findings.md. A raw transcript alone is not permission for AI synthesis.]
+
+Use [analysis-notes.md](analysis-notes.md) for the team's discussion and [whiteboard.md](whiteboard.md) to locate a supporting canvas and retained state. For a survey, identify the exact original response export, questionnaire version, collection period and any source filters. [survey-responses.xlsx](survey-responses.xlsx) is an optional blank starter, not a required conversion target. Use [survey-analysis.xlsx](survey-analysis.xlsx) for working calculations if useful; preserve the original export separately in its supplied format and approved location.
+
+[Record the human-chosen calculation method, included/excluded responses, question-specific base and missing-answer treatment. Keep calculations separate from the team's interpretation.]
 
 ## 6. Sharing and action
 

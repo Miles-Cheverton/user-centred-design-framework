@@ -44,6 +44,8 @@ State relevant method, sample, conditions and limitations. Distinguish what some
 
 ## Develop findings
 
+Survey responses and Whiteboards are source material, not findings. Keep original responses unchanged and the team's chosen calculations in a separate working file. People discuss quantitative results, free-text answers and board content before drawing conclusions. AI may perform specified arithmetic or check supplied conclusions against accessible sources, but must not infer themes, explanations or agreement from raw answers, clusters or votes. Use the [research-material guidance](research-protocol.md#discussion-guides-surveys-and-whiteboards) for the files and provenance.
+
 Capture every substantive finding in research-findings.md, including contradictory, unexpected and inconclusive conclusions. Review patterns and differences across the evidence. Preserve counterexamples and gaps that could change the conclusion. A finding should explain its scope clearly enough that another team member can judge whether it applies to their question.
 
 Raw material may remain in approved external tools, but register its exact source and keep the substantive meaning in accessible project text. State inaccessible or incomplete source coverage explicitly. Optional activation of a register never makes retention of substantive learning optional. Do not routinely copy private data or operational systems.

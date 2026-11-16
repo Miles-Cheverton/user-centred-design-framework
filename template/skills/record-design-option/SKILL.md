@@ -15,6 +15,8 @@ Follow the [shared skill rules](../README.md) and the relevant [proposal](../../
 4. Open and identify the exact retained version where accessible. For a journey, retain its graphic and a faithful concise text description; check material branches agree. For a prototype, retain exact source or approved original-tool links and useful exports, and compare the description with accessible interactions. A working link can show changed content. Flag discrepancies for people to resolve; do not silently choose between versions or interpret an inaccessible interaction.
 5. Preserve meaningful discarded options and link the decision explaining the choice. Use the team's findings to describe learning; do not analyse a prototype or raw research to supply a new conclusion, invent findings or declare a selected design live.
 
+If the source is a Microsoft Whiteboard, keep its reference with the relevant journey or prototype rather than creating a tool-specific central folder. Identify the canonical working link and the retained snapshot or version supporting this record; a mutable link alone is not the historical design. Retain the team's explanation in the existing text description or analysis notes and disclose unreadable canvas content. Do not derive a finding from sticky-note groupings. Use [research-material handling](../record-project-item/SKILL.md#research-materials) for source registration when needed.
+
 ## Result
 
 Return the proposal ID and exact journey/prototype versions retained, their purpose and relevant decision/evidence links. This skill records design knowledge; it does not build or deploy a service unless separately instructed.

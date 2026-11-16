@@ -4,6 +4,8 @@
 
 Describe supplied documents and explain their authority, currency and limitations. Use when project documents are supplied, discovered or replaced.
 
+This existing register also identifies non-session project sources, including a survey dataset, working results or a retained Whiteboard state. They stay in the activity's approved storage; the register's location under project-background does not require moving them there or creating another register. Register a source when retained or relied on, not every disposable edit.
+
 
 ## First capture
 
@@ -15,6 +17,8 @@ Enter **ID**, **Title**, **File or URL**. Keep unknowns visible; do not invent t
 2. Describe what it contains and who supplied it.
 3. Assess its principal role and currentness.
 4. Explain which claims carry weight and which remain assumptions or proposals; one document can contain both.
+
+For a survey source, identify the original export and questionnaire version, collection period and any filters. A working calculation is a distinct source when cited; its method points back to the exact original dataset. For a board, record its purpose, live location, the retained state actually used and access limits. Use existing Role and Use and limitations fields honestly: research material is not automatically a reviewed finding. Exact versions and locators belong in each citing EV record.
 
 ## Fictional example
 

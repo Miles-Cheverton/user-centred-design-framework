@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations 0.3.1 — draft  
+**Starter version:** UCD Project Foundations 0.3.2 — draft<br>
 **Project owner:** [Name or team]  
 **Working location:** [Approved project location]
 
@@ -39,6 +39,7 @@ Use this catalogue when you know the concept. Each file has a completion guide u
 | What change do we want, and how will we assess it? | [Outcomes](outcomes.xlsx), [success measures](success-measures.md) |
 | What could affect the work? | [Constraints](constraints.xlsx), [dependencies](dependencies.xlsx), [assumptions](assumptions.xlsx), [risks](risks.xlsx) |
 | What are we investigating? | [Research questions](research-questions.xlsx), [research plan](research-plan.xlsx), [research sessions](research-sessions.xlsx) |
+| Where are the discussion guide, survey, results or Whiteboard? | [Research materials guidance](how-to/research-protocol.md#discussion-guides-surveys-and-whiteboards), with [round companions](research/RND-001/) used only when needed |
 | Which coded participants took part? | [Participants](participants.xlsx) |
 | What supports our understanding? | [Evidence](evidence.xlsx), [research findings](research-findings.md) |
 | What experience and options are we exploring? | [User journeys](user-journeys.xlsx), [design proposals](design-proposals.md), [prototypes](prototypes.xlsx) |
@@ -66,6 +67,8 @@ Markdown files hold concise text and repeatable record sections. Bracketed text 
 
 The example folders RND-001, JNY-001 and PRT-001 show the structure for research rounds, journeys and prototypes. Their template documents and placeholder artwork do not represent completed activity. Use IDs consistently when creating real records.
 
+Each research round can contain its discussion guide, questionnaire, original survey export, calculation working, human analysis notes and Whiteboard reference. The two survey workbooks are optional blank working aids, not additional central registers. Keep an original export in its supplied format rather than re-entering it. A live board remains in its approved tool; retain meaningful snapshots and human-authored text when needed to understand the work. Final findings and decisions keep their existing owners.
+
 Update records as the work happens: capture learning after research, record a consequential choice when made, and amend a record when its meaning changes. Use the team's existing conversations; this template does not add a review meeting or reporting cycle.
 
 ## AI assistance
@@ -85,3 +88,5 @@ Framework administration, how-to examples and the synthetic framework/ai-usabili
 This working copy may contain sensitive data. Keep it in the approved project environment with appropriate access controls. The folders themselves do not enforce permissions. Recordings, transcripts, recruitment details and identity keys must be handled according to the research protocol and consent arrangements.
 
 The public starter should contain only templates, guidance and fictional examples.
+
+Template attribution: [UCD Project Foundations](https://github.com/Miles-Cheverton/user-centred-design-framework) by Miles Cheverton, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Retain attribution and indicate changes when sharing adaptations. Third-party materials and teams' own project content retain their respective rights.

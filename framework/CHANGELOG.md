@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.3.2 — 2026-11-16 — draft for review
+
+### Added
+
+- Optional research-round companions for discussion guides, survey questionnaires, original responses, working calculations, human analysis notes and Whiteboard references.
+- Blank survey-response and survey-analysis workbooks. Native survey exports may remain in their original format; no conversion or manual re-entry is required.
+- The confirmed CC BY 4.0 licence, copyright 2026 Miles Cheverton, replacing the previous licence proposal. The full legal text remains in framework/LICENSE; the template carries a short attribution notice.
+
+### Changed
+
+- Guidance and existing skills now distinguish instruments from results, preserve questionnaire and dataset versions, and retain calculation methods, filters, denominators and missing-response treatment.
+- Whiteboard guidance retains the live reference and meaningful snapshots alongside human-authored analysis, with explicit coverage and access limits. Boards remain with the research or design activity they support.
+- Cited datasets and board snapshots use the existing DOC/EV source relationships. Human discussion and interpretation remain prerequisites to recording findings; AI can perform specified calculations, source checks and faithful documentation.
+
+### Migration
+
+No central register, global ID or existing workbook column changes are required. Add only the round companions useful to the work. Preserve original exports and significant retained versions; do not manufacture historic question mappings, snapshots, respondent identities or human analysis. Existing recordings and transcripts keep their established folders.
+
 ## 0.3.1 — 2026-11-16 — draft for review
 
 ### Changed

@@ -19,6 +19,10 @@ Enter **ID**, **Observation**. Keep unknowns visible; do not invent them. This s
 4. Record the relevant date, method, sample and version.
 5. State limitations that change how the observation can be used.
 
+For survey evidence, Source ID is the DOC record for the exact dataset or working calculation cited. Locate the observation by sheet/table, question ID, response IDs or cell/range as appropriate. Record questionnaire version, collection period, filters, base count and missing-answer treatment in Context or the cited working method. Do not use a changing dashboard total as a fixed source or infer population prevalence from an unrepresentative sample.
+
+For Whiteboard evidence, use the DOC source and exact retained snapshot/version, then a frame, labelled region or item locator. Distinguish a participant's original observation from a team's interpretation on the board. Cite the original session or dataset where available; the board does not independently verify it. An inaccessible or partly legible board needs an explicit limit, not an invented interpretation.
+
 ## Fictional example
 
 This example demonstrates the format only. It is not project evidence and is not preloaded into the workbook. It shows a developed record; the first capture can be smaller. Empty cells mean not recorded.
