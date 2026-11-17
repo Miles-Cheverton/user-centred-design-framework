@@ -22,7 +22,7 @@ No findings have been recorded in this starter. The researcher and team analyse 
 
 ### Context and limitations
 
-[Describe the conditions, coverage, relevant differences, uncertainty and any contrary evidence. Do not imply a wider population claim than the research supports.]
+[Describe the conditions, coverage, relevant differences, uncertainty and any contrary evidence. Where the finding concerns a model, give its exact version and named stage, handoff or decision. Explain who was involved, what information or action was needed, what went wrong and the consequence that the team identified. Do not imply a wider population claim than the research supports.]
 
 ### Implications
 

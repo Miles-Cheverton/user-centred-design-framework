@@ -74,6 +74,8 @@ Examples:
 
 Use the actual date, round and session IDs. Recording segments use p01, p02 and so on; transcript revisions use v01, v02. Keep the real file extension produced by the tool. Names and emails do not appear in filenames.
 
+An optional short, non-identifying activity label can appear between the session ID and artefact type, for example `2026-11-16_RND-001_SES-003_collection-test_transcript_v01.txt`. Use plain hyphenated words for the label. Both forms are valid, and the records cite the exact filename in use.
+
 Update research-sessions.xlsx with exact Recording links, a single Current transcript link, and Transcript status for that one transcript. Machine-generated, Checked and Corrected require the linked file; Not applicable and Not available require a blank Current transcript link. Preserve useful timestamps and coded speaker labels. A machine-generated transcript may contain errors and must not silently become checked evidence.
 
 When a transcript is corrected, retain its new version and update Current transcript link and Transcript status together. Retain earlier versions where permitted. An EV record continues to cite its exact original source version or path and locator; changing the session's current transcript must not silently change historical evidence.
@@ -89,6 +91,8 @@ When a transcript is corrected, retain its new version and update Current transc
 7. Mark the round Complete only when substantive learning has been captured and reviewed findings are available to inform work. Known material still awaiting analysis keeps the round Analysing. A completed round may retain unanswered questions and inconclusive findings; completion does not establish comprehensive knowledge of every user.
 
 An integrity check can identify a known missing finding or unresolved reference. It cannot certify that no unshared human insight exists. See [human analysis before documentation](evidence-and-interpretation.md#human-analysis-before-documentation).
+
+For a cross-round readout, compare planned user groups in the plan or protocols with actual session rows and coded participant group records. Count participation events and unique people separately where appropriate. See [worked research coverage](worked-service-handoff.md#research-coverage-and-external-material). Keep invitations, contact details and follow-up logistics in approved restricted recruitment records.
 
 ## Retention and withdrawal
 

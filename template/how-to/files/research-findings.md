@@ -39,7 +39,7 @@ Use the small first capture to save a draft. Complete the relevant fields before
 | Reviewed by and on | When Reviewed | Reviewer and actual substantive review date. |
 | Finding | At capture | The conclusion in plain language, including an inconclusive result where warranted. |
 | Supporting evidence | Before reliance or Reviewed | EV IDs and what they support; follow each to its exact Source ID, Source version or path and Locator. |
-| Context and limitations | Before reliance or Reviewed | Coverage, circumstances, uncertainty and contradictory evidence. |
+| Context and limitations | Before reliance or Reviewed | Coverage, circumstances, uncertainty and contradictory evidence. Where relevant, cite the exact model version and name the stage, handoff or decision. Explain the actor, required information or action, failure and consequence. Put the version itself in Design versions. See the [worked service handoff](../worked-service-handoff.md). |
 | Implications | When the learning changes what the team should consider | Explain the implication. Decisions own their references to findings; do not maintain DEC backlinks here. |
 
 ## Keep it current

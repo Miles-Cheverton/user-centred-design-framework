@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.3 — 2026-11-17 — draft for review
+
+- Extended the journey guidance and description to support service blueprints, process maps, actor maps and information flows using the existing register. Label prescribed process, observed practice and proposed future where relevant.
+- Added a fictional handoff example linking an exact model stage to a finding, its source, a playback claim, a decision and an open outcome. It also shows cross-round coverage, an external source and a consequential problem reframing.
+- Added an optional non-identifying activity label to research-session filenames. Existing filenames, worksheet fields and IDs remain valid.
+
 ## 0.3.2 — 2026-11-16 — draft for review
 
 ### Added

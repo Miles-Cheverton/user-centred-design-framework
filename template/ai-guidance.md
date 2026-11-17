@@ -50,6 +50,8 @@ Resolve references by exact record ID and allowed target type in the canonical r
 
 Query the owning relationship to find reverse links. Findings own Research question IDs, Round or session IDs and Design versions. For a round, include findings that cite the RND directly and those citing SES records whose Round ID matches it. Prototypes own Proposal IDs; sessions own Prototype version. Do not author inverse finding lists or duplicate prototype metadata. The canonical reference gives the exact lookup routes and coverage conditions.
 
+Use the findings’ context and the model’s version description to locate any named stage, handoff or decision. Preserve the difference between prescribed process, observed practice and proposed future. Use playback citations to find their owning records. State where a forward trace ends, especially when an option is selected for testing and a service outcome remains open.
+
 Journeys and prototypes use the composite identity of ID plus Version. A bare ID does not select a version. Do not assume the highest version number is the selected or implemented one.
 
 Follow every explicit Superseded by reference. Replacements use the same concept type, may contain several IDs separated by `; `, and require exact versions for JNY or PRT. A Superseded record with a blank replacement is an unresolved gap. If a target is missing, ambiguous, has the wrong type, points to itself or forms a replacement cycle, report the problem instead of silently choosing another record. A blank optional reference makes no claim of a relationship; a blank conditionally required reference is an unresolved gap.

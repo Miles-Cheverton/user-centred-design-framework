@@ -58,6 +58,8 @@ The timing below separates quick capture from a usable record. **Before use** me
 
 ## Keep it current
 
+For a consequential source held elsewhere, use **Supplied by** to identify the owner or maintaining team. Use **File or URL** and **Date or version** for the exact source. In **Use and limitations**, state who can access it, any known retention or sharing conditions, and which part the team could check. See the [worked board example](../worked-service-handoff.md#research-coverage-and-external-material).
+
 Set Currency to Superseded and list all exact replacement DOC IDs in Superseded by when sources are replaced. A blank replacement on a Superseded document is an unresolved gap. Preserve material disagreements rather than silently dismissing contradictory evidence. Original files remain unchanged unless their owner issues a replacement.
 
 ## Completion check

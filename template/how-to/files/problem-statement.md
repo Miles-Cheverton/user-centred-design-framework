@@ -26,7 +26,7 @@ This is an example of wording, not a verified problem for the project.
 
 ## Keep it current
 
-Refine the wording as understanding develops. If the problem changes materially, record why in decisions.md and reconsider scope, outcomes and research priorities. The statement itself remains concise.
+Refine the wording as understanding develops. Preserve the original mandate in the document register. If the framing changes materially, use the decision’s Context for the mandate DOC ID and exact passage plus the previous wording or exact retained version. Use Choice for the new framing, Rationale for the findings that prompted it, and Consequences for effects on scope, outcomes or research priorities. Keep the concise current statement in the working file.
 
 ## Completion check
 

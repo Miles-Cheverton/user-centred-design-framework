@@ -8,6 +8,8 @@
 **User goal:** [What the person is trying to achieve]  
 **Graphic:** [map.svg](map.svg)
 
+[Name the type and purpose of the representation. If it compares states, label Prescribed process, Observed practice and Proposed future wherever they apply. Cite the governing document and passage for the prescribed process, evidence for observed practice, and the proposal for the future option where recorded.]
+
 ## Boundaries
 
 **Starts when:** [Trigger]  
@@ -21,7 +23,7 @@
 
 ## Branches and exceptions
 
-[Describe alternative routes, conditions, failures and recovery paths shown in the graphic.]
+[Describe alternative routes, conditions, failures and recovery paths shown in the graphic. Give material stages and handoffs clear names that a finding can cite alongside this version. For an actor map or information flow, describe the labelled relationships and handoffs in the order that best explains the model.]
 
 ## Interpretation and status
 

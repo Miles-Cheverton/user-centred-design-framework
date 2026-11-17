@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations 0.3.2 — draft<br>
+**Starter version:** UCD Project Foundations 0.3.3 — draft<br>
 **Project owner:** [Name or team]  
 **Working location:** [Approved project location]
 
@@ -20,6 +20,7 @@ Choose the route for the work in front of you. Start with a small capture; compl
 | Make or record a choice | [Record a decision](how-to/README.md#record-a-decision) |
 | Answer a project question | [Find and check an answer](how-to/README.md#find-and-check-an-answer) |
 | Hand over work or prepare a review | [Assemble the current position](how-to/README.md#hand-over-or-prepare-a-review) |
+| Follow a worked example from evidence to decision | [Collection-readiness handoff](how-to/worked-service-handoff.md) |
 
 The full set of files is available when the corresponding work happens. There is no exercise to fill every file at setup. All substantive learning, needs, consequential decisions and retained design options must have an owning record, including contradictory and inconclusive findings and discarded options that taught the team something.
 

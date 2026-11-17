@@ -35,8 +35,8 @@ Routine edits do not require copying every file into a new version folder. Once 
 
 ## Current, selected and historical are different
 
-- A current-experience journey describes an existing service and needs supporting observation.
-- A proposed-experience journey describes an idea.
+- A current-experience model mainly describes an existing service. Cite observations for observed practice and the governing source for prescribed steps. Label any proposed future shown alongside them.
+- A proposed-experience model mainly describes a future option.
 - Selected identifies a chosen direction; it does not establish implementation.
 - Tested identifies an evaluated version; it does not establish that all quality criteria are met.
 - Discarded and superseded options remain historical references where their retention is useful and permitted.
@@ -48,6 +48,8 @@ Keep the decision or reason for discarding a worthwhile option. This helps avoid
 Record significant choices with who decided, when, the reasons, alternatives and consequences. When a decision is replaced, retain it as Superseded and put all exact replacement DEC IDs in Superseded by. Findings and proposals use their own equivalent fields. Do not rewrite a past agreement to resemble today's choice.
 
 ## Research files
+
+An optional short, non-identifying activity label can follow the session ID. Use the [research naming convention](research-protocol.md#store-and-name-material) and preserve the exact name in source references.
 
 Recording parts use p01, p02 and so on. Transcript revisions use v01, v02. Current transcript link identifies one file and Transcript status applies only to that file. Correcting a transcript updates those two fields together. Older EV records preserve their exact Source ID, Source version or path and Locator; they do not automatically redirect to the current transcript.
 

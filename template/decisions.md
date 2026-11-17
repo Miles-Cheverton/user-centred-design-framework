@@ -26,6 +26,8 @@ No decisions have been recorded in this starter. Copy the section below for each
 
 [Record what this changes for the service or work, including any accepted limitation or risk.]
 
+For a material change in problem framing, retain the original mandate reference and previous wording or exact version in Context. Use Choice for the new framing and Rationale for the findings that prompted it. Put the current statement in problem-statement.md.
+
 For a choice to defer or not address a user need, identify the exact UN ID and explain the reason and consequences. The coverage register cites this decision; an unmet need alone is not a decision against addressing it.
 
 ### Revisit or replacement

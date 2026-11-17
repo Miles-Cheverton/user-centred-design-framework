@@ -34,7 +34,7 @@ For discussion guides, questionnaires, original survey responses, working calcul
 ## Explore a design
 
 1. Use normal design tools to sketch and compare ideas. Create a [design proposal](files/design-proposals.md) when an option is substantive enough to retain; start with its ID, proposed change and Draft status.
-2. Register a [journey](files/user-journeys.md) or [prototype](files/prototypes.md) when it is used in research, informs a significant decision, receives substantive shared review or is handed over. Give that retained version an exact ID and Version.
+2. Register a [journey or service model](files/user-journeys.md) or [prototype](files/prototypes.md) when it is used in research, informs a significant decision, receives substantive shared review or is handed over. Give that retained version an exact ID and Version.
 3. Preserve its location and an accessible text account of its substantive meaning. A journey needs an equivalent text description; a prototype needs its question, tasks, run instructions and simulation limits.
 4. Record substantive learning even when the option is discarded. Put findings in their owner and consequential choices in decisions.md. Retain the versions needed to understand them.
 
@@ -73,6 +73,8 @@ In a meeting, “we should try morning calls” is a proposal, not agreement. Br
 For example: “The team selected PRT-201 v3 for further testing. The latest finding concerns v1; the selected version has not yet been tested. Staff capacity remains a condition.” AI may assemble this from existing records; humans interpret its consequences and decide what happens next. Do not create another maintained handover register or duplicate the source records.
 
 ## Find and check an answer
+
+See the [worked service handoff](worked-service-handoff.md) for tracing a playback claim back to a source and following the finding forward to a decision and outcome check. In a playback deck or report, cite the relevant finding, need or decision ID beside the claim or in its source notes. Say where the trail stops and what remains open.
 
 1. Locate the concept in the [record catalogue](../README.md#find-a-record). Use [record conventions](record-conventions.md) for exact IDs and relationships.
 2. Read the relevant full record, its status and provenance. Follow a finding or need to the supporting EV records and exact sources. State an unavailable or incompletely checked source as a gap.

@@ -1,6 +1,6 @@
 # UCD Project Foundations
 
-**Version 0.3.2 — draft for review · 16 November 2026**
+**Version 0.3.3 — draft for review · 17 November 2026**
 
 A reusable starter for the shared records a multidisciplinary team needs to understand, design, develop and improve a service.
 
@@ -14,6 +14,8 @@ Human critical thinking comes first. The researcher and team analyse observation
 2. Open the [project README](template/README.md).
 3. Choose what you are doing now from the project README and use the few records that task needs.
 4. Capture the essentials first. Use the individual guides when a record needs further detail or review.
+
+Follow the [worked service handoff](template/how-to/worked-service-handoff.md) to see how a team connects a service model and a specific stage to research evidence, a playback claim, a decision and an open outcome.
 
 All substantive project knowledge belongs in the structure, including contradictory findings, unmet needs and reasons for discarding options. The task routes reduce upfront administration; they do not make learning optional. Working material may remain in approved tools when its location, relevant meaning and access limits are recorded here.
 
