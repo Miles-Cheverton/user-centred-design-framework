@@ -1,6 +1,6 @@
 # UCD Project Foundations
 
-**Version 0.3.3 — draft for review · 17 November 2026**
+**Version 0.3.4 — draft for review · 19 November 2026**
 
 A reusable starter for the shared records a multidisciplinary team needs to understand, design, develop and improve a service.
 
@@ -10,10 +10,7 @@ Human critical thinking comes first. The researcher and team analyse observation
 
 ## Start here
 
-1. Copy the contents of [template/](template/) into the approved working location for your service.
-2. Open the [project README](template/README.md).
-3. Choose what you are doing now from the project README and use the few records that task needs.
-4. Capture the essentials first. Use the individual guides when a record needs further detail or review.
+Copy the contents of [template/](template/) into your approved project workspace and open the [project README](template/README.md). The [short guide to using the framework](how-to-use-this-framework/README.md) shows where to start with research, a review or an AI task.
 
 Follow the [worked service handoff](template/how-to/worked-service-handoff.md) to see how a team connects a service model and a specific stage to research evidence, a playback claim, a decision and an open outcome.
 
@@ -41,9 +38,7 @@ Teams edit the working files directly. There is no routine CSV import/export ste
 
 This is a proposed starter kit, not an established organisational rollout or an official GDS template. It supports good practice; filling in files does not establish that a service meets a standard.
 
-The original framework is licensed under [CC BY 4.0](framework/LICENSE), copyright 2026 Miles Cheverton. You may reuse and adapt it, including commercially, with attribution, a licence link and an indication of changes. Referenced third-party material retains its own terms.
-
-For the assessment behind this draft, read the [multidisciplinary team simulation](framework/team-simulation/README.md) and the separately recorded [AI-usability checks](framework/ai-usability/results.md). The simulation contains 18 fictional discovery, alpha and beta episodes informed by published research and practitioner accounts. It is not evidence from a real-team trial.
+The original framework is licensed under [CC BY 4.0](how-to-use-this-framework/LICENSE), copyright 2026 Miles Cheverton. You may reuse and adapt it, including commercially, with attribution, a licence link and an indication of changes. Referenced third-party material retains its own terms.
 
 The template supports the whole service, including non-digital channels, staff, operations, policy and organisational constraints.
 

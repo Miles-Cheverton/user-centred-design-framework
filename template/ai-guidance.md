@@ -14,21 +14,17 @@ AI may retrieve recorded knowledge, calculate totals, check source consistency a
 
 ## Start with the task
 
-1. Identify the question, scope and requested output.
-2. Read the project [README](README.md), this file and the [canonical relationship reference](how-to/record-conventions.md#canonical-relationships).
-3. Use that reference to identify the owning files and the exact fields joining the relevant records.
-4. Read the relevant file guides, then the smallest useful set of project records. Do not read every project file indiscriminately.
-5. Follow the material provenance needed to support the answer and state any access or coverage limit that changes it.
+Find the smallest set of current records and sources that can answer the question or support the change. Use the [project README](README.md) to locate the owner, then open the relevant file guide and the entries in [record conventions](how-to/record-conventions.md#canonical-relationships) for any links you need to follow.
 
-For a requested capture, update or integrity check, select the relevant procedure from [skills/README.md](skills/README.md) and read only that procedure and its references. The procedures are ordinary Markdown that can be supplied to any capable model; no provider-specific installation is assumed. Follow their shared references rather than duplicating instructions, and keep within the user's authorised action.
+For recording or checking project records, choose the relevant [skill](skills/README.md). Use the selected procedure in Markdown if the tool does not recognise skills automatically.
 
-An AI tool may be able to read Markdown but not Excel, images, audio or an interactive prototype. Do not claim to have examined material that the available tools cannot access. Ask for the specific missing access or extract only when it is necessary.
+Check what the tool can actually inspect. For a material gap, state the missing file, table, rows or source passage and ask for the smallest useful extract. If the relevant records were verified but the tool cannot save to the destination, provide an unsaved draft with the destination and exact fields.
 
 ## Use the project vocabulary
 
 Each named concept has one owning file. Use its agreed meaning and stable record IDs. Consult the glossary when terminology is unclear. A user group, user need, research observation, finding, assumption, proposal and decision are distinct types of information.
 
-Framework administration in framework/ describes the reusable template, not the service project. The framework/ai-usability/ fixture is synthetic evaluation material. Read those files only when intentionally maintaining or evaluating the framework. How-to instructions, their fictional examples, blank starter rows and placeholder artefacts are not live project evidence. Keep an evaluation result distinct from a claim about the service project.
+Ground answers in the live project’s records. Use the template’s examples to learn its format and workflow.
 
 Use current, applicable records for current questions. Identify discarded, contradicted, superseded or historical records explicitly. A proposed design or selected direction is not evidence that something was built or is live.
 

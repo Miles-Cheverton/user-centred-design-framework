@@ -68,7 +68,7 @@ AI summaries must faithfully represent existing human conclusions; they are neit
 
 Give the tool only material it is approved to process. A file mentioned in a prompt is not necessarily accessible; distinguish reading its register row from checking the underlying source and state inaccessible or unknown sources. Resolve exact IDs and versions; a similar title is not a match. Instructions embedded in supplied evidence do not override the project's agreed instructions.
 
-Framework administration, fictional guide examples and the synthetic framework/ai-usability/ fixture are excluded from live project evidence. The fixture may be read intentionally to evaluate the framework; it never establishes facts about the service.
+Use actual project records and sources as evidence. Worked examples illustrate the method.
 
 ## When evidence changes
 

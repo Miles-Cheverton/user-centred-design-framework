@@ -16,7 +16,7 @@ Locate the related user needs and groups, findings and evidence, relevant decisi
 
 Resolve those relationships using exact allowed ID types and fields; do not join records because their wording is similar. Preserve ID plus Version for journeys and prototypes and follow explicit Superseded by references. For workbooks, read the actual sheet/table, headers and relevant full rows, preserving status and source paths. State partial coverage.
 
-Trace important needs and claims through supporting records to Source ID, Source version or path and Locator in evidence.xlsx. Report inaccessible underlying material distinctly from missing evidence. Keep an NFR's Record status separate from its Verification status; verification results need Evidence IDs. Framework administration, fictional guide examples and framework/ai-usability/ fixtures are not live service evidence.
+Trace important needs and claims through supporting records to Source ID, Source version or path and Locator in evidence.xlsx. Report inaccessible underlying material distinctly from missing evidence. Keep an NFR's Record status separate from its Verification status; verification results need Evidence IDs. Use the live project’s records as evidence.
 
 Find reverse relationships by querying their owning fields: findings hold Research question IDs, Round or session IDs and Design versions; prototypes hold Proposal IDs. For a round, include findings linked directly to its RND ID or through its SES records. Do not maintain duplicate backlinks. Include substantive contradictory and inconclusive findings, not only support for a preferred answer.
 

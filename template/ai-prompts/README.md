@@ -18,7 +18,7 @@ Choose a prompt for a specific task and give it to the AI tool available to your
 
 Opening this folder does not automatically configure an AI tool. Some tools cannot read Excel, recordings, graphics or interactive prototypes. The prompt requires the AI to state those limitations.
 
-Use exact typed references from the relationship table. Do not infer joins from similar names or text, and do not read unrelated files to compensate for an unresolved reference. How-to examples, framework administration and the framework/ai-usability/ fixture are excluded from live project evidence unless the task explicitly concerns the framework or its evaluation.
+Use exact typed references from the relationship table. Do not infer joins from similar names or text, and do not read unrelated files to compensate for an unresolved reference. Use the live project’s records as evidence.
 
 The prompts retrieve established knowledge, check consistency and prepare documentation. Human critical thinking and analysis come first: do not use these prompts to generate research themes, findings, implications or needs from raw transcripts, even as drafts for approval. Follow [human analysis before documentation](../how-to/evidence-and-interpretation.md#human-analysis-before-documentation). They do not confer permission to publish, contact people, change decisions or alter external systems. Apply the user’s explicit task instruction and the project’s access arrangements.
 

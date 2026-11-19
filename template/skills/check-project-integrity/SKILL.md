@@ -9,9 +9,12 @@ Follow the [shared skill rules](../README.md). Use this for an explicit integrit
 
 ## Establish coverage and mode
 
-Read the project README, AI guidance, record conventions and relevant file guides. Identify the framework version and inspect the actual files and declared external sources. Distinguish unused optional scaffold from a missing owner needed by a referenced record. A read-only review must not write. A request to check and fix authorises bounded repairs; it does not authorise new service decisions, publication or external actions.
+Identify the framework version from the project README and use the [record conventions](../../how-to/record-conventions.md). A request to check authorises inspection. A request to check and fix also authorises the bounded repairs below.
 
-For a complete review, inspect all active owning records and their material relationships, not merely the folder names. Establish workbook headers, tables and complete relevant rows; include narrative records and retained design versions. Report inaccessible formats, restricted sources and incomplete coverage explicitly. Do not claim to understand or verify material that could not be examined.
+- **A specific claim, record or handover:** start with that target and follow the references needed to check it. For a finding, for example, verify its evidence IDs, the source version and passage, and the relevant model version and stage. Expand the inspection only as needed to resolve the material gap.
+- **The whole project:** inspect active owning records and the relationships that matter. Read the named workbook tables with headers and complete relevant rows, plus narrative records and retained designs.
+
+Report what you covered, including any missing or restricted access. Treat unused optional starter files as normal.
 
 ## Check what matters
 
@@ -37,4 +40,4 @@ After editing, re-read the changed files and check affected references, controls
 
 ## Result
 
-Lead with issues affecting a real decision: the decision or claim affected, what was checked, the unresolved gap and any safe repair. Report actual coverage and file/record references. Distinguish structural faults from content requiring human analysis and optional improvements; unused optional scaffold is not a defect count. A structural pass cannot establish that every insight was captured or every need met. Keep the result concise and use an existing owner for a meaningful unresolved issue rather than creating a new tracking system.
+Lead with the decision or claim affected. Give the record and exact reference, what you checked, the consequence and any authorised repair or question for the team. Distinguish a missing record after a complete lookup from a lookup you could not finish. For example, if you cannot read the relevant rows in evidence.xlsx, state that the finding's evidence ID is unverified and identify the rows needed to check it.

@@ -205,6 +205,6 @@ Choose the defined dropdown values. [allowed-values.xlsx](allowed-values.xlsx) d
 
 Use the repeated section in a Markdown owner for each new record. Replace bracketed instructions before treating it as project data. The starter’s blank rows and template-only folders are not completed records.
 
-An AI or other reader must establish the actual workbook sheet/table, headers and relevant full rows. Preserve IDs, statuses, versions, source paths and reference fields in extracts. A partial preview cannot prove full coverage or absence. Follow provenance for supported claims and identify inaccessible or unknown sources explicitly. Framework administration, guide examples and the synthetic `framework/ai-usability/` fixture are not live project evidence; read the fixture only intentionally for evaluation. See [AI guidance](../ai-guidance.md).
+An AI or other reader must establish the actual workbook sheet/table, headers and relevant full rows. Preserve IDs, statuses, versions, source paths and reference fields in extracts. A partial preview cannot prove full coverage or absence. Follow provenance for supported claims and identify inaccessible or unknown sources explicitly. Use the live project’s records as evidence. See [AI guidance](../ai-guidance.md).
 
 Before sharing a change, check the relevant completion guide, exact references and status. Preserve the distinction between a proposal and an agreement. Check the audience’s access, particularly for research material and personal details.

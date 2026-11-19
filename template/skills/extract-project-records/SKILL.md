@@ -5,13 +5,19 @@ description: Record human conclusions and choices from supplied discussion or an
 
 # Extract project records
 
-Follow the [shared skill rules](../README.md). Use this for a supplied transcript or meeting record, not for inventing what happened in an unavailable recording.
+Use this when a team discussion or analysis produces several items to capture. Follow the [shared skill rules](../README.md).
 
-## Inputs
+## Start with the material you have
 
-Use the source, its known date/version and context, the intended project, the human conclusions when research is involved, and the requested draft or save mode. Establish whether this is research with users, team analysis, a project discussion, stakeholder input or another source. Do not infer participant identity or research consent from a speaker label.
+Identify the project, the source and its date or version, then confirm whether the user wants a draft or a saved update.
 
-Human discussion may be supplied in the round's analysis-notes.md or as an established account of a Whiteboard analysis session. A raw board, survey export or questionnaire is not a substitute for that discussion. Use [record-project-item](../record-project-item/SKILL.md#research-materials) to file instruments, datasets or board references before documenting the team's conclusions when necessary.
+| Material | What to record |
+|---|---|
+| Team meeting or workshop notes | Choices, proposals or other material items people actually stated. Keep open questions and disagreement visible. |
+| Research analysis notes or an account of the team's discussion | The conclusions the team reached, with scope and caveats. For a single finding, follow [Record a research finding](../record-research-finding/SKILL.md). |
+| Participant transcript, survey responses or Whiteboard alone | Requested literal observations or source references. Identify the analysis still needed from the team. |
+
+Use [the research materials procedure](../record-project-item/SKILL.md#research-materials) to file an instrument, dataset or board reference. Establish participant identity and consent through the actual records when needed.
 
 ## Procedure
 
@@ -27,4 +33,4 @@ When checking a survey conclusion, preserve its exact input dataset, questionnai
 
 ## Result
 
-Return the retained records and IDs, the human-analysis and source/version basis, and the few discrepancies or unsettled choices affecting meaning. Distinguish records saved from human analysis still needed. Do not silently mark new findings Reviewed or new needs Evidenced.
+For each material item, give the owning file, record ID if verified, what was drafted or saved, and the exact source passage. Flag any unresolved choice or discrepancy that changes what people should rely on. If the tool cannot edit the owner, give a copyable draft in its actual fields.

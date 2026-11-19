@@ -59,7 +59,7 @@ Historical retention remains subject to consent, privacy and the organisation's 
 
 The public repository versions the reusable starter. The project's working records describe an actual service. Updating the starter does not automatically replace an existing project's records.
 
-Framework administration, guide examples and the synthetic framework/ai-usability/ fixture are not service evidence. They may be used intentionally for framework evaluation without entering the live project evidence chain.
+Use the working project’s records to answer questions about the service.
 
 When adopting a new template release, read the change log and apply only the relevant structural changes while preserving IDs, evidence and decisions. Document a meaningful local schema change in the project README or decision record.
 

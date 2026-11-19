@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.4 — 2026-11-19 — draft for review
+
+- Added a short guide to getting started and improved the skills for recording discussions and findings and checking project records.
+- Renamed the framework guidance folder and removed the simulation, contribution guide and AI usability evaluation from the working tree.
+
 ## 0.3.3 — 2026-11-17 — draft for review
 
 - Extended the journey guidance and description to support service blueprints, process maps, actor maps and information flows using the existing register. Label prescribed process, observed practice and proposed future where relevant.
@@ -12,7 +17,7 @@
 
 - Optional research-round companions for discussion guides, survey questionnaires, original responses, working calculations, human analysis notes and Whiteboard references.
 - Blank survey-response and survey-analysis workbooks. Native survey exports may remain in their original format; no conversion or manual re-entry is required.
-- The confirmed CC BY 4.0 licence, copyright 2026 Miles Cheverton, replacing the previous licence proposal. The full legal text remains in framework/LICENSE; the template carries a short attribution notice.
+- The confirmed CC BY 4.0 licence, copyright 2026 Miles Cheverton, replacing the previous licence proposal. The full legal text remains in how-to-use-this-framework/LICENSE; the template carries a short attribution notice.
 
 ### Changed
 
@@ -78,7 +83,7 @@ Existing evidence, consent, status and approval conditions still apply before re
 
 ### Added
 
-- A small fictional project and six AI-usability evaluation questions under framework/ai-usability/, separate from the blank working template.
+- A small fictional project and six AI-usability evaluation questions alongside the blank working template.
 
 ### Migration
 
@@ -86,7 +91,7 @@ Existing projects should preserve their record IDs and data while adopting the r
 
 For non-functional requirements, migrate Proposed, Agreed and Superseded into Record status. Migrate Not assessed, Partially met, Met and Not met into Verification status. The old field cannot establish both states: leave the missing state unresolved until a person checks the relevant agreement or verification evidence. Do not assume that a tested requirement was agreed or that an agreed requirement was met.
 
-The blank starter has been updated. No real project records were migrated. Evaluation scope and observed results are recorded separately under framework/ai-usability/.
+The blank starter has been updated. No real project records were migrated. Evaluation scope and observed results were recorded with the fictional project.
 
 ## 0.1.0 — 2026-11-16 — draft for review
 
@@ -103,7 +108,7 @@ The blank starter has been updated. No real project records were migrated. Evalu
 
 ### Changed
 
-- Grouped the licence, changelog, contribution guidance and framework sources under framework/, separate from the normal project starting point.
+- Grouped the licence, changelog, contribution guidance and framework sources under how-to-use-this-framework/, separate from the normal project starting point.
 - Clarified that framework administration and fictional how-to examples are not project evidence.
 
 ### Status

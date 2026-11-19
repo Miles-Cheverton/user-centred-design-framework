@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations 0.3.3 — draft<br>
+**Starter version:** UCD Project Foundations 0.3.4 — draft<br>
 **Project owner:** [Name or team]  
 **Working location:** [Approved project location]
 
@@ -74,15 +74,10 @@ Update records as the work happens: capture learning after research, record a co
 
 ## AI assistance
 
-For an AI task, read this README, [ai-guidance.md](ai-guidance.md) and the [canonical relationship reference](how-to/record-conventions.md#canonical-relationships), then the relevant file guides and records. Choose a task from [ai-prompts/](ai-prompts/). Do not load every file indiscriminately.
+- Use a [prompt](ai-prompts/README.md) to answer a project question, prepare for refinement or check an evidence gap.
+- Choose a [skill](skills/README.md) to draft, check or update specific records. Tell the assistant what to use and what to return.
 
-For help capturing or maintaining records, use the relevant [portable skill](skills/README.md). These are ordinary Markdown procedures: any capable model can read the selected procedure and its referenced guidance. They do not require a particular provider or authorise changes beyond the requested task.
-
-People perform the critical thinking, analysis and interpretation. After user testing, the researcher and team discuss observations and reach conclusions before AI helps document them. AI may then tidy wording, check against authorised transcripts, flag discrepancies and save records faithfully. It must not originate findings or themes for later human approval. Follow [human analysis before documentation](how-to/evidence-and-interpretation.md#human-analysis-before-documentation).
-
-AI answers must identify the records actually accessed and link their claims to evidence. Workbook access must include the actual sheet/table, headers and relevant full rows; a partial preview cannot establish full coverage or absence. Preserve IDs, status, versions and source paths when extracting records.
-
-Framework administration, how-to examples and the synthetic framework/ai-usability/ fixture are not live service evidence. Read them intentionally for guidance or evaluation, keeping them separate from project facts.
+Give the assistant access to this README and [AI guidance](ai-guidance.md), then the files needed for the task. For research, supply the team's conclusions and authorised sources so the assistant can document them or check citations. The [human analysis guide](how-to/evidence-and-interpretation.md#human-analysis-before-documentation) explains the team's part of that work.
 
 ## Research information
 

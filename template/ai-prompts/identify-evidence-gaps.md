@@ -16,7 +16,7 @@ Trace relevant links from claims to findings and source observations. Check whet
 
 Use exact typed IDs and relationship fields. Preserve ID plus Version for journeys and prototypes and follow explicit Superseded by references. A similar title or statement does not resolve an ID. Check each material source using Source ID, Source version or path and Locator in evidence.xlsx.
 
-Workbook coverage must include the actual sheet/table, headers and relevant full rows. Preserve ID, status, version and source paths in extracts. A partial preview cannot prove an absent record. Do not use framework administration, fictional guide examples or the synthetic framework/ai-usability/ fixture as live project evidence.
+Workbook coverage must include the actual sheet/table, headers and relevant full rows. Preserve ID, status, version and source paths in extracts. A partial preview cannot prove an absent record. Use the live project’s records as evidence.
 
 Distinguish:
 

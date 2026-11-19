@@ -16,7 +16,7 @@ Answer the supplied question from the relevant project records. Read README.md, 
 
 Check the status, applicability and exact version of each material source. Distinguish observations, findings, assumptions, proposed designs and agreed decisions. Resolve exact typed IDs through the relationship reference; use ID plus Version for a journey or prototype. Follow explicit replacement references. Never invent or fuzzy-match a missing join.
 
-For each relevant workbook, establish its actual sheet/table, headers and full relevant rows. Preserve IDs, status, versions and source paths in extracts. A partial preview cannot establish complete coverage or record absence. Exclude how-to examples, framework administration and the synthetic framework/ai-usability/ fixture from live project evidence.
+For each relevant workbook, establish its actual sheet/table, headers and full relevant rows. Preserve IDs, status, versions and source paths in extracts. A partial preview cannot establish complete coverage or record absence. Use the live project’s records as evidence.
 
 Follow material claims through their supporting findings or evidence to the exact Source ID, Source version or path and Locator in evidence.xlsx. Distinguish an underlying source that was actually checked from an inaccessible source referenced by a record.
 
