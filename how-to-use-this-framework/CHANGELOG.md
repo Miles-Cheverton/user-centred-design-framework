@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.7 — 2026-11-22 — draft for review
+
+- Published the full revised README, including the framework’s purpose, principles, benefits and two examples of proposed skills.
+
 ## 0.3.6 — 2026-11-22 — draft for review
 
 - Used the same opening in the GitHub description and repository README.

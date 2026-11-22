@@ -2,50 +2,59 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.3.6 — draft for review · 22 November 2026**
+**Version 0.3.7 — draft for review · 22 November 2026**
 
-## Why the framework exists
+## What is it?
 
-Can we improve the quality and effectiveness of user-centred design projects by making research, user needs and decisions easier to find, understand and use?
+A set of clearly named files that allows UCD teams to record decisions, insights, user needs etc, the complete project context and memory. There are also process diagrams explaining examples of how to use the framework and a set of reusable skills that teams can use with different AI assistants.
 
-UCD Project Foundations explores that question through a shared structure designed for people to use and AI assistants to read. The team interprets the evidence and decides what to do. AI helps find information, check it against sources and record what the team agrees.
+Clear names tell people where to look. Links show how a research observation supports a finding, which user need it informs and why the team made a particular design choice.
 
-The framework is a reusable starter for multidisciplinary teams designing, developing and improving a service. Each core concept has a clearly named home, so people discussing “user needs”, “assumptions” or “decisions” can refer to the same records.
+## Why is it needed?
 
-See [how the team analyses evidence and uses AI support](template/how-to/evidence-and-interpretation.md#human-analysis-before-documentation).
+- The UCD profession doesn’t have a standard framework to record project documentation, which leads to friction and misunderstandings
+- An answer can be in the project files with no clear way to find it. Findings, user needs and decisions can be buried in documents named for meetings or project phases. An AI assistant can miss the relevant source and give an answer based on only part of the evidence.
+- Human insight guides the project. With clear instructions, AI assistants can bring huge benefits to the team.
 
-## Start here
+## Core principles
 
-Download the starter ZIP from [GitHub Releases](https://github.com/Miles-Cheverton/user-centred-design-framework/releases) and extract it into your approved project workspace. You can also copy the contents of [template/](template/) directly. Open the [project README](template/README.md) in your copy. The [short guide to using the framework](how-to-use-this-framework/README.md) shows where to start with research, a review or an AI task.
+- Human lead
+- Minimal and adaptable
+- UCD best practice
+- Aligns with GDS principals
+- AI assistants support the team’s work
+- AI assistants are optional
+- Work within your existing ways of working
 
-Follow the [worked service handoff](template/how-to/worked-service-handoff.md) to see how a team connects a service model and a specific stage to research evidence, a playback claim, a decision and an open outcome.
+## Intended Benefits
 
-All substantive project knowledge belongs in the structure, including contradictory findings, unmet needs and reasons for discarding options. The task routes reduce upfront administration; they do not make learning optional. Working material may remain in approved tools when its location, relevant meaning and access limits are recorded here.
+- Reduce cognitive load, use your brain for insights and conclusions, not searching for answers
+- Help reduce the time it takes to put together Discovery, Alpha and Beta decks
+- Help newly onboarded team members
+- Identify gaps in evidence, reasoning or unanswered questions
+- See which user needs the design meets in full, which it partly meets and what still needs testing
+- Show the evidence and reasoning behind key decisions and how those decisions shaped the service
 
-The [FigJam structure map](https://www.figma.com/board/Rf4f7nAsCXwx5wH3mGcti7) illustrates an earlier draft. Diagram updates are paused; the files and their guides describe the current structure.
+## Example work flows
 
-The public starter contains blank records, reusable instructions and illustrative folder names. It contains no actual participants, research sessions or service decisions. RND-001, JNY-001 and PRT-001 demonstrate repeatable folders; they are not evidence that this work has happened.
+These examples show how two proposed skills could support a team’s work.
 
-## What is included
+### User Research session, debrief and project file update
 
-- **Excel workbooks** for structured registers, one concept per workbook, with clearly named fields and appropriate dropdowns.
-- **Markdown documents** for the problem statement, findings, design proposals, decisions, measures and instructions.
-- **Research folders** for protocols, discussion guides, survey questionnaires, original responses, working calculations, human analysis notes, Whiteboard references, recordings and transcripts in the private working copy. Use the materials needed for the round; existing exports can stay in their original format.
-- **Journey and prototype folders** for retained versions, their descriptions and their source material.
-- **Focused how-to guides** describing the fields, method, examples and completion checks.
-- **Explicit relationship rules** defining which records each reference can point to, including retained versions and replacements.
-- **Model-neutral AI prompts** for answering project questions, preparing for refinement and identifying evidence gaps.
-- **Reusable skills** for populating records, assessing user-need coverage and checking or repairing project integrity within the user's authority.
-- **User-need coverage** that distinguishes fulfilment from a decision to address, defer or not address a need.
+The user researcher plans and conducts a session. The service designer and business analyst observe it. The session is recorded and transcribed. After the session, the three of them debrief and come up with their findings. They come up with 3 user needs, 2 further questions to be answered.
 
-Teams edit the working files directly. There is no routine CSV import/export step. Use an editor that preserves the workbook’s tables and validation. The structure and prompts are model-neutral; the chosen AI tool must be able to read the relevant formats accurately and report partial or missing access.
+These can go straight into the framework, or they use the post-UR-session skill - the skill says 1 of the 3 user needs is similar to one found previously in the project. It also finds a passage in the customer’s 150-page project document that might answer one of the research questions. It gives the team the page number so they can check it. The skill makes a suggestion for an updated user need that accounts  for the additional information gained in the latest user research session, and the skill makes a suggestion for the answer to the question.
 
-## Scope of this draft
+If the team agrees with the suggestions, the skill updates the existing user need and links it to the new evidence. It adds the two new needs and records both research questions.
 
-This is a proposed starter kit, not an established organisational rollout or an official GDS template. It supports good practice; filling in files does not establish that a service meets a standard.
+### Prepare an alpha exit presentation
 
-The original framework is licensed under [CC BY 4.0](how-to-use-this-framework/LICENSE), copyright 2026 Miles Cheverton. You may reuse and adapt it, including commercially, with attribution, a licence link and an indication of changes. Referenced third-party material retains its own terms.
+The service designer picks the discovery decisions they want to explain. An AI assistant uses the Decision-Evidence skill to find the relevant user needs, evidence and alpha test findings. It shows which findings support each decision, which challenge it and what’s still uncertain.
 
-The template supports the whole service, including non-digital channels, staff, operations, policy and organisational constraints.
+The designer has source links ready for the slides. They can explain what the team recommends taking into beta and what still needs testing.
 
-Actual research data and participant details belong in appropriately restricted project storage. The public repository is for the reusable template, guidance and fictional examples. Local folder names alone do not create access controls.
+## Feedback and reuse
+
+This is an independent review draft informed by GDS guidance. If you try it, tell us what you used it for, what was hard to find and what added admin. [Share feedback on GitHub](https://github.com/Miles-Cheverton/user-centred-design-framework/issues)
+
+Free to reuse and adapt under [CC BY 4.0](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/main/how-to-use-this-framework/LICENSE). Credit Miles Cheverton, link to the licence and indicate any changes.
