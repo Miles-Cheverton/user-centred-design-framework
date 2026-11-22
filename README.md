@@ -1,5 +1,7 @@
 # UCD Project Foundations
 
+A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
+
 **Version 0.3.5 — draft for review · 22 November 2026**
 
 ## Why the framework exists
