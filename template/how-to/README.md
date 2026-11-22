@@ -1,5 +1,7 @@
 # How to use the project foundations
 
+Use the framework to organise research, user needs and decisions so people and AI assistants can work from the same information. Read [why the framework exists](../README.md#why-the-framework-exists).
+
 Choose the route for the work you are doing. Each file guide starts with the small first capture, then the steps and a fictional example. Field detail comes afterwards.
 
 ## Frame the work

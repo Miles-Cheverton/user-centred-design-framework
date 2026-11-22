@@ -1,16 +1,20 @@
 # UCD Project Foundations
 
-**Version 0.3.4 — draft for review · 19 November 2026**
+**Version 0.3.5 — draft for review · 22 November 2026**
 
-A reusable starter for the shared records a multidisciplinary team needs to understand, design, develop and improve a service.
+## Why the framework exists
 
-The structure gives each core concept a clearly named home. People discussing “user needs”, “assumptions” or “decisions” should mean the same records, whether they open a file themselves or ask an AI to help.
+Can we improve the quality and effectiveness of user-centred design projects by making research, user needs and decisions easier to find, understand and use?
 
-Human critical thinking comes first. The researcher and team analyse observations, discuss interpretations and reach conclusions. AI supports the subsequent source-checking and documentation; it does not supply the research analysis or findings for people to approve. See [the working method](template/how-to/evidence-and-interpretation.md#human-analysis-before-documentation).
+UCD Project Foundations explores that question through a shared structure designed for people to use and AI assistants to read. The team interprets the evidence and decides what to do. AI helps find information, check it against sources and record what the team agrees.
+
+The framework is a reusable starter for multidisciplinary teams designing, developing and improving a service. Each core concept has a clearly named home, so people discussing “user needs”, “assumptions” or “decisions” can refer to the same records.
+
+See [how the team analyses evidence and uses AI support](template/how-to/evidence-and-interpretation.md#human-analysis-before-documentation).
 
 ## Start here
 
-Copy the contents of [template/](template/) into your approved project workspace and open the [project README](template/README.md). The [short guide to using the framework](how-to-use-this-framework/README.md) shows where to start with research, a review or an AI task.
+Download the starter ZIP from [GitHub Releases](https://github.com/Miles-Cheverton/user-centred-design-framework/releases) and extract it into your approved project workspace. You can also copy the contents of [template/](template/) directly. Open the [project README](template/README.md) in your copy. The [short guide to using the framework](how-to-use-this-framework/README.md) shows where to start with research, a review or an AI task.
 
 Follow the [worked service handoff](template/how-to/worked-service-handoff.md) to see how a team connects a service model and a specific stage to research evidence, a playback claim, a decision and an open outcome.
 

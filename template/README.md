@@ -1,10 +1,16 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations 0.3.4 — draft<br>
+**Starter version:** UCD Project Foundations 0.3.5 — draft<br>
 **Project owner:** [Name or team]  
 **Working location:** [Approved project location]
 
 This is the starting page for the project’s shared records. Replace the bracketed project details when setting up the working copy.
+
+## Why the framework exists
+
+Can we improve the quality and effectiveness of user-centred design projects by making research, user needs and decisions easier to find, understand and use?
+
+UCD Project Foundations explores that question through a shared structure designed for people to use and AI assistants to read. The team interprets the evidence and decides what to do. AI helps find information, check it against sources and record what the team agrees.
 
 ## What are you doing now?
 

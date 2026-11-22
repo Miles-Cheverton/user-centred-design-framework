@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.5 — 2026-11-22 — draft for review
+
+- Explained why the framework exists in the GitHub README and the downloadable template. The getting-started guides link to that explanation.
+
 ## 0.3.4 — 2026-11-19 — draft for review
 
 - Added a short guide to getting started and improved the skills for recording discussions and findings and checking project records.
