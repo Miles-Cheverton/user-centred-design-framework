@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.6 — 2026-11-22 — draft for review
+
+- Used the same opening in the GitHub description and repository README.
+
 ## 0.3.5 — 2026-11-22 — draft for review
 
 - Explained why the framework exists in the GitHub README and the downloadable template. The getting-started guides link to that explanation.

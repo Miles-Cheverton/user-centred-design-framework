@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations 0.3.5 — draft<br>
+**Starter version:** UCD Project Foundations 0.3.6 — draft<br>
 **Project owner:** [Name or team]  
 **Working location:** [Approved project location]
 
