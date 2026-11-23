@@ -29,6 +29,8 @@ The linked sources describe practices and expectations. The filenames, workbook 
 | Business rules terminology | [DfT street manager business rules](https://department-for-transport-streetmanager.github.io/street-manager-docs/articles/business-rules-version-2-00-service.html) | An example of the term in a public service. It does not mandate this starter’s register. |
 | AI retrieval context | [Anthropic: contextual retrieval](https://www.anthropic.com/research/contextual-retrieval) | Supports preserving context when extracting records and evaluating the chosen retrieval approach. The reference fields and example questions are framework choices, not a claim that this structure reproduces the research results. |
 
+The downloadable starter also links to the professional sources the AI skills use for advice, including standards from Australia, Canada and Singapore, W3C accessibility guidance and the Scrum and Kanban guides. [How the skills select guidance](../framework-template/ai-guidance.md#check-which-guidance-applies)
+
 ## Keep the relationship current
 
 When guidance changes, check which recommendations, fields, examples and prompts are affected. Record the meaningful change in the changelog and update the review date after checking the source. Do not describe a page as newly reviewed merely because its link still opens.

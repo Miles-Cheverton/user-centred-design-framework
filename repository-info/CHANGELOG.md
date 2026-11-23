@@ -4,6 +4,18 @@
 
 Check the changes below and apply the ones your project needs to its working copy. Keep existing IDs, evidence and decisions. Record significant changes to the project’s files or fields in the project README or a decision record.
 
+## 0.5.1 — 2026-11-23 — updates to AI skills
+
+- All six AI skills now draw on shared guidance for user researchers, content designers, UX designers, service designers, business analysts, product owners, delivery managers and developers. They connect evidence across disciplines, explain trade-offs when asked for advice and distinguish team decisions from recommendations.
+- Teams can specify their service standards and delivery approach. The skills check which GDS, international or agile guidance applies to the question.
+- Research debrief and meeting examples show how the assistant checks sources after people have discussed the evidence. The assumptions guide shows how to test a hypothesis. Importing a project now excludes the destination from a wider source folder.
+
+### Upgrading from v0.4
+
+1. From the new starter, copy `AI-skills/`, `ai-guidance.md`, `how-to/README.md` and `how-to/files/assumptions.md` into your project. Merge any guidance your team has customised. If you installed separate copies of the skills, refresh those copies too.
+2. Merge the starter’s `README.md` and `project-config.md` with your own. Keep the project name, owner and existing locations. Set the starter version to v0.5.1. Add your standards and delivery approach if useful.
+3. Keep your existing workbooks and project records. The workbook fields, IDs and folder structure are the same as in v0.4. Run the quick test in `AI-skills/README.md` with an untouched starter workbook to check the setup.
+
 ## 0.4 — 2026-11-23 — peer review release
 
 The downloadable starter is the contents of `framework-template/`. The handbook and AI skills live inside it. The licence, release history and sources are in `repository-info/` in the full repository.

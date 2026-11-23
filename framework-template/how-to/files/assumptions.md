@@ -21,3 +21,15 @@ Plan checks in the [research plan](../../research-plan.xlsx) or delivery work. K
 **Example** `ASM-201` assumes borrowers know to wait for confirmation. `FND-201` records an early arrival, so the team marks the assumption Contradicted.
 
 [GDS guidance on discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)
+
+## Test a hypothesis
+
+Use an ASM ID and write the prediction in **Assumption**. Say what change you expect to help, who it should help and why.
+
+**Example** `ASM-202` predicts that sending borrowers a separate message when their equipment is ready will reduce early arrivals. The team expects the message to make it clear when to set off.
+
+Before testing, cite the ASM ID in the research round protocol or delivery test. Record who and what the test covers, what you will compare, and what result would support or challenge the prediction. In this example, compare the proportion of borrowers who arrive early with and without the separate message. Link the [success measure](success-measures.md) when you use one.
+
+After testing, the team reviews the results and sets **Status** to Supported, Contradicted or Inconclusive. In **Evidence**, cite the EV or FND IDs and record any limits on what the team can conclude.
+
+[GDS guidance on developing hypotheses](https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service#develop-hypotheses-based-on-your-benefits)

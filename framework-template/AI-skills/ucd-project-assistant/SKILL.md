@@ -1,6 +1,6 @@
 ---
 name: ucd-project-assistant
-description: Select and combine UCD Project Foundations workflows when a user asks for help choosing an approach or for a result that spans several project skills.
+description: Coordinate UCD Project Foundations workflows for multidisciplinary advice, help choosing an approach or a result that spans several skills.
 ---
 
 # UCD project assistant
@@ -11,12 +11,12 @@ description: Select and combine UCD Project Foundations workflows when a user as
 
 ## Work through the request
 
-Confirm the working folder and requested result. Follow the [AI guidance](../../ai-guidance.md). Choose the matching workflows and do any supporting work the result depends on.
+Start with the requested result and working folder. Use the [shared guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to bring in the disciplines relevant to the decision. For a question that crosses roles, connect their evidence around the same user outcome. Choose only the workflows the result needs.
 
-- [Find and explain](../find-and-explain/SKILL.md) for a sourced answer.
+- [Find and explain](../find-and-explain/SKILL.md) for a sourced answer or advice on a project choice.
 - [Capture or update records](../capture-or-update-records/SKILL.md) to draft or save the team's work.
 - [Check evidence and records](../check-evidence-and-records/SKILL.md) for evidence gaps, assessments or project integrity.
 - [Prepare a briefing](../prepare-a-briefing/SKILL.md) for refinement, playback, phase review or handover.
 - [Import an existing project](../import-existing-project/SKILL.md) to bring existing documents into the framework.
 
-Return the requested result with references and any access gap or unresolved team decision.
+Return one answer the team can use, with references. Make any disagreement, access gap or decision that needs a person clear.

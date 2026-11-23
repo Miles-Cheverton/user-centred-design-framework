@@ -2,7 +2,7 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.4 · 23 November 2026 · for peer review**
+**Version 0.5.1 · 23 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,7 +14,7 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.4 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.4/ucd-project-foundations-v0.4.zip) or copy [the template folder](framework-template/) into your approved workspace. Open the README inside.
+1. Download the [v0.5.1 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.1/ucd-project-foundations-v0.5.1.zip) or copy [the template folder](framework-template/) into your approved workspace. Open the README inside.
 2. Name the service in the [project README](framework-template/README.md) and set the working folder in [project config](framework-template/project-config.md).
 3. Start with the [problem statement](framework-template/how-to/files/problem-statement.md), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 
@@ -22,7 +22,9 @@ The [team handbook](framework-template/how-to/README.md) shows which files to us
 
 ## Core principles
 
-People interpret the research and decide what to do. Use the records that help with the work in front of you. Keep source material in the tools your team already uses and link to the version you relied on. The framework draws on GDS guidance and works with or without an AI assistant.
+**People think first. AI helps second.** Give people time to form their own ideas, compare what they noticed and work out what the evidence supports before they see an AI summary. An early summary can steer the discussion towards one interpretation. Hearing from people first makes room for different ideas. Then use AI to check sources, spot gaps and fill in the details of what the team agreed.
+
+Use the records that help with the work in front of you. Keep source material in the tools your team already uses and link to the version you relied on. The framework draws on GDS guidance and works with or without an AI assistant.
 
 ## What you get
 
@@ -45,9 +47,13 @@ Use the template for the whole service, including staff and operations and the r
 
 ### After a research session
 
-The user researcher, service designer and business analyst discuss what they observed. They agree three needs and two questions for further research. Using [Find and explain](framework-template/AI-skills/find-and-explain/SKILL.md), they find that one need is already recorded. They also find a passage in a 150-page project brief that may answer one question. The assistant gives the page number so they can check it.
+The user researcher, service designer and business analyst compare what they noticed and write down what they think the evidence supports. They identify three needs and two questions for further research. While they’re still together, they ask the assistant to check their notes against the transcript and existing records. It finds an existing entry that may cover one of the needs and a passage in a 150-page brief that may answer one question. It gives the page number so the team can check it.
 
-Once the team agrees the changes, [Capture or update records](framework-template/AI-skills/capture-or-update-records/SKILL.md) links the existing need to the new evidence, adds the two new needs and records both questions.
+The team reviews the suggestions. [Capture or update records](framework-template/AI-skills/capture-or-update-records/SKILL.md) then updates the existing need, adds the other two and records both research questions. It adds the evidence links and session details the team checked.
+
+### After a stakeholder meeting
+
+The delivery manager notes the decisions as people make them in a recorded stakeholder meeting. Afterwards, they ask the assistant to check those notes against the transcript and draft the updates. It finds the reason for a decision and flags that the meeting left the start date open. The delivery manager checks the draft with the decision maker. The assistant records the agreed choice and rationale, cites the timestamp and leaves the start date open. [Capture what changed in a meeting](framework-template/how-to/README.md#capture-what-changed-in-a-meeting)
 
 ### Prepare an alpha exit presentation
 

@@ -1,6 +1,6 @@
 # AI skills
 
-Choose a skill below or start with the [UCD project assistant](ucd-project-assistant/SKILL.md). Say what you want back. Give the assistant the project records and linked guidance it needs. If you install or upload a skill separately, point it back to your project copy for those files.
+Choose a skill below or start with the [UCD project assistant](ucd-project-assistant/SKILL.md). Say what you want back. For advice, name the decision and who will use the answer. The same skills support all eight disciplines in the [guidance for experienced teams](../ai-guidance.md#advise-an-experienced-team). Give the assistant the project records and linked guidance it needs. If you install or upload a skill separately, point it back to your project copy for those files.
 
 ## Choose a task
 
@@ -27,6 +27,8 @@ Check for `UN-201` → `FND-201` → `EV-201` and `EV-202`, from sessions `SES-2
 ## Use a skill
 
 For a live project, use its own IDs. For example, “Update [need ID] with the wording we agreed. Keep its ID and existing evidence links.”
+
+For example, a content designer and developer could ask, “Our email tells users their booking is confirmed. Compare it with the booking rule and the event that sends it. Where could that promise break, and what should we test first?”
 
 ## Shared working rules
 

@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations v0.4<br>
+**Starter version:** UCD Project Foundations v0.5.1<br>
 **Project owner:** [Name or team]<br>
 **Team reviews:** [Where the team reviews findings and decisions]
 
@@ -8,7 +8,7 @@ Use an approved private workspace for live service records, including team conta
 
 ## Why the framework exists
 
-Keep research findings, user needs and decisions easy to find and check. The team interprets the evidence and decides what to do. An assistant can help find sources and document the team’s work.
+Keep research findings, user needs and decisions easy to find and check. **People think first. AI helps second.** Give the team time to form its own ideas and interpret the evidence. Then use the assistant to find sources, flag gaps and record what the team agrees.
 
 ## Start with your task
 
@@ -20,6 +20,7 @@ Keep research findings, user needs and decisions easy to find and check. The tea
 | Explore or retain a design | [Explore a design](how-to/README.md#explore-a-design) |
 | Check which needs are met | [Assess whether needs are met](how-to/README.md#assess-whether-needs-are-met) |
 | Record a choice | [Record a decision](how-to/README.md#record-a-decision) |
+| Follow up a team or stakeholder call | [Capture what changed in a meeting](how-to/README.md#capture-what-changed-in-a-meeting) |
 | Answer a project question | [Find and check an answer](how-to/README.md#find-and-check-an-answer) |
 | Prepare a review or handover | [Assemble the current position](how-to/README.md#hand-over-or-prepare-a-review) |
 

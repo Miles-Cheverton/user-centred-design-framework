@@ -11,7 +11,9 @@ Start with the task in front of you. Use the [record catalogue](../README.md#fin
 
 ## Capture learning
 
-Have the team [analyse the material together](evidence-and-interpretation.md#human-analysis-before-documentation) before asking AI to help document it. Record the team’s [findings](files/findings-and-observations.md) with exact sources, including contradictory or inconclusive learning. Update the [user needs](files/user-needs.md), assumptions and decisions the findings affect.
+1. Before reading an AI summary, give the researcher, observers and other colleagues space to say what stood out. [Compare interpretations](evidence-and-interpretation.md#human-analysis-before-documentation) and note what the team concluded, where people disagree and what is still open.
+2. While the group is still together, use [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) with those notes and any transcript or other sources approved for AI use. Ask it to draft the updates, find existing records that match and point to relevant passages the group may have missed. For example, it might flag a timestamp where a participant took a different route.
+3. Discuss anything that could change the interpretation. Save the agreed [findings](files/findings-and-observations.md) with exact sources, including contrary or inconclusive learning. Update related [user needs](files/user-needs.md), assumptions or research questions when the team agrees.
 
 ## Prepare research
 
@@ -28,6 +30,12 @@ Use the existing [user need row](files/user-needs.md#assess-whether-the-service-
 ## Record a decision
 
 Use the [decision guide](files/decisions.md) to record the choice, rationale, evidence and who made it. Update the records it affects. Keep earlier choices discoverable when a decision changes.
+
+## Capture what changed in a meeting
+
+1. Ask the delivery manager, business analyst or other person taking notes to capture significant choices, reasons and open questions. Use the same approach for a stakeholder call, design review or stand-up. Keep routine actions in the delivery backlog.
+2. Give [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) those notes and, if available, the transcript approved for AI use. Ask it to draft changes to decisions, dependencies or other relevant records. It can find an exact passage, flag a mismatch and fill in a date or name when the source establishes it.
+3. Review the draft in the call or with the decision maker. Record an agreed choice with its scope, reason and any open conditions. Keep proposals open and flag unclear agreement for confirmation. Link to the exact source and timestamp or section. Use one [source register entry](files/source-register.md) for a source cited by several records.
 
 ## Hand over or prepare a review
 

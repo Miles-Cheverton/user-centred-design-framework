@@ -16,8 +16,10 @@ Confirm the audience, purpose and working folder. Use [Find and explain](../find
 | Briefing | Include |
 |---|---|
 | Refinement | Proposed work, need, outcome, agreed criteria and open choices |
-| Playback | Team findings, evidence limits and agreed or proposed next steps |
-| Phase review | Key decisions, findings that support or challenge each one, remaining uncertainty and the next decision |
+| Playback | Team findings, evidence limits and next steps the team proposed or agreed |
+| Phase review | Key decisions, findings that support or challenge each one, remaining uncertainty and decisions the team has left open |
 | Handover | Current decisions, exact design versions, key sources and recorded owners and next steps |
+
+Use the [guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to choose what matters to the audience. For a release decision, put the user outcome beside what the team tested, what actually shipped, the effect on staff or other channels, and any dependency that could change the decision. Give an owner or review date when recorded. For a recommendation, distinguish the assistant's advice from the team's agreed position.
 
 Return the brief in the requested format with source citations the audience can follow.

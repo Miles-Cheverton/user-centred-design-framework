@@ -2,6 +2,11 @@
 
 **Working folder:** [Shared project URL or local folder path. For a copy opened directly as a folder, you can use a single dot (.) to mean the folder containing this file.]
 
+## Working agreements (optional)
+
+- **Service standards:** [Jurisdiction and links to standards or policy your service follows, including a required version if relevant]
+- **Delivery approach:** [How the team plans work and reviews what it learns, or a link to its existing agreement]
+
 ## Other project locations
 
 Fill in the locations your team uses. Bracketed prompts mean the location is unset. If you share this file on its own, give the working folder explicitly.
@@ -12,4 +17,4 @@ Fill in the locations your team uses. Bracketed prompts mean the location is uns
 - **Operational and technical records:** [Project links]
 - **Import source folder:** [Link or full path to existing documents or exports]
 
-The import skill uses **Import source folder** when you have not supplied files or a source location for that request. Follow project permissions and research consent when using material from these locations.
+The import skill uses **Import source folder** when you have not supplied files or a source location for that request. When the working folder is inside the source folder, the skill excludes the working folder and its contents from the source scan. Follow project permissions and research consent when using material from these locations.
