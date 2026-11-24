@@ -1,10 +1,12 @@
 # Record conventions
 
+**Guidance revision:** 2026-11-24.2
+
 Keep each record in its named file and link to it with exact IDs and versions. Start with the minimum in its [file guide](files/). Add the evidence and details needed before relying on it.
 
 ## Edit records
 
-- Replace the **OVERWRITE ME** row with the first real entry. Exclude starter rows from evidence and counts. Use the first empty row inside the workbook’s table. The empty rows provided vary by workbook. When the table is full, resize it before adding rows, or resize it to include rows already pasted below it. Check that its dropdowns and any totals cover the new rows.
+- Replace the **OVERWRITE ME** row with the first real entry. Exclude starter rows from evidence and counts. Use the first empty row in the Excel table under the headings. The empty rows provided vary by workbook. When the table is full, resize it before adding rows, or resize it to include rows already pasted below it. Check that its dropdowns and any totals cover the new rows.
 - Replace bracketed prompts in the Markdown files you use.
 - After pasting or importing records, check controlled values such as status against the choices in the column's dropdown.
 - Use YYYY-MM-DD for dates. Use the workspace’s version history for routine edits. Record consequential choices in [Decisions](files/decisions.md).
@@ -143,8 +145,8 @@ To find related records, search the field that owns the relationship. Compare ex
 
 ## Check and repair project records
 
-1. Start with the record or handover under review. Open its owner and sources. For a project-wide check, inspect the full set of records in scope, including superseded records that a current claim cites. Check the project README for its framework version.
-2. Check for duplicate record keys, exact versions, links, replacement cycles, conflicting scope entries, workbook controls and the [completion requirements](files/). Distinguish optional blanks from fields needed for a status or claim. Compare pasted values with the controlled choices. Report actual gaps with the workbook, sheet, row and field.
+1. Start with the record or handover under review. Open its owner and sources. For a project-wide check, inspect the full set of records in scope, including superseded or withdrawn records that a current claim cites. Check the project README for its framework version.
+2. Check for duplicate record keys, exact versions, links, replacement cycles, conflicting scope entries, rows pasted below tables, workbook controls and the [completion requirements](files/). Distinguish optional blanks from fields needed for a status or claim. Compare pasted values with the controlled choices. Report actual gaps with the workbook, sheet, row and field.
 3. Check the evidence for claims, research consent and source access. For tracked fulfilment, use the [user needs guide](files/user-needs.md#assess-whether-the-service-meets-the-need). For survey files and boards, use the [research protocol](research-protocol.md#discussion-guides-surveys-and-whiteboards).
 4. When authorised, fix clear errors with a verified source or documented upgrade. Preserve records and history. Take disputed evidence, consent, judgement and uncertain matches back to the team.
 5. Reopen changed records and check their values, controls and links. Report what was checked, what was fixed and what is still unresolved.

@@ -5,7 +5,9 @@ description: Propose or save UCD records grounded in what the team supplied, obs
 
 # Capture or update records
 
-**Skill revision:** 2026-11-24.1
+**Skill revision:** 2026-11-24.2
+
+Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
 
 ## Copy-and-paste example
 
@@ -20,7 +22,7 @@ description: Propose or save UCD records grounded in what the team supplied, obs
 
 | Material | Where to focus |
 |---|---|
-| Findings | Keep observations and exact citations with the team's conclusion. Use an EV row for an observation that needs a separate citation. With raw material alone, capture requested literal observations and leave synthesis for people. [Findings guide](../../how-to/files/findings-and-observations.md) |
+| Findings | To record a withdrawal the team confirmed, update the existing FND row and keep its ID and citation. Add the reason in **Evidence and source**. [Withdraw a finding](../../how-to/files/findings-and-observations.md#withdraw-a-finding). Keep observations and exact citations with the team's conclusion. Use an EV row for an observation that needs a separate citation. With raw material alone, capture requested literal observations and leave synthesis for people. [Findings guide](../../how-to/files/findings-and-observations.md) |
 | Team or stakeholder meeting | Check the human notes against the approved source. Propose records for significant choices and changes to project records. Flag unclear decisions, owners or conditions for confirmation. [Meeting follow-up](../../how-to/README.md#capture-what-changed-in-a-meeting) |
 | Design choices | Record significant alternatives and the team’s rationale in [Decisions](../../decisions.xlsx). Record what the team learnt in [Findings](../../findings-and-observations.xlsx). |
 | User need assessment | Update the existing UN row with the team's fulfilment judgement, scope, evidence and separate delivery choice. [User needs guide](../../how-to/files/user-needs.md) |
@@ -38,4 +40,4 @@ Check for an existing copy of the same version. Reuse a verified copy or save th
 
 If a step is blocked, say whether the file was saved and whether its entry was verified. Give the exact destination or draft register values where available. On retry, reuse any completed step.
 
-Report the destination, verified ID if available, source, record status and [save result](../../ai-guidance.md#check-status-and-what-was-saved) for each change. Where a save is blocked, give the proposed values and identify the missing access or decision.
+Report the destination, verified ID if available, source, record status and [save result](../../ai-guidance.md#check-status-and-what-was-saved) for each change. Where a save is blocked, give the proposed fields ready to paste, identify the missing access or decision and say where the team can retain the source and pending change for a later session. A later chat needs that record or handover to see it.

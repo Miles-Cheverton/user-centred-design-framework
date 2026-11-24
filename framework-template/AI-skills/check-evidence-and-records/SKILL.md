@@ -5,7 +5,9 @@ description: Check evidence for UCD decisions, user need assessments and claims 
 
 # Check evidence and records
 
-**Skill revision:** 2026-11-24.1
+**Skill revision:** 2026-11-24.2
+
+Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
 
 ## Copy-and-paste example
 
@@ -20,9 +22,11 @@ Identify the claim, decision or area of the project in scope. Confirm the workin
 | Claim, proposal or decision | Verify the source and the users, versions and circumstances it covers. Flag gaps and discrepancies for people to interpret. [Check a claim](../../how-to/evidence-and-interpretation.md#check-a-claim) |
 | Professional practice or standard | Read the [guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team). Identify the applicable criterion and check the team's evidence for the version, users and channels in the claim. Cite both sources. Report what is supported, what conflicts and what still needs specialist evaluation. Reserve formal sign-off for the responsible people. |
 | User need assessment | Check the team's fulfilment judgement against its scope and evidence. Check the linked delivery decision separately. Use the [fulfilment and totals rules](../../ai-guidance.md#assess-whether-needs-are-met). [User needs guide](../../how-to/files/user-needs.md) |
-| Project integrity | Use the project README to establish the framework version. Check for duplicate record keys, structure, required fields and exact links for the project’s stage and the scope requested. [Check and repair project records](../../how-to/record-conventions.md#check-and-repair-project-records) |
+| Project integrity | Read the Starter version in the project README. Check for duplicate record keys, structure, required fields and exact links for the project’s stage and the scope requested. [Check and repair project records](../../how-to/record-conventions.md#check-and-repair-project-records) |
 
 Put any duplicate ID alert near the top of an integrity report. Give the ID and every confirmed location so the team can find the affected rows. Say which registers you could check if coverage was partial. [How to check for duplicate IDs](../../how-to/record-conventions.md#check-for-duplicate-ids)
+
+For a Withdrawn finding, check the reason and retained source. Flag current records that still rely on it, give their IDs and leave any reassessment to the team. [Withdraw a finding](../../how-to/files/findings-and-observations.md#withdraw-a-finding)
 
 Make a repair when the user authorises it and the correct change is established. Verify it after saving. Leave new findings, fulfilment judgements and decisions for the team.
 
@@ -32,8 +36,8 @@ Use the [upgrade steps](../../how-to/README.md#upgrade-an-existing-project) and 
 
 List the files you can replace, the ones that need merging and any conflicts the team needs to resolve. Use the old starter to identify team edits where available. Keep team-specific files, settings and records. Apply the listed changes only when authorised. If an earlier attempt partly succeeded, inspect the listed files first and resume from what remains.
 
-Check a representative record and its links after the update. Compare the revision line from the skill actually in use with the target starter's skill file. Verify that it can open the updated project guidance. Call out anything still pointing at the old copy or any setup you could not verify. Set the **Starter version** in the project README only once the upgrade checks pass.
+Check a representative record and its links after the update. Use the [upgrade checks](../README.md#refresh-skills-after-an-upgrade) to compare the skill actually in use and both guidance files with the target starter. If a dependency is held back, keep using the previous matched set. Call out anything still pointing at the old copy or any setup you could not verify. Set the **Starter version** in the project README only once the upgrade checks pass.
 
 ## Report the result
 
-Lead with the claim or decision affected. Cite what you verified and explain what is still open. If a source is needed to complete the requested check, inspect it within scope or say what access is missing. When asked for advice, identify the check most likely to change the decision and explain why. Report any repair and its verification.
+Lead with the claim or decision affected. Cite what you verified and explain what is still open. If a source is needed to complete the requested check, inspect it within scope or say what access is missing. When asked for advice, identify the check most likely to change the decision and explain why. Report any repair and its verification. End with an **Unresolved** list if anything needs follow-up. Give the ID, location (workbook, sheet, row and field where available), issue and what is needed next.

@@ -18,23 +18,22 @@ Choose a skill below or start with the [UCD project assistant](ucd-project-assis
 
 ### Refresh skills after an upgrade
 
-- **Skills used from the project or linked to it.** Check that the assistant opens the updated project copy of the skill. If the project moved, update the link.
-- **Skills uploaded, copied or pasted separately.** Refresh the changed skills in the place the team actually uses them. Replace the old uploaded copy, installed file, saved prompt or Site skill as applicable. Keep project-specific additions and point the assistant to the updated [AI guidance](../ai-guidance.md) and file guides in the working project.
-- In a fresh chat, select the updated skill and [run the quick test](#quick-test). Compare the revision line in each installed skill you use with the corresponding file in the new starter. Check that the assistant can open the project guidance. If it cannot see the files, share only the approved files it needs and retry.
+- **Skills used from the project or linked to it.** Open the link or file the assistant actually uses. If the project moved, update that link.
+- **Skills uploaded, copied or pasted separately.** Open the installed copy in the app and compare its **Skill revision** to the corresponding file in the new starter. Refresh each skill you use, including any that write to the project. Give it access to the updated project guidance and related files.
+- Compare the **Guidance revision** in the actual project copies of `ai-guidance.md` and `how-to/record-conventions.md` with the target starter. This revision expects `2026-11-24.2` in both files and in each of the six project skills. If any revision is missing or different, or you cannot verify the installed copy, the upgrade is unverified. Keep the previous matched set in use until you've resolved it.
+- In a fresh chat, select the skill and run the quick test below. A correct example answer checks evidence access. It cannot verify the installed copy on its own.
 
 ### Quick test
 
-Start a fresh chat with [Find and explain](find-and-explain/SKILL.md) and give it access to [AI guidance](../ai-guidance.md). Give it only these fictional files as evidence. In SharePoint, reference the copies in SharePoint.
+Start a fresh chat with [Find and explain](find-and-explain/SKILL.md). Give it access to the same [AI guidance](../ai-guidance.md) and [record conventions](../how-to/record-conventions.md) it uses for the project. Give it only these fictional files as evidence.
 
 - [Example user needs](../how-to/quick-test/example-user-needs.xlsx)
 - [Example findings and observations](../how-to/quick-test/example-findings-and-observations.xlsx)
 - [Example session notes](../how-to/quick-test/example-session-notes-v1.md)
 
-> Quote the Skill revision line from the Find and explain instructions you have loaded. Say whether you could open ai-guidance.md. Using the three example files, trace UN-941 to the team’s finding, its two observations and the original notes for those observations. Give the workbook, tab and row or cell for each record. Quote each note and give its timestamp. How many needs are in the example table? Say which files you opened.
+> Quote the Skill revision from the instructions already active in this chat, if visible, and say where you got it. If you can only see a project file, report the installed revision as unverified. For each guidance file you actually opened, give its path and Guidance revision. Then use the examples to trace UN-941 through its finding and both observations to the original notes. Give each workbook, tab and row or cell, then quote each note with its timestamp. How many needs are in the example table?
 
-Compare the quoted revision with the **Skill revision** in the intended skill file. A missing or different line leaves the update unverified, even if the evidence trace is correct. If the app cannot show what is installed, open the saved or uploaded skill and check it there. Check for two needs, the exact UN-941 rather than the nearby returns record, and two matching quotes and timestamps in the notes.
-
-To check missing access, repeat in a fresh chat with only the example user needs workbook as evidence. The assistant should report the linked finding ID and ask for the evidence files.
+Check which copies were read and compare both guidance revision lines with the target starter. Check for two example needs, the exact UN-941 and two matching notes and timestamps. To check missing access, repeat with only the example needs workbook as evidence. The assistant should give the linked finding ID and ask for the missing evidence.
 
 ## Use a skill
 

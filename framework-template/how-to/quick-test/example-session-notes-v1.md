@@ -1,6 +1,6 @@
 # Fictional session notes for the skills quick test
 
-These session extracts belong to the library example.
+These fictional session extracts belong to the quick-test workbooks in this folder.
 
 ## SES-914
 

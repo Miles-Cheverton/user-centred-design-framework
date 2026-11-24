@@ -4,11 +4,18 @@
 
 The target starter contains [upgrade instructions](../framework-template/how-to/README.md#upgrade-an-existing-project). Open those instructions from the version you downloaded and follow the file list for your starting version.
 
+## 0.5.3 — 2026-11-24 — peer review release
+
+- Added team-owned conventions in project config, an adaptation guide and upgrade checks for keeping skills and guidance together.
+- Updated user needs totals and warnings for repeated or missing IDs, incomplete rows and invalid pasted values.
+- Made cross-session handovers explicit and labelled the quick-test rows as fictional.
+- Added Withdrawn to the Findings and Observations workbook. Keep the finding’s ID, reason and source. Follow the [v0.5.3 upgrade guide](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.5.3/framework-template/how-to/README.md#upgrade-an-existing-project) to add the status to an existing workbook.
+
 ## 0.5.2 — 2026-11-24 — peer review release
 
 - Added workbook warnings for user need rows outside the table and status or fulfilment values that need checking. Tightened the integrity check and made save results explicit when skills pass work to one another.
 - Clarified how to report findings, delivery intent and fulfilment evidence. Added a fictional quick test that reads a separate notes file and checks which skill revision is active.
-- Included the upgrade checklist in the starter itself. Follow the [file list for v0.5.1 and v0.4](../framework-template/how-to/README.md#files-to-update-from-v051). Keep populated workbooks and add the optional warning formulas to an existing user needs workbook using the instructions.
+- Included the upgrade checklist in the starter itself. Follow the [v0.5.2 file list for v0.5.1 and v0.4](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.5.2/framework-template/how-to/README.md#files-to-update-from-v051). Keep populated workbooks and add the optional warning formulas to an existing user needs workbook using the instructions.
 
 ## 0.5.1 — 2026-11-23 — updates to AI skills
 

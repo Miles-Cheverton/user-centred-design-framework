@@ -1,5 +1,7 @@
 # AI guidance
 
+**Guidance revision:** 2026-11-24.2
+
 ## Human thinking comes first
 
 People analyse research, reach findings, assess fulfilment and make decisions. Give people space to form their own interpretations and ideas before they see an AI summary or recommendation. After a session or meeting, use the team’s first pass as the starting point for documentation. It can be notes or a short account of what people concluded or agreed. [Research debrief](how-to/README.md#capture-learning) · [Meeting follow-up](how-to/README.md#capture-what-changed-in-a-meeting)
@@ -41,6 +43,8 @@ Use the service's jurisdiction, audience and any standards named in [project con
 
 Use the project folder supplied for the task or the **Working folder** in [project config](project-config.md). For a request limited to supplied files, work within those files. If the destination for a save is ambiguous, ask which copy to update.
 
+Read the relevant team conventions in [project config](project-config.md) and any guide it names. Use them to interpret local names, approved locations and record ownership. Where local instructions conflict with access, consent or authorisation, keep the existing restriction and tell the team. Confirm any conflict that changes the meaning of a record or makes its source unclear.
+
 Find the owning records in the [project README](README.md) and choose a relevant [AI skill](AI-skills/README.md). Read the records and sources the task needs. Use the locations in [project config](project-config.md#other-project-locations) for current records the team maintains elsewhere. If sources disagree about the same fact and the current record is unclear, show the discrepancy and ask the team to confirm it. If access is partial, name the missing file, table, rows or source passage and ask for the smallest useful extract.
 
 ### Include additional project files
@@ -55,13 +59,15 @@ Read the actual sheet or table, headers and full relevant rows. Keep IDs, status
 
 ## Follow exact relationships
 
-Use exact IDs and their permitted targets. Follow the owning field for reverse lookups and explicit replacement links when records have been superseded. Journeys and prototypes need both ID and version. Report missing or ambiguous targets, invalid types and replacement cycles. Carry known duplicate-ID alerts into lookups, edits, totals and briefings. Give the conflicting locations and leave any conclusion that depends on choosing between them unresolved. [Record conventions](how-to/record-conventions.md#canonical-relationships)
+Use exact IDs and their permitted targets. Follow the owning field for reverse lookups and explicit replacement links when records have been superseded. Journeys and prototypes need both ID and version. Report missing or ambiguous targets, invalid types and replacement cycles. Carry relevant unresolved integrity issues into lookups, edits, totals and briefings. Give the affected locations and leave any conclusion that depends on resolving them open. [Record conventions](how-to/record-conventions.md#canonical-relationships)
 
 Use live records for answers and worked examples to learn the format. Trace significant alternatives and the team’s rationale through [Decisions](decisions.xlsx), and its learning through [Findings](findings-and-observations.xlsx). Identify historical or discarded options. Check the journey description or exact prototype version for what a stage represents. If a prototype tool is inaccessible, identify what you could check from its notes or captures. Cite the relevant session and evidence for claims about what the team tested. Distinguish planned, observed, tested and implemented work.
 
 ## Check status and what was saved
 
-Separate the status of a record from whether a change was saved. Quote the recorded status when it matters. Present Reviewed findings as team findings, Evidenced needs as supported needs, and Agreed decisions within their recorded scope. Label Draft, Proposed, superseded and withdrawn material when it is relevant. Attribute a conclusion from an external source to its author, including when an older import saved it as a Draft finding. Use a meeting source to describe what people agreed even if their record is still pending. Mark an unsaved change as **Not saved** and cite the meeting source. Refer to a new or changed record as saved only after reopening and verifying it.
+Separate the status of a record from whether a change was saved. Quote the recorded status when it matters. Present Reviewed findings as team findings, Evidenced needs as supported needs, and Agreed decisions within their recorded scope. Label Draft, Proposed, superseded and withdrawn material when it is relevant. A Withdrawn finding is a historical record. If it is cited in current work, explain the withdrawal and flag any claim that still relies on it. Attribute a conclusion from an external source to its author, including when an older import saved it as a Draft finding. Use a meeting source to describe what people agreed even if their record is still pending. Mark an unsaved change as **Not saved**. Cite the meeting source or attribute the team’s account if that is what you have. Refer to a new or changed record as saved only after reopening and verifying it.
+
+Use **Saved and verified**, **Not saved** or **Save unverified** for each changed record when one skill hands work to another. Include its destination, ID if verified, recorded or proposed status, and source. For a handover or new session, include that information and any unresolved checks in the existing project notes or handover when authorised, or give the team a short note to carry forward. Unresolved checks need the ID, workbook, sheet, row or field, and the issue. Compare earlier notes with the current records before relying on them.
 
 ## Ground claims
 
@@ -79,7 +85,7 @@ Say whether you checked the underlying source or read a reference to it. Flag in
 
 ## Assess whether needs are met
 
-Read **Supporting record IDs** for evidence that the need exists. Read **Scope and evidence** for how well the service meets it and **Delivery decision** for the team’s intent. Follow the cited DEC record and report exactly what it authorises. A decision to test or hold establishes that choice. State any separate delivery commitment only where the team made one. For totals, count each active recorded need once and include blank fulfilment under Not assessed. Give verified counts with their limits when invalid values, rows outside the table or unresolved duplicates prevent a complete tally. When saving a change that affects the totals, recalculate where supported and compare the saved totals with an independent count of the rows. If the tool reads only cached values, report the row counts and say whether the displayed totals were verified. [User needs guide](how-to/files/user-needs.md)
+Read **Supporting record IDs** for evidence that the need exists. Read **Scope and evidence** for how well the service meets it and **Delivery decision** for the team’s intent. Follow the cited DEC record and report exactly what it authorises. A decision to test or hold establishes that choice. State any separate delivery commitment only where the team made one. Use the [user needs counting rules](how-to/files/user-needs.md#assess-whether-the-service-meets-the-need) and include blank fulfilment under Not assessed. Give verified counts with their limits when invalid values, rows outside the table or unresolved duplicates prevent a complete tally. When saving a change that affects the totals, recalculate where supported and compare the saved totals with an independent count of the rows. If the tool reads only cached values, report the row counts and say whether the displayed totals were verified. [User needs guide](how-to/files/user-needs.md)
 
 ## Respect sources and access
 
@@ -89,6 +95,6 @@ Check source versions, limits and replacements in the [source register](project-
 
 ## Save and report
 
-Save, repair, share or publish only within the user's authorisation. Keep stable IDs, sources, history and workbook controls. Assign statuses and verification results the team has established, using the owning file guide. Write into the first empty row inside the named Excel table. If the table is full, extend its range first and check that the dropdowns and other controls cover the added rows. The last used sheet row can be below the table because of formatting or validation. Reopen each changed file to verify its values and references. In workbooks, also check that new rows are in the table and the controls apply. Where you cannot save, return the proposed change with the destination, verified ID if available and exact fields. For a handoff, report each change as **Saved and verified**, **Not saved** or **Save unverified** and carry its record status and source into the next skill.
+Save, repair, share or publish only within the user's authorisation. Keep stable IDs, sources, history and workbook controls. Assign statuses and verification results the team has established, using the owning file guide. Write into the first empty row inside the named Excel table. If the table is full, extend its range first and check that the dropdowns and other controls cover the added rows. The last used sheet row can be below the table because of formatting or validation. Reopen each changed file to verify its values and references. In workbooks, also check that new rows are in the table and the controls apply. Where you cannot save, return the proposed change with the destination, verified ID if available and exact fields. Use the [save results](#check-status-and-what-was-saved) when handing changes to another skill.
 
 Lead with the answer or the claim affected. Cite the evidence and name any gap that affects the result. For edits, state what changed and what was verified. Treat unused optional scaffold as normal. Refer gaps that need judgement to the team.

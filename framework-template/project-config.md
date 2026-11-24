@@ -7,6 +7,10 @@
 - **Service standards:** [Jurisdiction and links to standards or policy your service follows, including a required version if relevant]
 - **Delivery approach:** [How the team plans work and reviews what it learns, or a link to its existing agreement]
 
+## Team conventions (optional)
+
+Keep this file when updating the framework. Note which registers your team uses, any local names or rules, and the approved location of handover notes if you use one. You can link to an existing team guide here.
+
 ## Other project locations
 
 Fill in the locations your team uses. If a tool outside the framework holds the current record for something, say what it owns next to its link. Bracketed prompts mean the location is unset. If you share this file on its own, give the working folder explicitly.

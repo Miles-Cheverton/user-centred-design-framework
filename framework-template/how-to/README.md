@@ -14,7 +14,7 @@ Agree where the team keeps the current record for each kind of information. Use 
 ## Capture learning
 
 1. Before reading an AI summary, give the researcher, observers and other colleagues space to say what stood out. [Compare interpretations](evidence-and-interpretation.md#human-analysis-before-documentation) and note what the team concluded, where people disagree and what is still open.
-2. While the group is still together, use [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) with those notes and any transcript or other sources approved for AI use. Ask it to draft the updates, find existing records that match and point to relevant passages the group may have missed. For example, it might flag a timestamp where a participant took a different route.
+2. While the group is still together, use [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) with those notes and any transcript or other sources approved for AI use. Ask it to propose the updates, find existing records that match and point to relevant passages the group may have missed. For example, it might flag a timestamp where a participant took a different route.
 3. Discuss anything that could change the interpretation. Retain disagreements in the debrief and include any that limit a finding on its row. Save the agreed [findings](files/findings-and-observations.md) with exact sources, including contrary or inconclusive learning. Update related [user needs](files/user-needs.md), assumptions or research questions when the team agrees.
 
 When sharing research more widely, use a summary that protects participants’ identities.
@@ -29,7 +29,7 @@ Retain the exact [journey](files/user-journeys.md) or [prototype](files/prototyp
 
 ## Assess whether needs are met
 
-Use the existing [user need row](files/user-needs.md#assess-whether-the-service-meets-the-need) for the team’s fulfilment assessment, tested scope and evidence. Record its delivery choice independently. Use the workbook totals with the assessed scope and open gaps.
+Use the existing [user need row](files/user-needs.md#assess-whether-the-service-meets-the-need) for the team’s fulfilment assessment, tested scope and evidence. Record its delivery choice independently. Before quoting workbook totals, check the warnings in row 1 and report the assessed scope and open gaps.
 
 ## Record a decision
 
@@ -38,8 +38,8 @@ Use the [decision guide](files/decisions.md) to record the choice, rationale, ev
 ## Capture what changed in a meeting
 
 1. Ask the delivery manager, business analyst or other person taking notes to capture significant choices, reasons and open questions. Use the same approach for a stakeholder call, design review or stand-up. Keep routine actions in the delivery backlog.
-2. Give [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) those notes and, if available, the transcript approved for AI use. Ask it to draft changes to decisions, dependencies or other relevant records. It can find an exact passage, flag a mismatch and fill in a date or name when the source establishes it.
-3. Review the draft in the call or with the decision maker. Record an agreed choice with its scope, reason and any open conditions. Keep proposals open and flag unclear agreement for confirmation. Put an open start date in the decision’s **Why**. Link a dependency if an outside team or system needs to act first. Link to the exact source and timestamp or section. Use one [source register entry](files/source-register.md) for a source cited by several records.
+2. Give [Capture or update records](../AI-skills/capture-or-update-records/SKILL.md) those notes and, if available, the transcript approved for AI use. Ask it to propose changes to decisions, dependencies or other relevant records. It can find an exact passage, flag a mismatch and fill in a date or name when the source establishes it.
+3. Review the proposed changes in the call or with the decision maker. Record an agreed choice with its scope, reason and any open conditions. Keep proposals open and flag unclear agreement for confirmation. Put an open start date in the decision’s **Why**. Link a dependency if an outside team or system needs to act first. Link to the exact source and timestamp or section. Use one [source register entry](files/source-register.md) for a source cited by several records.
 
 ## Hand over or prepare a review
 
@@ -53,26 +53,45 @@ Find the record and read it with its status and source. [Check the claim](eviden
 
 Capture the first useful record when the work happens. Fill in the details required by its file guide before relying on it. Use the team’s existing reviews to check significant findings and choices. When you run [Check evidence and records](../AI-skills/check-evidence-and-records/SKILL.md) for project integrity, it flags duplicate IDs and shows where they occur.
 
+## Adapt the starter
+
+Use the registers that help with your work. You can leave unused workbooks empty and use the team’s existing tools for the records they already own. Note those choices and any team rules in [project config](../project-config.md). A new colleague can start there.
+
+For example, a small team might start with user groups, user needs, findings and decisions. Keep the session register when an observation cites an SES ID and the source register when it cites a DOC ID. Add other registers when you need them. Follow the [record links](record-conventions.md#canonical-relationships) for the work in scope.
+
+You can add local notes and extra columns at the right of a table. Before renaming or removing files, changing headings, table names, dropdown values or ID patterns, check the affected links, skills, lookups and totals. Record any local mapping in project config. If you remove a workbook, also update the project README and check which records still refer to it. If you install a skill outside the project, give it access to the project guidance and records it needs.
+
 ## Upgrade an existing project
 
-1. Read the **Starter version** in your project README and use the [file list for your starting version](#files-to-update-from-v051). Keep a copy or a restorable version of any files you’ll change. Extract the new ZIP into a separate folder outside the project. Never extract it over the project or replace the project folder.
-2. Apply only the files listed for that upgrade. Keep existing workbooks, IDs and evidence unless the release gives specific migration steps. If your copy of a file matches the old starter, you can replace that file with the new one. If you’ve customised it, compare the old starter, your copy and the new starter. For example, keep your project name, owner and review details in the README and add the new guidance and links. Keep working paths and local settings in project config. If you can’t tell what a change would replace, leave that file in place for review.
-3. [Refresh the skills where you use them](../AI-skills/README.md#refresh-skills-after-an-upgrade). Compare one existing need, its finding and source, and any linked decision or assessment with your pre-upgrade copy. Use the quick test in the new skills guide to check the assistant setup. Once these checks pass, update the **Starter version** in the project README.
+1. Read **Starter version** in your project README and find the file list below. Extract the new ZIP to a separate folder outside the project. Keep a restorable copy of what you will change. Find the original starter in the [GitHub releases](https://github.com/Miles-Cheverton/user-centred-design-framework/releases) if you need to compare local edits. Keep the ZIP you installed if you work offline.
+2. Keep your project config, local notes, populated workbooks and sources. Update only the paths listed. Compare your copy with the old and new starter before replacing customised files. Keep the current **Starter version** line when merging the README.
+3. Update the skills, AI guidance, handbook, record conventions, linked file guides and examples together. Stage and check the new set before putting it into use. If any of those files needs review, keep the previous matched set in use, including any separately installed skills.
+4. [Refresh the skills where you use them](../AI-skills/README.md#refresh-skills-after-an-upgrade). Compare one existing need, its finding and source, and any linked decision or assessment with your pre-upgrade copy. Check the revisions and run the quick test. Set **Starter version** to the version in the downloaded starter only after these checks pass.
 
-If you stop partway through, compare the listed files with the new starter and finish the work that remains. Use the backup or version history to recover an affected file, and check for any newer team edits before restoring it.
+If you stop partway through, compare the listed files with the target starter and finish what remains. Use the backup or version history to recover only the affected files. Check for newer team edits before restoring them.
 
-### Files to update from v0.5.1
+### Files to update from v0.5.2
 
-Use these paths relative to the project folder. Compare or merge customised files before you copy anything.
+- Merge the starter `README.md`, keeping your project details. Keep your `project-config.md` and add the optional team conventions section if useful.
+- Update `ai-guidance.md`, `AI-skills/README.md` and the six `SKILL.md` files. Keep any skills your team added.
+- Update `how-to/README.md`, `how-to/record-conventions.md` and the `findings-and-observations.md` and `user-needs.md` guides under `how-to/files/`.
+- In `how-to/quick-test/`, update `example-user-needs.xlsx`, `example-findings-and-observations.xlsx` and `example-session-notes-v1.md`. They are fictional.
+- Keep your populated `findings-and-observations.xlsx`. [Add Withdrawn to the existing dropdown](#add-withdrawn-to-an-existing-findings-workbook) without replacing the workbook.
+- Keep your populated `user-needs.xlsx`. The updated totals and warnings are optional for existing projects. Use the instructions below if you want to add them.
 
-- **Project guidance.** `README.md`, `project-config.md` and `ai-guidance.md`.
-- **Skills.** `AI-skills/README.md` and the six existing `SKILL.md` files. Keep any skills your team added.
-- **Handbook.** `how-to/README.md`, `how-to/record-conventions.md`, `how-to/worked-beta-readiness.md` and `how-to/worked-service-handoff.md`.
-- **File guides.** Under `how-to/files/`, update `decisions.md`, `findings-and-observations.md`, `source-register.md` and `user-needs.md`.
-- **Quick test.** Add `how-to/quick-test/example-user-needs.xlsx`, `how-to/quick-test/example-findings-and-observations.xlsx` and `how-to/quick-test/example-session-notes-v1.md`.
-- **User needs workbook.** Keep your populated workbook. To add the three warning counts, copy the formula text from each of cells F1 to H1 in the new starter into the same cell in your existing `userNeeds` workbook table’s sheet. Copy the text from the formula bar so the table references resolve locally. Check that F1 to H1 are available in your copy before using them. If your table has a different name or those cells are in use, use the integrity check until you can adapt the formulas. The warnings are optional for existing projects.
+### Files to update from v0.5.1 or v0.4
 
-For an upgrade directly from v0.4, also update `how-to/files/assumptions.md`. The working workbook layouts are the same in both versions. For earlier versions, use the [v0.4 migration notes](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.4/repository-info/CHANGELOG.md#upgrading-from-v037-or-earlier) first.
+Apply the v0.5.2 list from the new starter. Also update `how-to/worked-service-handoff.md`, `how-to/worked-beta-readiness.md`, `how-to/files/decisions.md` and `how-to/files/source-register.md`. If you start on v0.4, also update `how-to/files/assumptions.md`. For an older starter, use the [v0.4 migration notes](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.4/repository-info/CHANGELOG.md#upgrading-from-v037-or-earlier) first.
+
+### Update the user needs totals and warnings
+
+On a copy of your workbook, confirm that the table is named `userNeeds` and uses the starter column names. Check that cells B1 to I1 on its sheet contain only earlier starter totals or warnings, or are empty. If there are local formulas or labels in those cells, keep them and use the project integrity check until you can adapt the new formulas.
+
+Copy the formula text from the new starter’s formula bar for each cell B1 to I1. Paste it into the matching cell in your workbook so the table references resolve locally. Recalculate, check the totals against the rows, and verify that the records and dropdowns are intact before applying the change. The highlighted warning style in the starter is separate from the formulas.
+
+### Add Withdrawn to an existing findings workbook
+
+Work on a copy of your workbook. In the **Records** sheet, open the Excel Data Validation rule for the **Status** column. Add **Withdrawn** to the list alongside **Draft**, **Reviewed** and **Superseded**. In the standard starter this rule covers D4:D1003. If the table has grown or the range has changed, update the rule for the Status cells in your copy. Check that the new option is available and the existing rows and choices are intact before applying it to the working file. [How to record a withdrawal](files/findings-and-observations.md#withdraw-a-finding)
 
 ## Reference guides
 
