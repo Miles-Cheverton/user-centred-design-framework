@@ -4,7 +4,7 @@ Keep each record in its named file and link to it with exact IDs and versions. S
 
 ## Edit records
 
-- Replace the **OVERWRITE ME** row with the first real entry. Exclude starter rows from evidence and counts. Add each new row inside the workbook’s table. If you paste below it, resize the table to include the rows and check that dropdowns and totals cover them.
+- Replace the **OVERWRITE ME** row with the first real entry. Exclude starter rows from evidence and counts. Use the first empty row inside the workbook’s table. The empty rows provided vary by workbook. When the table is full, resize it before adding rows, or resize it to include rows already pasted below it. Check that its dropdowns and any totals cover the new rows.
 - Replace bracketed prompts in the Markdown files you use.
 - After pasting or importing records, check controlled values such as status against the choices in the column's dropdown.
 - Use YYYY-MM-DD for dates. Use the workspace’s version history for routine edits. Record consequential choices in [Decisions](files/decisions.md).
@@ -94,7 +94,7 @@ The table shows where to enter each relationship. Match whole IDs using the owne
 | `project-sources/source-register.xlsx` — File or URL | Exact file location or direct page URL | 1 | Before use | Register metadata does not replace checking the exact cited source version and passage. |
 | `findings-and-observations.xlsx` — Evidence and source | SES or DOC with exact source version or path and locator. An FND row may cite an existing EV row. | 1+ | Before reliance or Reviewed | A FND row identifies the supporting observations and sources. Follow every cited EV to its exact source. Register non-session sources as DOC. |
 | `findings-and-observations.xlsx` — Evidence and source | RQ, UG, RND, SES and exact JNY or PRT ID with Version | 0+ | When needed to explain scope | Cite the question, groups, round, sessions or design version the row concerns. Include the limits that affect reliance. |
-| `decisions.xlsx` — Why | EV, FND or DOC for support. Other listed prefixes for important alternatives or affected records. | 0+ | Cite recorded support and important alternatives when available. State material gaps. | Follow evidence chains and cite the exact version and passage of a DOC source. Use the affected record’s DEC link where available. |
+| `decisions.xlsx` — Why | EV, FND or DOC for support. Other listed prefixes for important alternatives or affected records. | 0+ | Cite known needs the choice is meant to serve, recorded support and material alternatives when available. State material gaps. | Follow evidence chains and cite the exact version and passage of a DOC source. Use the affected record’s DEC link where available. |
 | `decisions.xlsx` — Superseded by | DEC | 0+ | Required when replacements exist; blank Superseded is a gap | Exact replacing decisions; retain the old rationale; no self-links or cycles. |
 | `success-measures.xlsx` — Outcome IDs | OUT | 1+ | Before use | Outcomes the measure helps assess. |
 | `success-measures.xlsx` — Baseline | EV in text | 0+ | Required when asserting a recorded baseline; otherwise Not yet established | Evidence for the baseline value, period and applicable population. |
@@ -134,6 +134,7 @@ To find related records, search the field that owns the relationship. Compare ex
 | Sessions in a round | research-sessions.xlsx → Round ID = exact RND ID |
 | Sessions testing a prototype | research-sessions.xlsx → Prototype versions contains the exact PRT ID and version |
 | Prototypes exploring a journey | Check decisions citing both versions, or follow the prototype register link to any version note citing the exact JNY ID and version. |
+| Decisions about a need | decisions.xlsx → Why cites the exact UN ID. Also check DEC links on the need row. A shared finding alone does not establish a decision’s link to another need. |
 | Current fulfilment assessment of a need | user-needs.xlsx → ID = exact UN ID. Read Fulfilment and Scope and evidence on that row. |
 | Scope items governed by a decision | in-scope.xlsx and out-of-scope.xlsx → Why cites the exact DEC ID |
 | Decisions on a specific journey version | decisions.xlsx → Why cites the exact JNY ID and version. Also follow DEC references in the matching journey description. |
@@ -143,9 +144,15 @@ To find related records, search the field that owns the relationship. Compare ex
 ## Check and repair project records
 
 1. Start with the record or handover under review. Open its owner and sources. For a project-wide check, inspect the full set of records in scope, including superseded records that a current claim cites. Check the project README for its framework version.
-2. Check unique IDs, exact versions, links, replacement cycles, conflicting scope entries, workbook controls and the [completion requirements](files/).
+2. Check for duplicate record keys, exact versions, links, replacement cycles, conflicting scope entries, workbook controls and the [completion requirements](files/). Distinguish optional blanks from fields needed for a status or claim. Compare pasted values with the controlled choices. Report actual gaps with the workbook, sheet, row and field.
 3. Check the evidence for claims, research consent and source access. For tracked fulfilment, use the [user needs guide](files/user-needs.md#assess-whether-the-service-meets-the-need). For survey files and boards, use the [research protocol](research-protocol.md#discussion-guides-surveys-and-whiteboards).
 4. When authorised, fix clear errors with a verified source or documented upgrade. Preserve records and history. Take disputed evidence, consent, judgement and uncertain matches back to the team.
 5. Reopen changed records and check their values, controls and links. Report what was checked, what was fixed and what is still unresolved.
+
+### Check for duplicate IDs
+
+- Scan the full ID column in each register in scope, including superseded records. Check for populated rows pasted below the Excel table and flag them as outside the table. Include their IDs in the duplicate check. Skip empty rows and **OVERWRITE ME** examples.
+- A key is normally the ID. Check the two scope workbooks together for repeated `SCP` IDs. For journeys and prototypes, only a repeated ID and version together is a duplicate. [Record keys](#stable-identifiers-and-owner-lookup)
+- Report each duplicated key with the workbook, sheet and row number of every occurrence. Where possible, point out records that refer to the ambiguous key. Leave IDs and links as they are until the team confirms the correct repair. Carry the locations into any affected lookup, edit or briefing.
 
 Use [AI guidance](../ai-guidance.md) when a tool helps read or edit records.

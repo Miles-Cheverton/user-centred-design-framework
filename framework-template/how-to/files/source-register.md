@@ -10,7 +10,7 @@ Put a commissioning brief, policy or other supporting document in [project sourc
 
 Register a source when a record needs its DOC ID or the team needs to track its version or replacement. The assistant can add the entry as part of an authorised save that needs a DOC citation.
 
-Check the exact path or URL and the version used. Reuse the existing DOC ID when they match. For a new source, enter the next unused **ID**, **Title** and exact **File or URL**. Add the date or version when known. Verify the entry before saving a record that cites it.
+Check the exact path or URL and the version used. Reuse the existing DOC ID when they match. For renamed copies, reuse the entry when you can verify identical content and the same source version and origin. If any of these are unclear, flag the possible match. For a new source, enter the next unused **ID**, **Title** and exact **File or URL**. Add the date or version when known. Verify the entry before saving a record that cites it.
 
 ## Fields
 

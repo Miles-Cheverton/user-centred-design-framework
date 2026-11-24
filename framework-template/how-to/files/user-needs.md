@@ -13,12 +13,12 @@ Enter an **ID** and **Need**. Describe the goal and why it matters in the user�
 | ID | Stable need ID, for example `UN-001`. |
 | User group IDs | One or more exact UG IDs before relying on the need. |
 | Need | What people need to do and why. |
-| Supporting record IDs | At least one EV or FND ID for Evidenced needs. Follow the record to its source. |
+| Supporting record IDs | Evidence that the need exists. An Evidenced need requires at least one EV or FND ID and its user group IDs. Follow the record to its source. |
 | Status | Proposed, Evidenced or Superseded. This describes support for the need. |
 | Superseded by | Exact replacement UN IDs. Flag an unknown replacement. |
 | Fulfilment | The team’s assessment: Not assessed, Not met, Partly met or Met in full. |
-| Scope and evidence | Tested version or bounded scope, assessment date, FND or EV IDs, any unmet part and any DEC ID. |
-| Delivery decision | The team’s choice: Not decided, Will address, Deferred or Will not address. |
+| Scope and evidence | Evidence about fulfilment. Give the tested version or bounded scope, assessment date, FND or EV IDs, and any unmet part. Cite any relevant DEC ID here. |
+| Delivery decision | The team’s intent for this need: Not decided, Will address, Deferred or Will not address. Use Will address when the team has committed to addressing the need. A choice to test or hold can be cited in **Scope and evidence**. If delivery is still open, keep Not decided. |
 
 ## Assess whether the service meets the need
 
@@ -26,6 +26,6 @@ Keep one current fulfilment assessment per user need. Record the team’s judgem
 
 The totals count active recorded needs. Blank fulfilment counts as Not assessed. Check for duplicate IDs and state which versions or routes the figures cover. Filter **Delivery decision** to see deferred needs or those the team will not address.
 
-After editing, compare the four totals with the active rows. If a preview still shows an old total, recalculate in a spreadsheet editor. Use the counts from the rows until the displayed totals agree. When the assessment changes, retain earlier evidence, decisions and workbook versions.
+After editing, compare the four totals with the active rows. If a preview still shows an old total, recalculate in a spreadsheet editor. Check the workbook’s warning counts for rows outside the table and status or fulfilment values that need review. Check duplicates and evidence links separately. If issues remain, state the verified counts and what is unresolved. When the assessment changes, retain earlier evidence, decisions and workbook versions.
 
 [Worked handoff](../worked-service-handoff.md#follow-the-finding-forward-to-a-decision-and-an-outcome-check) · [GDS guidance on learning user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)

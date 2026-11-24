@@ -16,7 +16,7 @@ In [User journeys](../user-journeys.xlsx), `JNY-201 v2` links to a blueprint of 
 
 > In the sessions reviewed, the reservation could reach the depot before staff had confirmed readiness. One borrower arrived before the equipment was ready. **Source: FND-201, Collection readiness.**
 
-The team reviewed both observations. Frequency and the telephone route are open questions. AI can check the wording and citations against authorised sources after the team agrees the conclusion.
+The team reviewed both observations and recorded the finding as **Reviewed**. Frequency and the telephone route are open questions. AI can check the wording and citations against authorised sources after the team agrees the conclusion.
 
 - In [findings-and-observations.xlsx](../findings-and-observations.xlsx), `FND-201` answers `RQ-201` about when borrowers know they can travel. **Evidence and source** names **Collection readiness** on `JNY-201 v2`, records the limits above, and cites `EV-201` and `EV-202`.
 - In the same workbook, `EV-201` points to `SES-201`, exact source `research/RND-201/transcripts/2026-10-07_RND-201_SES-201_collection-test_transcript_v01.txt`, locator `00:06:42–00:07:05`, where the depot assistant describes receiving only a reservation number.
@@ -26,7 +26,7 @@ The team reviewed both observations. Frequency and the telephone route are open 
 
 | Existing record | What it establishes |
 |---|---|
-| [user-needs.xlsx](../user-needs.xlsx), `UN-201` | Borrowers (`UG-201`) need to know when their equipment is ready so they can plan their trip. Supporting record `FND-201`. **Fulfilment** is Not assessed. **Delivery decision** is Will address, with `DEC-202` in **Scope and evidence**. |
+| [user-needs.xlsx](../user-needs.xlsx), `UN-201` | Borrowers (`UG-201`) need to know when their equipment is ready so they can plan their trip. Supporting record `FND-201`. **Fulfilment** is Not assessed. **Delivery decision** is Not decided. `DEC-202` in **Scope and evidence** records what the team agreed to test. |
 | [decisions.xlsx](../decisions.xlsx), `DEC-202` | On 12 October 2026 the service owner agreed to test a separate readiness message on web and telephone routes. **Why** cites the collection handoff in `JNY-201 v2`, `FND-201` and `UN-201`. The team considered changing the reservation wording alone. `OUT-201` records the intended outcome of fewer early trips. |
 | [success-measures.xlsx](../success-measures.xlsx), `MET-201` | **Outcome IDs** links to `OUT-201` in [outcomes.xlsx](../outcomes.xlsx). **Source and method** describes comparing early trips before and after the change at the same depot across both channels. The baseline and results are still open. |
 

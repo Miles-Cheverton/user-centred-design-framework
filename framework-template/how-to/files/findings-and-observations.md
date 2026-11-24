@@ -15,10 +15,10 @@ People analyse evidence and reach conclusions. AI can help record or check their
 | ID | Stable FND or EV ID. |
 | Finding or observation | State the team's conclusion, or what was observed, said or measured. |
 | Evidence and source | Summarise the support, including contrary evidence and limits. Cite the exact source. A finding can cite an existing EV row that leads to it. |
-| Status | Draft while recording a finding, Reviewed after people check it, or Superseded if replaced. Use status for observations when useful. |
+| Status | For a finding, use Draft while the team still needs to agree the wording or check its sources. Use Reviewed once it has done both. Use Superseded if replaced. An observation can have a blank status. Verify its source before relying on it. |
 
 For each citation give its SES or DOC ID, the exact version, path or version-specific URL, and a timestamp, page, section or range. Register non-session material in the [source register](../../project-sources/source-register.xlsx). Add relevant group, question, round or design references when they explain scope. Give JNY and PRT references with the version.
 
-If the source differs from the team's wording, bring the exact passage to the team. Keep replaced records and cite their successors in **Evidence and source** when useful.
+If the source differs from the team's wording, bring the exact passage to the team. Attribute external conclusions to their authors in the source register or the relevant review notes. Record a team finding once the team has reached its own conclusion. Keep replaced records and cite their successors in **Evidence and source** when useful.
 
 [Worked example tracing a finding to two sessions](../worked-service-handoff.md#trace-a-playback-claim-back-to-its-source)

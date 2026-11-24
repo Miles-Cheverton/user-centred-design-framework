@@ -9,7 +9,7 @@
 
 ## Other project locations
 
-Fill in the locations your team uses. Bracketed prompts mean the location is unset. If you share this file on its own, give the working folder explicitly.
+Fill in the locations your team uses. If a tool outside the framework holds the current record for something, say what it owns next to its link. Bracketed prompts mean the location is unset. If you share this file on its own, give the working folder explicitly.
 
 - **Research storage and access:** [Approved location and owner]
 - **Design workspace:** [Project link]

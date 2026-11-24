@@ -5,11 +5,15 @@ description: Find and format records for importing an existing UCD project from 
 
 # Import an existing project
 
+**Skill revision:** 2026-11-24.1
+
 ## Copy-and-paste example
 
-> Use AI-skills/import-existing-project/SKILL.md. Review the Confluence PDF exports I supplied. Draft the project records they support, cite the exact sources and show me what needs checking.
+> Use AI-skills/import-existing-project/SKILL.md. Review the Confluence PDF exports I supplied. Propose the project records they support, cite the exact sources and show me what needs checking.
 
 ## Establish the destination and sources
+
+For updates to the framework files in an existing project, use [Help with a framework upgrade](../check-evidence-and-records/SKILL.md#help-with-a-framework-upgrade).
 
 Confirm the working copy, then identify the sources for this import.
 
@@ -31,7 +35,7 @@ For a folder import, [look for relevant additional files](../../ai-guidance.md#i
 
 ## Reconcile and format the records
 
-1. Extract the documented meaning, status and date. Preserve what people proposed, concluded or agreed. Capture literal observations from raw research and flag where people still need to analyse it.
+1. Extract the documented meaning, status and date. Preserve what people proposed, concluded or agreed. Capture literal observations from raw research and flag where people still need to analyse it. Attribute an external conclusion to its author and exact source. Keep it in the source record or raise it for the team to assess. Create a team finding or need only when the project team has established one.
    Use the [guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to judge what each source can establish. An approved policy can establish a rule, a prototype shows intended behaviour, and release notes identify a change to a build. Each answers a different question. Retain the authority, scope and date when two disciplines describe the same change. Flag any material conflict for the team.
 2. Group repeat accounts while retaining material citations and external IDs. Match against the destination and reuse confirmed IDs. Keep earlier decisions and contrary evidence. Flag uncertain matches, conflicting versions and unresolved replacements.
 3. Use [Capture or update records](../capture-or-update-records/SKILL.md) to draft or save to the owning files within the user's authorisation, including any source entries needed for DOC citations. Use its [attachment filing procedure](../capture-or-update-records/SKILL.md#file-a-chat-attachment) when asked to retain supplied files. Include the destination, verified ID if available and exact source. For a whole-project import, show what types you found, what was absent in the checked sources and what remained inaccessible.

@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations v0.5.1<br>
+**Starter version:** UCD Project Foundations v0.5.2<br>
 **Project owner:** [Name or team]<br>
 **Team reviews:** [Where the team reviews findings and decisions]
 
@@ -15,6 +15,7 @@ Keep research findings, user needs and decisions easy to find and check. **Peopl
 | Task | Guide |
 |---|---|
 | Start or understand a project | [Frame the work](how-to/README.md#frame-the-work) |
+| Upgrade an existing project | [Upgrade steps](how-to/README.md#upgrade-an-existing-project) |
 | Record what you learned | [Capture learning](how-to/README.md#capture-learning) |
 | Plan or run research | [Prepare research](how-to/README.md#prepare-research) |
 | Explore or retain a design | [Explore a design](how-to/README.md#explore-a-design) |

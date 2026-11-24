@@ -15,7 +15,7 @@ Use a DEC ID and record the significant choice. Choose Proposed while it is open
 | Status | Proposed, Agreed, Superseded or Withdrawn. Use Agreed when the choice, date and accountable decision maker are confirmed. |
 | Date | When the choice was made. |
 | Decided by | The person or accountable role that made it. |
-| Why | The reasons, material alternatives, accepted objections or limits and supporting record IDs. For a DOC citation, give the exact version and passage. |
+| Why | The reasons, material alternatives, accepted objections or limits and supporting record IDs. Cite the exact UN IDs the decision is meant to serve when known. For a DOC citation, give the exact version and passage. |
 | Superseded by | Exact replacement DEC IDs, separated by a semicolon and space. A blank on a superseded decision is a gap. |
 
 ## Retain an option before a decision
@@ -26,7 +26,7 @@ When someone puts a specific choice to the team, record it as **Proposed** and c
 
 ## Apply the decision
 
-- Update the affected records and cite the DEC ID. Keep superseded or withdrawn decisions and their original reasons.
+- Update the affected records and cite the DEC ID. In **Why**, name the affected record IDs when that helps a colleague find what changed. Keep superseded or withdrawn decisions and their original reasons.
 - For a change in problem framing, put the new framing in **Decision**. Cite the mandate, previous wording or version and reason in **Why**. Update the [problem statement](../../problem-statement.md).
 - For a deferred or unaddressed need, cite its UN ID and explain why. Update the need's **Delivery decision** and cite the DEC ID in **Scope and evidence**. [User needs workbook](../../user-needs.xlsx)
 
