@@ -2,7 +2,7 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.5.3 · 24 November 2026 · for peer review**
+**Version 0.5.4 · 24 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,7 +14,7 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.5.3 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.3/ucd-project-foundations-v0.5.3.zip) or copy the [development template](framework-template/) into your approved workspace. The development copy may include changes that have yet to be released. Open the README inside.
+1. Download the [v0.5.4 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.4/ucd-project-foundations-v0.5.4.zip) or copy the [development template](framework-template/) into your approved workspace. The development copy may include changes that have yet to be released. Open the README inside.
 2. Name the service in the [project README](framework-template/README.md) and set the working folder in [project config](framework-template/project-config.md).
 3. Start with the [problem statement](framework-template/how-to/files/problem-statement.md), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 

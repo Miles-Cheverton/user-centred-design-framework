@@ -9,7 +9,7 @@
 
 ## Team conventions (optional)
 
-Keep this file when updating the framework. Note which registers your team uses, any local names or rules, and the approved location of handover notes if you use one. You can link to an existing team guide here.
+Keep this file when updating the framework. Note which registers your team uses, any local names or rules, and where you keep your working notes. You can link to an existing team guide here.
 
 ## Other project locations
 
@@ -19,6 +19,7 @@ Fill in the locations your team uses. If a tool outside the framework holds the 
 - **Design workspace:** [Project link]
 - **Delivery backlog:** [Project link]
 - **Operational and technical records:** [Project links]
+- **Pending changes (optional):** [Approved location for changes the team has agreed but has yet to save, such as a section in existing project notes]
 - **Import source folder:** [Link or full path to existing documents or exports]
 
 The import skill uses **Import source folder** when you have not supplied files or a source location for that request. When the working folder is inside the source folder, the skill excludes the working folder and its contents from the source scan. Follow project permissions and research consent when using material from these locations.

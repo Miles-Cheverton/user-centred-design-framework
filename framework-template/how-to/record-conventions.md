@@ -1,6 +1,6 @@
 # Record conventions
 
-**Guidance revision:** 2026-11-24.2
+**Guidance revision:** 2026-11-24.3
 
 Keep each record in its named file and link to it with exact IDs and versions. Start with the minimum in its [file guide](files/). Add the evidence and details needed before relying on it.
 
@@ -94,7 +94,7 @@ The table shows where to enter each relationship. Match whole IDs using the owne
 | `business-rules.xlsx` — Source | Authority citation; DOC/DEC if referenced, otherwise exact source and section | 1 | Before use | Explains the rule’s authority; it is not an ID-only field or proof the rule is implemented. |
 | `non-functional-requirements.xlsx` — Source | Standard or obligation. DOC or DEC when cited. | 1 | Before use | Explain applicability and give the exact version or section when needed. Cite verification observations in Verification. |
 | `project-sources/source-register.xlsx` — File or URL | Exact file location or direct page URL | 1 | Before use | Register metadata does not replace checking the exact cited source version and passage. |
-| `findings-and-observations.xlsx` — Evidence and source | SES or DOC with exact source version or path and locator. An FND row may cite an existing EV row. | 1+ | Before reliance or Reviewed | A FND row identifies the supporting observations and sources. Follow every cited EV to its exact source. Register non-session sources as DOC. |
+| `findings-and-observations.xlsx` — Evidence and source | SES or DOC with exact source version or path and locator. An FND row may cite an existing EV row. | 1+ | Before reliance, Reviewed or Withdrawn | A FND row identifies its observations and sources. For a withdrawal, keep the original citation and give the reason. Follow every cited EV to its exact source. Register non-session sources as DOC. |
 | `findings-and-observations.xlsx` — Evidence and source | RQ, UG, RND, SES and exact JNY or PRT ID with Version | 0+ | When needed to explain scope | Cite the question, groups, round, sessions or design version the row concerns. Include the limits that affect reliance. |
 | `decisions.xlsx` — Why | EV, FND or DOC for support. Other listed prefixes for important alternatives or affected records. | 0+ | Cite known needs the choice is meant to serve, recorded support and material alternatives when available. State material gaps. | Follow evidence chains and cite the exact version and passage of a DOC source. Use the affected record’s DEC link where available. |
 | `decisions.xlsx` — Superseded by | DEC | 0+ | Required when replacements exist; blank Superseded is a gap | Exact replacing decisions; retain the old rationale; no self-links or cycles. |
@@ -130,6 +130,7 @@ To find related records, search the field that owns the relationship. Compare ex
 
 | To find… | Read the owning relationship |
 |---|---|
+| Records citing a finding or observation | Match the exact FND or EV ID in the citation fields under [Canonical relationships](#canonical-relationships), including **Supporting record IDs** and **Scope and evidence** in User Needs, and **Why** in Decisions. Check whether each reference supports a current claim or only records history. |
 | Findings answering a question | findings-and-observations.xlsx → Evidence and source cites the exact RQ ID |
 | Findings from a round | findings-and-observations.xlsx → Evidence and source cites the exact RND ID or an SES in that round, including citations through an EV row |
 | Findings about a retained design | findings-and-observations.xlsx → Evidence and source cites the exact JNY/PRT ID and version |
@@ -145,8 +146,8 @@ To find related records, search the field that owns the relationship. Compare ex
 
 ## Check and repair project records
 
-1. Start with the record or handover under review. Open its owner and sources. For a project-wide check, inspect the full set of records in scope, including superseded or withdrawn records that a current claim cites. Check the project README for its framework version.
-2. Check for duplicate record keys, exact versions, links, replacement cycles, conflicting scope entries, rows pasted below tables, workbook controls and the [completion requirements](files/). Distinguish optional blanks from fields needed for a status or claim. Compare pasted values with the controlled choices. Report actual gaps with the workbook, sheet, row and field.
+1. Start with the record or handover under review. Open its owner and sources. For a project-wide check, inspect the full set of records in scope, including superseded or withdrawn records that a current claim cites. Read **Starter version** in the project README.
+2. Check for duplicate record keys, exact versions, links, replacement cycles, conflicting scope entries, rows pasted below tables, workbook controls and the [completion requirements](files/). Distinguish optional blanks from fields needed for a status or claim. Compare pasted values with the controlled choices. A Withdrawn finding needs its original citation and a reason. Report actual gaps with the workbook, sheet, row and field.
 3. Check the evidence for claims, research consent and source access. For tracked fulfilment, use the [user needs guide](files/user-needs.md#assess-whether-the-service-meets-the-need). For survey files and boards, use the [research protocol](research-protocol.md#discussion-guides-surveys-and-whiteboards).
 4. When authorised, fix clear errors with a verified source or documented upgrade. Preserve records and history. Take disputed evidence, consent, judgement and uncertain matches back to the team.
 5. Reopen changed records and check their values, controls and links. Report what was checked, what was fixed and what is still unresolved.

@@ -1,6 +1,6 @@
 # AI guidance
 
-**Guidance revision:** 2026-11-24.2
+**Guidance revision:** 2026-11-24.3
 
 ## Human thinking comes first
 
@@ -55,7 +55,7 @@ Check each source’s origin, version and relevance. Cite its exact path or URL 
 
 ## Read workbooks completely enough for the task
 
-Read the actual sheet or table, headers and full relevant rows. Keep IDs, statuses, versions and source references in extracts. Exclude rows marked **OVERWRITE ME** from lookups, evidence and totals. Report a record absent only after checking its complete owning table or a complete scoped query. Before assigning a new ID, check the full set of IDs for that record type. If you have only an extract, leave the new ID pending in the draft.
+Read the actual sheet or table, headers and full relevant rows. Keep IDs, statuses, versions and source references in extracts. Exclude rows marked **OVERWRITE ME** from lookups, evidence and totals. Before reporting a record absent, check the owning sheet, including relevant populated rows outside the table. If you can only see the table or an extract, say what you checked. Flag any match outside the table and verify its placement before relying on or editing it. Before assigning a new ID, check the full set of IDs for that record type. If you have only an extract, leave the new ID pending in the draft.
 
 ## Follow exact relationships
 
@@ -65,9 +65,9 @@ Use live records for answers and worked examples to learn the format. Trace sign
 
 ## Check status and what was saved
 
-Separate the status of a record from whether a change was saved. Quote the recorded status when it matters. Present Reviewed findings as team findings, Evidenced needs as supported needs, and Agreed decisions within their recorded scope. Label Draft, Proposed, superseded and withdrawn material when it is relevant. A Withdrawn finding is a historical record. If it is cited in current work, explain the withdrawal and flag any claim that still relies on it. Attribute a conclusion from an external source to its author, including when an older import saved it as a Draft finding. Use a meeting source to describe what people agreed even if their record is still pending. Mark an unsaved change as **Not saved**. Cite the meeting source or attribute the team’s account if that is what you have. Refer to a new or changed record as saved only after reopening and verifying it.
+Separate the status of a record from whether a change was saved. Quote the recorded status when it matters. Present Reviewed findings as team findings and Agreed decisions within their recorded scope. An Evidenced need records the team’s assessment. Check its relevant citations before presenting it as currently supported. Label Draft, Proposed, superseded and withdrawn material when it is relevant. A Withdrawn finding is a historical record. If an approved pending source confirms the team withdrew a finding, stop relying on it even if the workbook still says Reviewed. State the saved status and that the withdrawal is Not saved. If it is cited in current work, explain the withdrawal and flag [affected records](how-to/files/findings-and-observations.md#withdraw-a-finding). If no usable support remains, report that gap. If other evidence remains, identify it and say whether the team has checked it against the claim on its own. Keep the recorded need, fulfilment and decision statuses until the team makes a new judgement. Attribute a conclusion from an external source to its author, including when an older import saved it as a Draft finding. Use a meeting source to describe what people agreed even if their record is still pending. Mark an unsaved change as **Not saved**. Cite the meeting source or attribute the team’s account if that is what you have. Refer to a new or changed record as saved only after reopening and verifying it.
 
-Use **Saved and verified**, **Not saved** or **Save unverified** for each changed record when one skill hands work to another. Include its destination, ID if verified, recorded or proposed status, and source. For a handover or new session, include that information and any unresolved checks in the existing project notes or handover when authorised, or give the team a short note to carry forward. Unresolved checks need the ID, workbook, sheet, row or field, and the issue. Compare earlier notes with the current records before relying on them.
+Use **Saved and verified**, **Not saved** or **Save unverified** for each changed record when one skill hands work to another. Include its destination, ID if verified, recorded or proposed status, and source. Carry unresolved checks and unsaved changes into the next session through the approved **Pending changes** location in [project config](project-config.md) when set and authorised. Otherwise, give the team a short note to carry forward. For a question about current status or reliance, check approved pending changes for the affected records. If that location is inaccessible or unset and the answer depends on it, explain that you could only check the saved records or supplied sources. Unresolved checks need the ID, workbook, sheet, row or field, and the issue. Compare earlier notes with the current records before relying on them.
 
 ## Ground claims
 

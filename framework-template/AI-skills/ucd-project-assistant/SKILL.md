@@ -5,7 +5,7 @@ description: Coordinate UCD Project Foundations workflows for multidisciplinary 
 
 # UCD project assistant
 
-**Skill revision:** 2026-11-24.2
+**Skill revision:** 2026-11-24.3
 
 Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
 

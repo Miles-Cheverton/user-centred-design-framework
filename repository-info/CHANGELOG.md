@@ -4,6 +4,11 @@
 
 The target starter contains [upgrade instructions](../framework-template/how-to/README.md#upgrade-an-existing-project). Open those instructions from the version you downloaded and follow the file list for your starting version.
 
+## 0.5.4 — 2026-11-24 — peer review release
+
+- Clarified how withdrawn findings affect current evidence, and where to carry unsaved changes between sessions.
+- Added a check for rows outside the Findings and Observations table and strengthened the quick test and in-place upgrade instructions. [v0.5.4 upgrade steps](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.5.4/framework-template/how-to/README.md#upgrade-an-existing-project)
+
 ## 0.5.3 — 2026-11-24 — peer review release
 
 - Added team-owned conventions in project config, an adaptation guide and upgrade checks for keeping skills and guidance together.

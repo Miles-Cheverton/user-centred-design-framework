@@ -6,6 +6,8 @@ These fictional session extracts belong to the quick-test workbooks in this fold
 
 00:07:12 — “It just says the branch is closed. Where else can I take them?”
 
+The team later checked the session details and found that it covered a branch outside the study scope.
+
 ## SES-941
 
 00:04:26 — “It says reserved. I’d go to the library now.”

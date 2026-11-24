@@ -5,7 +5,7 @@ description: Draft a sourced UCD briefing for refinement, playback, phase review
 
 # Prepare a briefing
 
-**Skill revision:** 2026-11-24.2
+**Skill revision:** 2026-11-24.3
 
 Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
 
@@ -15,7 +15,7 @@ Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`
 
 ## Prepare the brief
 
-Confirm the audience, purpose and working folder. Keep fictional examples out of live briefings. For a current-position brief, check recent approved meeting sources and any handover the team provided. If there is reason to expect a decision is missing from the records, ask for the relevant source or report the limit. Use [Find and explain](../find-and-explain/SKILL.md#answer-from-the-project-records) to trace what people learnt or decided. Give their agreed priorities and criteria with their basis. Mention a Withdrawn finding when it explains a change or leaves a gap in the evidence. Use the [status and save rules](../../ai-guidance.md#check-status-and-what-was-saved) to label open or unsaved items. If using an unsaved update, cite the underlying source and say the register update is pending. Identify simulated behaviour, the scope of any fulfilment or verification result and open choices. [AI guidance](../../ai-guidance.md)
+Confirm the audience, purpose and working folder. Keep fictional examples out of live briefings. For a current-position brief, check approved meeting sources, any handover the team supplied and relevant **Pending changes** in project config. If there is reason to expect a decision is missing from the records, ask for the relevant source or report the limit. Use [Find and explain](../find-and-explain/SKILL.md#answer-from-the-project-records) to trace what people learnt or decided. Give their agreed priorities and criteria with their basis. Mention a Withdrawn finding when it explains a change or leaves a gap in the evidence. Say which current claim needs review and distinguish any remaining evidence from the team’s reassessment. Use the [status and save rules](../../ai-guidance.md#check-status-and-what-was-saved) to label open or unsaved items. If using an unsaved update, cite the underlying source and say the register update is pending. Identify simulated behaviour, the scope of any fulfilment or verification result and open choices. [AI guidance](../../ai-guidance.md)
 
 | Briefing | Include |
 |---|---|

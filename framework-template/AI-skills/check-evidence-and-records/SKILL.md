@@ -5,7 +5,7 @@ description: Check evidence for UCD decisions, user need assessments and claims 
 
 # Check evidence and records
 
-**Skill revision:** 2026-11-24.2
+**Skill revision:** 2026-11-24.3
 
 Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
 
@@ -26,7 +26,7 @@ Identify the claim, decision or area of the project in scope. Confirm the workin
 
 Put any duplicate ID alert near the top of an integrity report. Give the ID and every confirmed location so the team can find the affected rows. Say which registers you could check if coverage was partial. [How to check for duplicate IDs](../../how-to/record-conventions.md#check-for-duplicate-ids)
 
-For a Withdrawn finding, check the reason and retained source. Flag current records that still rely on it, give their IDs and leave any reassessment to the team. [Withdraw a finding](../../how-to/files/findings-and-observations.md#withdraw-a-finding)
+For a Withdrawn finding, check that **Evidence and source** retains the original citation and gives the reason for withdrawal. If the citation is missing, check an approved workbook version or original notes before proposing a repair. Use the [reverse lookup](../../how-to/record-conventions.md#reverse-lookups) to flag current records that still rely on it. Give their IDs, distinguish remaining support from unsupported claims, and leave reassessment to the team. [Withdraw a finding](../../how-to/files/findings-and-observations.md#withdraw-a-finding)
 
 Make a repair when the user authorises it and the correct change is established. Verify it after saving. Leave new findings, fulfilment judgements and decisions for the team.
 

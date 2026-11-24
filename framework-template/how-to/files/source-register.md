@@ -29,7 +29,7 @@ For survey exports, record the questionnaire version, collection period and filt
 
 Check the author’s authority, the evidence, the date and whether the claim applies to this service and its users. For example, an approved commissioning brief can establish the budget while its demand estimate still needs testing. People judge the weight; AI can find exact passages and record the team’s assessment.
 
-In [findings](../../findings-and-observations.xlsx), cite the DOC ID, exact version or path and page, section or other locator in **Evidence and source**. Put limits on a particular claim alongside that claim.
+In [findings](../../findings-and-observations.xlsx), cite the DOC ID, exact version or path and page, section or other locator in **Evidence and source**. Put limits on a particular claim alongside that claim. If a withdrawal identifies a verified limit of the source itself, add that limit to **Description** with the affected scope and relevant FND ID. Keep the original source and version.
 
 ## Record replacements
 

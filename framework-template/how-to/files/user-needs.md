@@ -13,7 +13,7 @@ Enter an **ID** and **Need**. You can leave **Status** blank while making a firs
 | ID | Stable need ID, for example `UN-001`. |
 | User group IDs | One or more exact UG IDs before relying on the need. |
 | Need | What people need to do and why. |
-| Supporting record IDs | Evidence that the need exists. An Evidenced need requires at least one EV or FND ID and its user group IDs. Follow the record to its source. |
+| Supporting record IDs | Evidence that the need exists. An Evidenced need requires at least one EV or FND ID and its user group IDs. Follow the record to its source. If it was withdrawn, note the gap in **Scope and evidence** and ask the team whether any remaining evidence supports the need. Keep the recorded status until the team reassesses it. |
 | Status | Proposed, Evidenced or Superseded. This describes support for the need. |
 | Superseded by | Exact replacement UN IDs. Flag an unknown replacement. |
 | Fulfilment | The team’s assessment: Not assessed, Not met, Partly met or Met in full. |
@@ -24,7 +24,7 @@ Enter an **ID** and **Need**. You can leave **Status** blank while making a firs
 
 Keep one current fulfilment assessment per user need. Record the team’s judgement and the scope it assessed on the same row. A web pilot may meet a need online and leave the telephone route unassessed. Link the DEC ID in **Scope and evidence** for Deferred or Will not address, and for Will address where available. You can capture a decision before assessing fulfilment.
 
-The totals include Proposed and Evidenced rows, plus first captures with blank status and no fulfilment assessment. Blank fulfilment counts as Not assessed. The totals omit starter and superseded rows, repeated IDs, rows missing an ID or need, IDs with stray spaces and unrecognised status or fulfilment values. State which versions or routes the figures cover. Filter **Delivery decision** to see deferred needs or those the team will not address.
+The totals include Proposed and Evidenced rows, plus first captures with blank status and no fulfilment assessment. Blank fulfilment counts as Not assessed. The totals omit starter and superseded rows, repeated IDs, rows missing an ID or need, IDs with stray spaces and unrecognised status or fulfilment values. State which versions or routes the figures cover. The totals reflect recorded assessments. If a withdrawal puts an assessment in doubt, explain that limit before using the totals. Filter **Delivery decision** to see deferred needs or those the team will not address.
 
 After editing, compare the four totals with the active rows. If a preview still shows an old total, recalculate in a spreadsheet editor. The row 1 warnings show entries outside the table, invalid status or fulfilment, and record rows with a missing ID or need, repeated IDs or stray spaces in an ID. A non-zero warning means check the affected rows before quoting totals. Use [Check evidence and records](../../AI-skills/check-evidence-and-records/SKILL.md#choose-the-check) to locate issues and check evidence links. Report verified counts with their limits if any problems remain. When the assessment changes, retain earlier evidence, decisions and workbook versions.
 

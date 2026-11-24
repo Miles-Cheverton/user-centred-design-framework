@@ -63,35 +63,45 @@ You can add local notes and extra columns at the right of a table. Before renami
 
 ## Upgrade an existing project
 
-1. Read **Starter version** in your project README and find the file list below. Extract the new ZIP to a separate folder outside the project. Keep a restorable copy of what you will change. Find the original starter in the [GitHub releases](https://github.com/Miles-Cheverton/user-centred-design-framework/releases) if you need to compare local edits. Keep the ZIP you installed if you work offline.
+1. Read **Starter version** in your project README and find the file list below. Extract the new ZIP to a separate folder outside the project. Keep the working project in place. Keep a restorable copy of the files you will change. Find the original starter in the [GitHub releases](https://github.com/Miles-Cheverton/user-centred-design-framework/releases) if you need to compare local edits. Keep the ZIP you installed if you work offline.
 2. Keep your project config, local notes, populated workbooks and sources. Update only the paths listed. Compare your copy with the old and new starter before replacing customised files. Keep the current **Starter version** line when merging the README.
-3. Update the skills, AI guidance, handbook, record conventions, linked file guides and examples together. Stage and check the new set before putting it into use. If any of those files needs review, keep the previous matched set in use, including any separately installed skills.
-4. [Refresh the skills where you use them](../AI-skills/README.md#refresh-skills-after-an-upgrade). Compare one existing need, its finding and source, and any linked decision or assessment with your pre-upgrade copy. Check the revisions and run the quick test. Set **Starter version** to the version in the downloaded starter only after these checks pass.
+3. Stage the skills, AI guidance, handbook, record conventions, linked file guides and examples together. Check each listed file against the target starter. If any dependency still needs review, keep the previous matched set in use, including any separately installed skills.
+4. [Refresh the skills where you use them](../AI-skills/README.md#refresh-skills-after-an-upgrade). Check the revisions in the installed skills and both shared guidance files. Open the project's [Findings and observations guide](files/findings-and-observations.md#withdraw-a-finding) and compare its revision and withdrawal steps with the target starter. Check that **Withdrawn** is available in the working findings workbook. If anything is missing or you cannot verify it, keep the old **Starter version**.
+5. Compare one existing need, its finding and source, and any linked decision or assessment with your pre-upgrade copy. Run the quick test. Set **Starter version** to the version in the downloaded starter once the checks pass.
 
 If you stop partway through, compare the listed files with the target starter and finish what remains. Use the backup or version history to recover only the affected files. Check for newer team edits before restoring them.
 
+### Files to update from v0.5.3
+
+- Merge the starter `README.md`, keeping your project details. Keep your `project-config.md` and add the optional **Pending changes** location if the team already has an approved place for it.
+- Update `ai-guidance.md`, `AI-skills/README.md` and the six `SKILL.md` files. Keep any skills your team added.
+- Update `how-to/README.md`, `how-to/record-conventions.md` and the four guides `findings-and-observations.md`, `user-needs.md`, `decisions.md` and `source-register.md` under `how-to/files/`.
+- Update `how-to/quick-test/example-findings-and-observations.xlsx` and `how-to/quick-test/example-session-notes-v1.md`. They are fictional.
+- Keep your populated `findings-and-observations.xlsx`. The [Outside table warning](#add-the-findings-workbook-warning) is optional for existing projects.
+
 ### Files to update from v0.5.2
 
-- Merge the starter `README.md`, keeping your project details. Keep your `project-config.md` and add the optional team conventions section if useful.
-- Update `ai-guidance.md`, `AI-skills/README.md` and the six `SKILL.md` files. Keep any skills your team added.
-- Update `how-to/README.md`, `how-to/record-conventions.md` and the `findings-and-observations.md` and `user-needs.md` guides under `how-to/files/`.
-- In `how-to/quick-test/`, update `example-user-needs.xlsx`, `example-findings-and-observations.xlsx` and `example-session-notes-v1.md`. They are fictional.
-- Keep your populated `findings-and-observations.xlsx`. [Add Withdrawn to the existing dropdown](#add-withdrawn-to-an-existing-findings-workbook) without replacing the workbook.
-- Keep your populated `user-needs.xlsx`. The updated totals and warnings are optional for existing projects. Use the instructions below if you want to add them.
+Apply the v0.5.3 list from the new starter. Also update `how-to/quick-test/example-user-needs.xlsx` and use the [dropdown steps below](#add-withdrawn-to-an-existing-findings-workbook). Keep your populated `user-needs.xlsx`. The updated [totals and warnings](#update-the-user-needs-totals-and-warnings) are optional.
 
 ### Files to update from v0.5.1 or v0.4
 
-Apply the v0.5.2 list from the new starter. Also update `how-to/worked-service-handoff.md`, `how-to/worked-beta-readiness.md`, `how-to/files/decisions.md` and `how-to/files/source-register.md`. If you start on v0.4, also update `how-to/files/assumptions.md`. For an older starter, use the [v0.4 migration notes](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.4/repository-info/CHANGELOG.md#upgrading-from-v037-or-earlier) first.
+Apply the v0.5.2 list from the new starter. Also update `how-to/worked-service-handoff.md` and `how-to/worked-beta-readiness.md`. If you start on v0.4, also update `how-to/files/assumptions.md`. For an older starter, use the [v0.4 migration notes](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.4/repository-info/CHANGELOG.md#upgrading-from-v037-or-earlier) first.
 
 ### Update the user needs totals and warnings
 
-On a copy of your workbook, confirm that the table is named `userNeeds` and uses the starter column names. Check that cells B1 to I1 on its sheet contain only earlier starter totals or warnings, or are empty. If there are local formulas or labels in those cells, keep them and use the project integrity check until you can adapt the new formulas.
+On a copy, confirm that the table is named `userNeeds` and uses the starter column names. Cells B1 to I1 should contain only starter totals or warnings, or be empty. If they contain local formulas or labels, keep them and use the integrity skill until you can adapt the formulas.
 
-Copy the formula text from the new starter’s formula bar for each cell B1 to I1. Paste it into the matching cell in your workbook so the table references resolve locally. Recalculate, check the totals against the rows, and verify that the records and dropdowns are intact before applying the change. The highlighted warning style in the starter is separate from the formulas.
+Copy the formula text from the new starter’s formula bar for each cell B1 to I1 and paste it into the matching cell in the copy so the table references resolve locally. Recalculate and check the totals, records and dropdowns. Once the test passes, repeat the edits on the latest working workbook. Keep any edits your colleagues have made in the meantime.
 
 ### Add Withdrawn to an existing findings workbook
 
-Work on a copy of your workbook. In the **Records** sheet, open the Excel Data Validation rule for the **Status** column. Add **Withdrawn** to the list alongside **Draft**, **Reviewed** and **Superseded**. In the standard starter this rule covers D4:D1003. If the table has grown or the range has changed, update the rule for the Status cells in your copy. Check that the new option is available and the existing rows and choices are intact before applying it to the working file. [How to record a withdrawal](files/findings-and-observations.md#withdraw-a-finding)
+1. On a copy, open **Records** and select the **Status** cells. The starter rule covers D4:D1003. Use the actual range in your workbook, including any longer table or separate ranges with the same rule.
+2. Open **Data Validation** and add **Withdrawn** to the existing list. For the standard rule with comma-separated choices, use `Draft,Reviewed,Superseded,Withdrawn`. Keep existing local choices and use the separator that your rule already uses. If your Excel version offers **Apply these changes to all other cells with the same settings**, use it only for cells that share the intended Status rule. [Microsoft’s dropdown editing guide](https://support.microsoft.com/en-us/excel/add-or-remove-items-from-a-drop-down-list)
+3. Check the new option and the existing records. Repeat the rule edit on the latest shared workbook, keeping any changes colleagues made while you tested. [How to record a withdrawal](files/findings-and-observations.md#withdraw-a-finding)
+
+### Add the findings workbook warning
+
+If C1 is free in your findings workbook and its table is named `findings` with the starter column names, copy just the C1 formula text from the starter. Test and recalculate on a copy. Repeat the edit in place on the latest working workbook once it passes. Keep any team content already in C1. The integrity skill can check for rows outside the table without this formula.
 
 ## Reference guides
 
