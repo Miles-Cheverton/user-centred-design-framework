@@ -1,6 +1,6 @@
 # Journey description — [Journey ID], [version]
 
-Match the diagram and this text to one version in [User journeys](../../../user-journeys.xlsx).
+Match the diagram and this text to one version in [User journeys](../../../document-tracker.xlsx).
 
 **Name** · [Journey name]<br>
 **Model type and purpose** · [What this diagram represents and why]<br>

@@ -1,6 +1,6 @@
 # Research sessions
 
-**Working file** [research-sessions.xlsx](../../research-sessions.xlsx)
+**Working file (via document tracker)** [research-sessions.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 
@@ -20,10 +20,14 @@ See [when to log a discovery chat and how sessions share a round](../research-pr
 | Consent reference | Restricted consent record for the session, when it involves participants. |
 | Current transcript link | One exact path or version-specific URL. Leave blank when the status is Not applicable or Not available. |
 | Transcript status | Not applicable, Not available, Machine-generated, Checked or Corrected. Machine-generated, Checked and Corrected each require a link. |
-| Recording and notes links | Exact paths or version-specific URLs for retained recordings and notes. Separate multiple links with a semicolon and a space. |
+| Recording and notes links | Exact paths or version-specific URLs for retained recordings and notes. Separate multiple links with a semicolon and a space. In the session notes, record which group IDs, roles, routes or material circumstances each participant code represented in that session, where appropriate and permitted. |
+
+## Check research coverage
+
+For each session, use the participant codes and the contemporaneous notes to establish which user groups and circumstances were represented. For example, PAR-001 represented UG-003 as a call handler in SES-008. Use the same participant code in a later session if permitted and record their role and relevant UG IDs for that session. Count historical coverage using the session-specific record. Where the role or route is uncertain, flag coverage as unverified.
 
 ## Update transcript references
 
-When correcting a transcript, update the link and status together. Retain older versions where permitted and keep findings linked to the exact version used. If withdrawal or retention rules make material unavailable, update the session and reassess affected findings. [Research file naming and storage](../research-protocol.md#store-and-name-material)
+When correcting a transcript, update the link and status together. Retain older versions where permitted and keep findings linked to the exact version used. If withdrawal or retention rules make material unavailable, update the affected links and status and record the permitted non-identifying reason in the session’s owning record or notes. Ask the team to review affected EV/FND records and downstream claims. Follow the [research retention and withdrawal procedure](../research-protocol.md#retention-and-withdrawal). [Research file naming and storage](../research-protocol.md#store-and-name-material)
 
 [GDS guidance on consent](https://www.gov.uk/service-manual/user-research/getting-users-consent-for-research)

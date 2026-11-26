@@ -6,7 +6,7 @@ Keep one [round protocol](../research/RND-001/protocol.md) for the plan, materia
 
 1. Use the round ID in the folder and protocol heading. For a new round, start with a clean protocol and the materials you need. Choose a method, lead and procedure that fit the research questions.
 2. Explain recruitment or source selection. Identify who might be missed by the plan, including people who use a different channel, need support or use assistive technology. Plan how to include them when their experience matters to the question.
-3. Prepare materials, identify exact design versions and agree consent, access and retention before starting.
+3. Prepare materials, identify exact design versions and agree consent, access and retention before starting. If testing a hypothesis, give its ASM ID, any relevant MET ID and the result that would support or challenge it in the protocol or linked delivery test.
 
 ## Discussion guides, surveys and Whiteboards
 
@@ -32,7 +32,7 @@ People choose the calculations and interpret the results. AI can run the specifi
 
 ## During the session
 
-Follow up on what the participant says. Use the guide as a prompt when useful. Keep what happened, what the participant said and your interpretation distinct in notes. Record material changes or interventions and collect only material needed for the questions.
+Follow up on what the participant says. Use the guide as a prompt when useful. Keep what happened, what the participant said and your interpretation distinct in notes. Record material changes or interventions and collect only material needed for the questions. In the session notes, use codes to record which roles, groups, routes and relevant circumstances people represented in that session when permitted.
 
 ## Record sessions and discovery chats
 
@@ -44,7 +44,7 @@ Use one row in [Research sessions](files/research-sessions.md) for each conversa
 | RND-001 | SES-002 | 2026-10-08 | PAR-002 |
 | RND-001 | SES-003 | 2026-10-09 | PAR-001; PAR-003 |
 
-Three people took part across three sessions. PAR-001 returned and kept the same code. Link each session’s own notes or media on its row. For a notes-only session, link the notes in **Recording and notes links** and set **Transcript status** to Not applicable.
+Three people took part across three sessions. PAR-001 returned and kept the same code. Link each session’s own notes or media on its row. Record in the notes which UG IDs and circumstances each participant represented in that session. A change to a participant’s later group membership leaves these historical records as recorded. For a notes-only session, link the notes in **Recording and notes links** and set **Transcript status** to Not applicable.
 
 - **Log a research session** when you are learning about someone’s experience of using, providing or supporting the service. A call handler talking you through how they recover a failed booking is a research session even when it feels like a chat. Follow the round’s consent arrangements.
 - **Keep the meeting notes** when the conversation is about the project’s remit, priorities or constraints. If a policy lead explains a funding limit, record it in [Constraints](files/constraints.md) and cite the relevant passage in the notes. Use the [source register](files/source-register.md) if the notes need a DOC citation.
@@ -63,17 +63,19 @@ Use `p01`, `p02` and so on for recordings, and `v01`, `v02` and so on for transc
 
 In [Research sessions](files/research-sessions.md), link recordings and notes using a semicolon and space between links. Set **Transcript status** for the one file in **Current transcript link**. Machine-generated, Checked and Corrected require a linked file. Not applicable and Not available require a blank link.
 
-Keep useful timestamps and coded speaker labels. Use **Checked** when a person has checked the transcript against the session source. Use **Corrected** when they saved a corrected version. When correcting a transcript, update its link and status and retain the earlier version where permitted. Keep existing findings tied to the version they cite.
+Keep useful timestamps and coded speaker labels. Use **Checked** when a person has checked the transcript against the session source. Use **Corrected** when they saved a corrected version. When correcting a transcript, update its link and status and retain the earlier version where permitted. Keep existing findings tied to the version they cite. Flag observations or conclusions invalidated by the correction for the team to review.
 
 ## Analyse and close the round
 
 1. Have the team [interpret the evidence together](evidence-and-interpretation.md#human-analysis-before-documentation). Use **Team debrief** for its reasoning, disagreements and open questions, or link the notes it already keeps. For a finding informed by a board, record the team’s reasoning in text and check what the cited snapshot covers.
-2. Record conclusions and their limits in [Findings](files/findings-and-observations.md). Note in the debrief what the team reviewed and what still needs analysis. At playback, compare who you planned to reach with the routes and circumstances actually tested. Check who was missing from the plan itself. A group label such as “borrowers” does not establish telephone or assistive technology coverage. Use only what was recorded, state unknowns and carry material gaps into [research questions](files/research-questions.md). [Worked example of research coverage](worked-service-handoff.md#research-coverage-and-external-material).
+2. Record conclusions and their limits in [Findings](files/findings-and-observations.md). Note in the debrief what the team reviewed and what still needs analysis. At playback, compare who you planned to reach with the routes and circumstances actually tested. Check who was missing from the plan itself. Check the participant roles and group IDs in each session’s existing notes. The participant register alone cannot establish a particular session’s coverage. Use only recorded roles, routes and circumstances, state unknowns and carry material gaps into [research questions](files/research-questions.md). [Worked example of research coverage](worked-service-handoff.md#research-coverage-and-external-material).
 3. Keep the round Analysing while material still needs analysis. Once the team finishes its review, record the findings and mark it Complete. If the evidence supports no conclusion, record why in the debrief and carry the unanswered questions forward.
 
 ## Retention and withdrawal
 
-Follow the agreed procedure when a participant withdraws or the retention period ends. Remove affected copies, including retained versions, when required. Record the permitted explanation for an unavailable source in its owning record. Review any findings or decisions that rely on it. Limit access to recordings, transcripts and participant data. Participant codes are pseudonymous if someone can use a recording or key to identify the person.
+Follow the agreed procedure when a participant withdraws or the retention period ends. Remove affected copies, including retained versions, when required. Redact or remove identifying words, quotations and source details from related records and notes as required. Where permitted, preserve stable record IDs, status and a non-identifying explanation for the unavailable source in the owning record. Keep source IDs and locators only where permitted and mark the affected links unavailable. Never reconstruct removed material.
+
+Ask the team to review any EV observations, FND findings and other claims that depend on the affected material. Use [Trace withdrawn evidence](files/findings-and-observations.md#trace-withdrawn-evidence) to find downstream records and any Answered research questions for review. Record the team's decisions and the evidence that remains usable. Limit access to recordings, transcripts and participant data. Participant codes are pseudonymous if someone can use a recording or key to identify the person.
 
 ## Practice basis
 

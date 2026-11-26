@@ -1,6 +1,6 @@
 # Decisions
 
-**Working file** [decisions.xlsx](../../decisions.xlsx)
+**Working file (via document tracker)** [decisions.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 
@@ -28,8 +28,8 @@ When someone puts a specific choice to the team, record it as **Proposed** and c
 
 - If evidence behind an agreed decision is withdrawn, record the evidence gap in **Why** and ask the team whether it affects the decision. Keep the recorded status until that review.
 - Update the affected records and cite the DEC ID. In **Why**, name the affected record IDs when that helps a colleague find what changed. Keep superseded or withdrawn decisions and their original reasons.
-- For a change in problem framing, put the new framing in **Decision**. Cite the mandate, previous wording or version and reason in **Why**. Update the [problem statement](../../problem-statement.md).
-- For a deferred or unaddressed need, cite its UN ID and explain why. Update the need's **Delivery decision** and cite the DEC ID in **Scope and evidence**. [User needs workbook](../../user-needs.xlsx)
+- For a change in problem framing, put the new framing in **Decision**. Cite the mandate, previous wording or version and reason in **Why**. Update the [problem statement](../../document-tracker.xlsx).
+- For a deferred or unaddressed need, cite its UN ID and explain why. Update the need's **Delivery decision** and cite the DEC ID in **Scope and evidence**. [User needs workbook](../../document-tracker.xlsx)
 
 See the [worked decision example](../worked-service-handoff.md#follow-the-finding-forward-to-a-decision-and-an-outcome-check).
 

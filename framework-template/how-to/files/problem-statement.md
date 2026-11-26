@@ -1,6 +1,6 @@
 # Problem statement
 
-**Working file** [problem-statement.md](../../problem-statement.md)
+**Working file (via document tracker)** [problem-statement.md](../../document-tracker.xlsx)
 
 ## First capture
 
@@ -10,8 +10,8 @@ This template uses one sentence to describe who experiences the problem, what is
 
 ## Check and update
 
-Check the wording with the team against [findings](../../findings-and-observations.xlsx). Keep the original mandate in the [source register](../../project-sources/source-register.xlsx).
+Check the wording with the team against [findings](../../document-tracker.xlsx). Keep the original mandate in the [source register](../../document-tracker.xlsx).
 
-For a material change, put the new wording in **Decision**. In **Why**, record the earlier wording or version, the mandate’s DOC ID and passage, and the findings that explain the change. Update affected scope, outcome and research records in their own files. [Decisions](../../decisions.xlsx)
+For a material change, put the new wording in **Decision**. In **Why**, record the earlier wording or version, the mandate’s DOC ID and passage, and the findings that explain the change. Update affected scope, outcome and research records in their own files. [Decisions](../../document-tracker.xlsx)
 
 [GDS guidance on discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)

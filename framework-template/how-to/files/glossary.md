@@ -1,6 +1,6 @@
 # Glossary
 
-**Working file** [glossary.xlsx](../../glossary.xlsx)
+**Working file (via document tracker)** [glossary.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 

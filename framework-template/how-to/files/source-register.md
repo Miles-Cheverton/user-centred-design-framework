@@ -1,6 +1,6 @@
 # Source register
 
-**Working file** [source-register.xlsx](../../project-sources/source-register.xlsx)
+**Working file (via document tracker)** [source-register.xlsx](../../document-tracker.xlsx)
 
 ## File a source
 
@@ -29,7 +29,7 @@ For survey exports, record the questionnaire version, collection period and filt
 
 Check the author’s authority, the evidence, the date and whether the claim applies to this service and its users. For example, an approved commissioning brief can establish the budget while its demand estimate still needs testing. People judge the weight; AI can find exact passages and record the team’s assessment.
 
-In [findings](../../findings-and-observations.xlsx), cite the DOC ID, exact version or path and page, section or other locator in **Evidence and source**. Put limits on a particular claim alongside that claim. If a withdrawal identifies a verified limit of the source itself, add that limit to **Description** with the affected scope and relevant FND ID. Keep the original source and version.
+In [findings](../../document-tracker.xlsx), cite the DOC ID, exact version or path and page, section or other locator in **Evidence and source**. Put limits on a particular claim alongside that claim. If a withdrawal identifies a verified limit of the source itself, add that limit to **Description** with the affected scope and relevant FND or EV ID. Keep the original source and version where permitted. Follow the agreed retention and withdrawal procedure when a source or identifying details have to be removed. Preserve the DOC ID where permitted and leave a non-identifying explanation in **Description**. If the original locator cannot be retained, remove it and note that the source is unavailable. Flag the unavailable source and any affected evidence for team review.
 
 ## Record replacements
 

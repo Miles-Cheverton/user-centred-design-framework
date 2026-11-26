@@ -1,10 +1,10 @@
 # Prototypes
 
-**Working file** [prototypes.xlsx](../../prototypes.xlsx)
+**Working file (via document tracker)** [prototypes.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 
-Enter **ID** and **Version** when a prototype is used in research, informs a significant decision, receives substantive review or is handed over. Retain what the team learned from disposable sketches in [findings](../../findings-and-observations.xlsx).
+Enter **ID** and **Version** when a prototype is used in research, informs a significant decision, receives substantive review or is handed over. Retain what the team learned from disposable sketches in [findings](../../document-tracker.xlsx).
 
 ## Fields
 
@@ -23,6 +23,6 @@ If a link will show later edits, retain the state you used through a saved versi
 
 Add a short note when the link needs context. In the note, link to the exact artefact and give the starting point, relevant setup, what the prototype does and what it simulates or leaves out. Include related journey versions or decision IDs when useful. You can link to this note from the workbook. If you cannot open the prototype, state what you could check from the note or capture.
 
-Link [sessions](../../research-sessions.xlsx) to every prototype version actually shown. After the team analyses the results, cite the relevant version in **Evidence and source** for each observation or finding. Retain any discarded versions that explain significant learning or decisions.
+Link [sessions](../../document-tracker.xlsx) to every prototype version actually shown. After the team analyses the results, cite the relevant version in **Evidence and source** for each observation or finding. Retain any discarded versions that explain significant learning or decisions.
 
 [GDS guidance on making prototypes](https://www.gov.uk/service-manual/design/making-prototypes)

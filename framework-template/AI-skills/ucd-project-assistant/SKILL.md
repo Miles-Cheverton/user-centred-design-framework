@@ -5,9 +5,9 @@ description: Coordinate UCD Project Foundations workflows for multidisciplinary 
 
 # UCD project assistant
 
-**Skill revision:** 2026-11-24.3
+**Skill revision:** 2026-11-26.2
 
-Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
+Verify that this skill and the actual project copies of `ai-guidance.md` and `how-to/record-conventions.md` have the same revision before saving project changes. If a revision differs or cannot be verified, report the gap and limit work to reading, checking and drafting. Authorised framework upgrades may proceed using the [upgrade steps](../../how-to/README.md#upgrade-an-existing-project) to restore a matching set.
 
 ## Copy-and-paste example
 
@@ -15,7 +15,7 @@ Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`
 
 ## Work through the request
 
-Start with the requested result and working folder. Use the [shared guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to bring in the disciplines relevant to the decision. For a question that crosses roles, connect their evidence around the same user outcome. Choose only the workflows the result needs.
+Start with the requested result and working folder. Follow the [scope rules](../../ai-guidance.md#start-with-the-task) and use the [document tracker](../../document-tracker.xlsx) for work across the project. Use the [shared guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to bring in the disciplines relevant to the decision. For a question that crosses roles, connect their evidence around the same user outcome. Choose only the workflows the result needs.
 
 - [Find and explain](../find-and-explain/SKILL.md) for a sourced answer or advice on a project choice.
 - [Capture or update records](../capture-or-update-records/SKILL.md) to propose or save records of the team's work.
@@ -23,4 +23,4 @@ Start with the requested result and working folder. Use the [shared guidance for
 - [Prepare a briefing](../prepare-a-briefing/SKILL.md) for refinement, playback, phase review or handover.
 - [Import an existing project](../import-existing-project/SKILL.md) to bring existing documents into the framework.
 
-Carry each relevant record’s status and [save result](../../ai-guidance.md#check-status-and-what-was-saved) between workflows. Return one answer the team can use, with references. Make any disagreement, access gap or decision that needs a person clear.
+Carry each relevant record’s status, evidence gaps, scope and [save result](../../ai-guidance.md#check-status-and-what-was-saved) between workflows. Use the [withdrawal lookup](../../how-to/record-conventions.md#trace-withdrawn-evidence) across workflows when evidence is no longer usable. Reconcile any pending changes with newer evidence before reapplying them. Return one answer the team can use, with references. Make any disagreement, access gap or decision that needs a person clear.

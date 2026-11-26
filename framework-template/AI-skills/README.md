@@ -1,6 +1,6 @@
 # AI skills
 
-Choose a skill below or start with the [UCD project assistant](ucd-project-assistant/SKILL.md). Say what you want back. For advice, name the decision and who will use the answer. The same skills support all eight disciplines in the [guidance for experienced teams](../ai-guidance.md#advise-an-experienced-team). Give the assistant the project records and linked guidance it needs. If you install or upload a skill separately, give it the project's AI guidance and any linked file guides it cannot open.
+Choose a skill below or start with the [UCD project assistant](ucd-project-assistant/SKILL.md). Say what you want back. For advice, name the decision and who will use the answer. The same skills support all eight disciplines in the [guidance for experienced teams](../ai-guidance.md#advise-an-experienced-team). Give the assistant the project records and linked guidance it needs. For a task across the project, include its [document tracker](../document-tracker.xlsx). If you install or upload a skill separately, give it the project's AI guidance and any linked file guides it cannot open.
 
 ## Choose a task
 
@@ -20,8 +20,8 @@ Choose a skill below or start with the [UCD project assistant](ucd-project-assis
 
 - **Skills used from the project or linked to it.** Open the link or file the assistant actually uses. If the project moved, update that link.
 - **Skills uploaded, copied or pasted separately.** Open the installed copy in the app and compare its **Skill revision** to the corresponding file in the new starter. Refresh each skill you use, including any that write to the project. Give it access to the updated project guidance and related files.
-- Compare the **Guidance revision** in the actual project copies of `ai-guidance.md` and `how-to/record-conventions.md` with the target starter. This revision expects `2026-11-24.3` in both files and in each of the six project skills and in the Findings and observations file guide. If any revision is missing or different, or you cannot verify the installed copy, the upgrade is unverified. Keep the previous matched set in use until you've resolved it.
-- In a fresh chat, select the skill and run the quick test below. A correct example answer checks evidence access. It cannot verify the installed copy on its own.
+- Compare the **Guidance revision** in the actual project copies of `ai-guidance.md` and `how-to/record-conventions.md` with the target starter. This revision expects `2026-11-26.2` in both files and in each of the six project skills. During an upgrade, also check the Findings and observations file guide against the target starter. If any revision is missing or different, or you cannot verify the installed copy, the upgrade is unverified. Use mismatched or unverified skills for reading, checking and drafting only. Keep a previous matched set in use for project edits until the updated set is verified. Authorised framework upgrade steps may proceed to restore the matched set.
+- Verify the tracker and controls of the actual registers in use. Where live records exist, check that a representative record and its links survive the upgrade. In a fresh chat, select the skill and run the quick test below, including for empty projects or projects using other tools. A correct example answer checks evidence access. It cannot verify the installed copy on its own.
 
 ### Quick test
 
@@ -43,4 +43,4 @@ For example, a content designer and developer could ask, “Our email tells user
 
 ## Shared working rules
 
-Follow the [AI guidance](../ai-guidance.md) for scope, human analysis, access, evidence and authorised edits. Use the [project README](../README.md) to locate records and the [file guides](../how-to/files/) for their fields and checks.
+Follow the [AI guidance](../ai-guidance.md) for scope, human analysis, access, evidence and authorised edits. Use the [document tracker](../document-tracker.xlsx) to locate project records and the [file guides](../how-to/files/) for their fields and checks. Read and preserve [extra workbook columns](../ai-guidance.md#read-and-preserve-extra-workbook-columns).

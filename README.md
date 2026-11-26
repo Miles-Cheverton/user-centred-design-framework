@@ -2,7 +2,7 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.5.4 · 24 November 2026 · for peer review**
+**Version 0.5.5 · 26 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,7 +14,7 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.5.4 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.4/ucd-project-foundations-v0.5.4.zip) or copy the [development template](framework-template/) into your approved workspace. The development copy may include changes that have yet to be released. Open the README inside.
+1. Download the [v0.5.5 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.5/ucd-project-foundations-v0.5.5.zip) or copy the [development template](framework-template/) into your approved workspace. The development copy may include changes that have yet to be released. Open the README inside.
 2. Name the service in the [project README](framework-template/README.md) and set the working folder in [project config](framework-template/project-config.md).
 3. Start with the [problem statement](framework-template/how-to/files/problem-statement.md), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 
@@ -28,6 +28,7 @@ Use the records that help with the work in front of you. Keep source material in
 
 ## What you get
 
+- An Excel document tracker for finding current project records and additional files.
 - Excel workbooks for structured records. Replace the **OVERWRITE ME** row with your first real record.
 - A Markdown problem statement and guides to completing the records.
 - Folders for research materials and journey diagrams. The prototype register links to designs in the tools you use or to saved files.
@@ -45,19 +46,91 @@ Use the template for the whole service, including staff and operations and the r
 
 ## Example workflows
 
-### After a research session
+These examples follow a fictional equipment depot. Borrowers need to know when their equipment is ready so they can plan their trip (`UN-201`). The last two examples imagine what happens after the [worked service handoff](framework-template/how-to/worked-service-handoff.md).
 
-The user researcher, service designer and business analyst compare what they noticed and write down what they think the evidence supports. They identify three needs and two questions for further research. While they’re still together, they ask the assistant to check their notes against the transcript and existing records. It finds an existing entry that may cover one of the needs and a passage in a 150-page brief that may answer one question. It gives the page number so the team can check it.
+### After a research debrief
 
-The team reviews the suggestions. [Capture or update records](framework-template/AI-skills/capture-or-update-records/SKILL.md) then updates the existing need, adds the other two and records both research questions. It adds the evidence links and session details the team checked.
+The team compares notes and agrees what the sessions show. A borrower made a trip before the equipment was ready. [Capture or update records](framework-template/AI-skills/capture-or-update-records/SKILL.md) finds an existing need about knowing when to travel and points to the relevant session evidence. The team checks the match, updates `UN-201` with the evidence and records a question about what telephone borrowers are told.
 
-### After a stakeholder meeting
+<details>
+<summary>View the research debrief workflow</summary>
 
-The delivery manager notes the decisions as people make them in a recorded stakeholder meeting. Afterwards, they ask the assistant to check those notes against the transcript and draft the updates. It finds the reason for a decision and flags that the meeting left the start date open. The delivery manager checks the draft with the decision maker. The assistant records the agreed choice and rationale, cites the timestamp and leaves the start date open. [Capture what changed in a meeting](framework-template/how-to/README.md#capture-what-changed-in-a-meeting)
+```mermaid
+flowchart TD
+    accTitle: After a research debrief
+    accDescr: The team checks whether the research supports an existing need or a distinct one and records what still needs checking.
+    debrief["Team agrees what the sessions show"]
+    check["AI assistant finds related needs and source passages"]
+    match{"Does the existing need cover this?"}
+    update["Update UN-201 and link the reviewed finding"]
+    add["Add a need if the evidence supports a distinct one"]
+    open["Keep the possible match open for review"]
+    question["Record the open question about the telephone route"]
 
-### Prepare an alpha exit presentation
+    debrief --> check --> match
+    match -->|Same need| update
+    match -->|Distinct need| add
+    match -->|Unclear| open
+    open --> question
+    update --> question
+    add --> question
+```
 
-The service designer picks the discovery decisions they want to explain. [Prepare a briefing](framework-template/AI-skills/prepare-a-briefing/SKILL.md) finds the user needs and alpha test findings that support or challenge each decision, with source links for the slides. The designer explains what the team recommends taking into beta and what still needs testing.
+</details>
+
+### After testing a design
+
+In alpha, the team tests a separate collection message. Web borrowers who see it know when to travel, but some mistake the earlier booking email for permission to collect. The team marks the need **Partly met**, links the findings and records that the telephone route is still untested. It then decides to revise the booking email and test with telephone borrowers. [Assess whether the service meets the need](framework-template/how-to/files/user-needs.md#assess-whether-the-service-meets-the-need)
+
+<details>
+<summary>View the design testing workflow</summary>
+
+```mermaid
+flowchart TD
+    accTitle: After testing a design
+    accDescr: The team assesses what the design meets, records the evidence and decides what to do next.
+    review["Team reviews tests of the collection message"]
+    evidence["The web message helps. The booking email still causes confusion."]
+    untested["The telephone route is untested"]
+    judge["Team assesses UN-201 as Partly met"]
+    save["Record the version, tested scope and findings on UN-201"]
+    plan["Team separately decides what to do next"]
+    actions["Revise the booking email and test the telephone route"]
+
+    review --> evidence --> untested --> judge
+    judge --> save
+    judge --> plan --> actions
+```
+
+</details>
+
+### When revisiting a decision
+
+Preparing for alpha exit, the service designer asks why the team chose to test a separate collection message. [Find and explain](framework-template/AI-skills/find-and-explain/SKILL.md) traces `DEC-202` to `UN-201`, the option the team set aside and the evidence it had at the time. Later testing shows why the separate message helps and why the booking email still needs work. The designer checks the evidence and uses it to explain what the team recommends taking into beta and what still needs testing.
+
+<details>
+<summary>View the decision review workflow</summary>
+
+```mermaid
+flowchart TD
+    accTitle: When revisiting a decision
+    accDescr: The service designer traces the original choice and reviews later evidence to inform the beta recommendation.
+    ask["Designer asks why the team chose a separate message"]
+    trace["AI assistant finds the need, options and evidence behind DEC-202"]
+    later["Designer checks later tests and gaps"]
+    revisit{"Does the choice still hold?"}
+    keep["Explain why the separate message still helps"]
+    change["Reopen the decision and record what changed"]
+    brief["Show what to take into beta and what to test"]
+
+    ask --> trace --> later --> revisit
+    revisit -->|Keep the choice| keep
+    revisit -->|Revisit the choice| change
+    keep --> brief
+    change --> brief
+```
+
+</details>
 
 ## Feedback and reuse
 

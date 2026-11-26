@@ -23,7 +23,7 @@ For example, the team concludes that some borrowers mistake a reservation for pe
 
 ## Make evidence checkable
 
-Use **Evidence and source** in [Findings](../findings-and-observations.xlsx) to put supporting observations beside their sources. Give the session or source ID (SES or DOC), exact file or version, and timestamp, page, section or range. Use a separate EV row when an observation needs its own citation. [Register non-session sources](files/source-register.md).
+Use **Evidence and source** in [Findings](../document-tracker.xlsx) to put supporting observations beside their sources. Give the session or source ID (SES or DOC), exact file or version, and timestamp, page, section or range. Use a separate EV row when an observation needs its own citation. [Register non-session sources](files/source-register.md).
 
 A recording citation might be `SES-003`, `2026-11-16_RND-001_SES-003_screen_p01.mp4`, 00:12:45–00:13:20. Say what was observed and give the method, group and limits that affect the claim.
 
@@ -33,7 +33,7 @@ A recording citation might be `SES-003`, `2026-11-16_RND-001_SES-003_screen_p01.
 2. Follow referenced findings to the underlying sources. Check when and how the evidence was gathered, whether it supports the claim and whether other evidence changes the picture.
 3. Say what you checked and what you could access. Explain how any gap affects the decision. Point to the source or question that would help the team resolve it.
 
-If evidence changes, follow it to the affected findings, needs and decisions so the team can review them. [AI guidance](../ai-guidance.md) covers workbook access and the limits of the assistant’s role.
+If evidence is corrected or withdrawn, trace direct and indirect effects on findings, questions, needs, decisions and other claims so the team can review them. [Trace withdrawn evidence](record-conventions.md#trace-withdrawn-evidence). [AI guidance](../ai-guidance.md) covers workbook access and the limits of the assistant’s role.
 
 ## Practice basis
 

@@ -5,9 +5,9 @@ description: Find and format records for importing an existing UCD project from 
 
 # Import an existing project
 
-**Skill revision:** 2026-11-24.3
+**Skill revision:** 2026-11-26.2
 
-Use the matching revision of `ai-guidance.md` and `how-to/record-conventions.md`. If either is older or unavailable, report the gap before changing project records.
+Verify that this skill and the actual project copies of `ai-guidance.md` and `how-to/record-conventions.md` have the same revision before saving project changes. If a revision differs or cannot be verified, report the gap and limit work to reading, checking and drafting. Authorised framework upgrades may proceed using the [upgrade steps](../../how-to/README.md#upgrade-an-existing-project) to restore a matching set.
 
 ## Copy-and-paste example
 
@@ -27,7 +27,7 @@ Before scanning a folder, compare its resolved location with the confirmed **Wor
 
 If the source and working folder are the same, or you cannot tell which part of the source contains the working copy, ask for a specific source folder or files before scanning it.
 
-For a folder import, [look for relevant additional files](../../ai-guidance.md#include-additional-project-files) in the selected source folder. When the user supplies individual files, use that set. Skip framework templates, worked examples and training files when importing project records. Identify which versions you can inspect. With no access to the destination, propose updates with destination matches and IDs marked unverified. For a whole-project import, check the sources against the [record catalogue](../../README.md#find-a-record). [AI guidance](../../ai-guidance.md#start-with-the-task)
+For a folder import, [look for relevant additional files](../../ai-guidance.md#include-additional-project-files) in the selected source folder. When the user supplies individual files, use that set. Skip framework templates, worked examples and training files when importing project records. Identify which versions you can inspect. With no access to the destination, propose updates with destination matches and IDs marked unverified. Use the [document tracker](../../document-tracker.xlsx) in the working copy to match sources to destination records. Its links do not add files to the import source set. When reading or updating Excel records, [read and preserve extra columns](../../ai-guidance.md#read-and-preserve-extra-workbook-columns). [AI guidance](../../ai-guidance.md#start-with-the-task)
 
 ## Read Confluence PDF exports
 
@@ -39,5 +39,5 @@ For a folder import, [look for relevant additional files](../../ai-guidance.md#i
 
 1. Extract the documented meaning, status and date. Preserve what people proposed, concluded or agreed. Capture literal observations from raw research and flag where people still need to analyse it. Attribute an external conclusion to its author and exact source. Keep it in the source record or raise it for the team to assess. Create a team finding or need only when the project team has established one.
    Use the [guidance for experienced teams](../../ai-guidance.md#advise-an-experienced-team) to judge what each source can establish. An approved policy can establish a rule, a prototype shows intended behaviour, and release notes identify a change to a build. Each answers a different question. Retain the authority, scope and date when two disciplines describe the same change. Flag any material conflict for the team.
-2. Group repeat accounts while retaining material citations and external IDs. Match against the destination and reuse confirmed IDs. Keep earlier decisions and contrary evidence. Flag uncertain matches, conflicting versions and unresolved replacements.
+2. Group repeat accounts while retaining material citations and external IDs. Match against the confirmed owner in the destination and reuse confirmed IDs. Check all relevant rows, missing fields and malformed or duplicate IDs. Keep earlier decisions and contrary evidence, distinguishing original scope and status from the current claim. Flag uncertain matches, conflicting versions and unresolved replacements or withdrawals.
 3. Use [Capture or update records](../capture-or-update-records/SKILL.md) to propose or save records in the owning files within the user's authorisation, including any source entries needed for DOC citations. Use its [attachment filing procedure](../capture-or-update-records/SKILL.md#file-a-chat-attachment) when asked to retain supplied files. Include the destination, verified ID if available and exact source. For a whole-project import, show what types you found, what was absent in the checked sources and what remained inaccessible.

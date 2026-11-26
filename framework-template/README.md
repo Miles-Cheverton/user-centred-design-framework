@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations v0.5.4<br>
+**Starter version:** UCD Project Foundations v0.5.5<br>
 **Project owner:** [Name or team]<br>
 **Team reviews:** [Where the team reviews findings and decisions]
 
@@ -28,21 +28,7 @@ Keep research findings, user needs and decisions easy to find and check. **Peopl
 
 ## Find a record
 
-Use the [file guides](how-to/files/) to complete a record and [record conventions](how-to/record-conventions.md) for IDs and links.
-
-| Information | Where it lives |
-|---|---|
-| Problem and boundaries | [Problem statement](problem-statement.md), [in scope](in-scope.xlsx), [out of scope](out-of-scope.xlsx) |
-| Users and needs | [User groups](user-groups.xlsx), [user needs and fulfilment](user-needs.xlsx) |
-| Project contacts | [Stakeholders](stakeholders.xlsx), [team](team.xlsx) |
-| Intended changes and measures | [Outcomes](outcomes.xlsx), [success measures](success-measures.xlsx) |
-| Limits and uncertainties | [Constraints](constraints.xlsx), [dependencies](dependencies.xlsx), [assumptions](assumptions.xlsx), [risks](risks.xlsx) |
-| Research activity | [Questions](research-questions.xlsx), [rounds](research-plan.xlsx), [sessions](research-sessions.xlsx), [participant codes](participants.xlsx) |
-| Research materials | [Round folder](research/RND-001/) for the protocol and links to the materials used, recordings and transcripts. [Storage guidance](how-to/research-protocol.md#discussion-guides-surveys-and-whiteboards). |
-| Learning and sources | [Findings and observations](findings-and-observations.xlsx), [source register](project-sources/source-register.xlsx) |
-| Experience and interactions | [Journeys](user-journeys.xlsx), [prototypes](prototypes.xlsx), [use cases](use-cases.xlsx) |
-| Service behaviour and quality | [Business rules](business-rules.xlsx), [non-functional requirements](non-functional-requirements.xlsx) |
-| Decisions and terminology | [Decisions](decisions.xlsx), [glossary](glossary.xlsx) |
+Open the [document tracker](document-tracker.xlsx) to find current project records and add links to files your team uses. The file guides link back to this workbook so a moved record needs only one location update.
 
 ## Use the files
 
@@ -50,6 +36,6 @@ Use a workbook when you have something to record. Replace its **OVERWRITE ME** r
 
 Record substantive learning and decisions during the team’s normal work. Link to exact versions of supporting material in approved tools. Keep participant identities, recordings and transcripts in restricted storage under the [research protocol](how-to/research-protocol.md).
 
-For AI assistance, share the [project config](project-config.md), [AI guidance](ai-guidance.md), the relevant [skill](AI-skills/README.md) and only the records the tool is approved to process.
+For AI assistance, share the [project config](project-config.md), [AI guidance](ai-guidance.md), the relevant [skill](AI-skills/README.md) and only the records the tool is approved to process. Include the [document tracker](document-tracker.xlsx) if the assistant is working across the project.
 
 Template attribution: [UCD Project Foundations](https://github.com/Miles-Cheverton/user-centred-design-framework) by Miles Cheverton, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Retain attribution and indicate changes when sharing adaptations.

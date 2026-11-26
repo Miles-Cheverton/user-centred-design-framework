@@ -1,6 +1,6 @@
 # Assumptions
 
-**Working file** [assumptions.xlsx](../../assumptions.xlsx)
+**Working file (via document tracker)** [assumptions.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 
@@ -16,7 +16,7 @@ Use an ASM ID and state the belief the team is relying on. Choose Untested until
 | Status | Untested, Supported, Contradicted, Inconclusive or Superseded. |
 | Evidence | After assessment, cite exact EV or FND IDs and explain the team's judgement and any limits. |
 
-Plan checks in the [research plan](../../research-plan.xlsx) or delivery work. Keep contradicted beliefs and their evidence. If the team replaces a belief, mark it Superseded. In the old **Evidence** cell, record the date and replacement ASM IDs, or say that the replacement is unknown.
+Plan checks in the [research plan](../../document-tracker.xlsx) or delivery work. Keep contradicted beliefs and their evidence. If the team replaces a belief, mark it Superseded. In the old **Evidence** cell, record the date and replacement ASM IDs, or say that the replacement is unknown.
 
 **Example** `ASM-201` assumes borrowers know to wait for confirmation. `FND-201` records an early arrival, so the team marks the assumption Contradicted.
 
@@ -28,8 +28,8 @@ Use an ASM ID and write the prediction in **Assumption**. Say what change you ex
 
 **Example** `ASM-202` predicts that sending borrowers a separate message when their equipment is ready will reduce early arrivals. The team expects the message to make it clear when to set off.
 
-Before testing, cite the ASM ID in the research round protocol or delivery test. Record who and what the test covers, what you will compare, and what result would support or challenge the prediction. In this example, compare the proportion of borrowers who arrive early with and without the separate message. Link the [success measure](success-measures.md) when you use one.
+Before testing, cite the ASM ID in the research round protocol or delivery test. Record who and what the test covers, what you will compare, and what result would support or challenge the prediction. In this example, compare the proportion of borrowers who arrive early with and without the separate message. Cite the exact MET ID of the [success measure](success-measures.md) in that protocol or test when you use one.
 
-After testing, the team reviews the results and sets **Status** to Supported, Contradicted or Inconclusive. In **Evidence**, cite the EV or FND IDs and record any limits on what the team can conclude.
+After testing, the team reviews the results and sets **Status** to Supported, Contradicted or Inconclusive. In **Evidence**, cite the EV or FND IDs, test version or bounded scope, and any relevant RND, RQ or MET IDs. Record any limits on what the team can conclude. If its support is later invalidated, record the evidence gap and keep the status until the team reassesses the hypothesis.
 
 [GDS guidance on developing hypotheses](https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service#develop-hypotheses-based-on-your-benefits)

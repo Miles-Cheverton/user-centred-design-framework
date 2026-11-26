@@ -1,6 +1,6 @@
 # User journeys
 
-**Working file** [user-journeys.xlsx](../../user-journeys.xlsx)
+**Working file (via document tracker)** [user-journeys.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 

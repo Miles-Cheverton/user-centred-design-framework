@@ -4,6 +4,17 @@
 
 The target starter contains [upgrade instructions](../framework-template/how-to/README.md#upgrade-an-existing-project). Open those instructions from the version you downloaded and follow the file list for your starting version.
 
+## 0.5.5 — 2026-11-26 — peer review release
+
+- Added an Excel document tracker for the current location of project records and additional files. Teams can move a starter record by updating its tracker entry. The guides and skills use the tracker to locate records.
+- Added Withdrawn to user needs, research questions, business rules and non-functional requirements. Extended evidence withdrawal and integrity checks to observations and dependent records, including research questions whose answers lose their support.
+- Strengthened the fulfilment totals and workbook warnings for incomplete assessments, malformed or repeated IDs, invalid delivery choices and rows partly pasted outside tables. Withdrawn needs are excluded from active totals.
+- Clarified how to check the current service version, the roles represented during research, the date and resolution of pending changes, and the alignment of team-added Excel columns. Skills check for matching guidance revisions before saving project changes.
+- Added focused research, design testing and decision review diagrams to the repository README and expanded guidance on meeting recordings, hypotheses and delivery handovers.
+- Updated the [v0.5.5 upgrade instructions](https://github.com/Miles-Cheverton/user-centred-design-framework/blob/v0.5.5/framework-template/how-to/README.md#upgrade-an-existing-project) for populated and adapted projects, preserving existing records and local workbook additions.
+
+The audit fixes were checked on a fictional discovery-to-beta project. All 29 Excel files opened, 11 workbook stress tests passed in LibreOffice, and local document links, upgrade rehearsals and independent Codex handover and revision-mismatch tests passed. Live Excel, SharePoint, Claude and Copilot operation remains to be tested.
+
 ## 0.5.4 — 2026-11-24 — peer review release
 
 - Clarified how withdrawn findings affect current evidence, and where to carry unsaved changes between sessions.

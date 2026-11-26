@@ -1,6 +1,6 @@
 # Outcomes
 
-**Working file** [outcomes.xlsx](../../outcomes.xlsx)
+**Working file (via document tracker)** [outcomes.xlsx](../../document-tracker.xlsx)
 
 ## First capture
 
@@ -14,6 +14,6 @@ Enter an **ID** and **Outcome**. Describe what should improve and who benefits. 
 | Outcome | The change you want for users or the service. |
 | User need IDs | Exact UN IDs for directly related needs, where known. |
 
-Define how you will assess the change in [success measures](../../success-measures.xlsx). If the intended outcome changes materially, record the reason and earlier wording in [decisions](../../decisions.xlsx).
+Define how you will assess the change in [success measures](../../document-tracker.xlsx). If the intended outcome changes materially, record the reason and earlier wording in [decisions](../../document-tracker.xlsx).
 
 [GDS guidance on performance measures](https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service)
