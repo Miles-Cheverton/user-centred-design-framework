@@ -1,6 +1,6 @@
 # Standards and sources
 
-**Source review date:** 2026-11-16
+**Source review date:** 2026-11-16 · ISO reference checked 2026-11-27
 
 This document records the guidance used to shape the starter. It is not a claim of GDS endorsement, a complete assessment checklist or evidence that a particular service meets a standard.
 
@@ -8,6 +8,7 @@ The linked sources describe practices and expectations. The filenames, workbook 
 
 | Concern | Primary guidance | How it informs the starter |
 |---|---|---|
+| Human-centred design across the lifecycle | [ISO 9241-210:2019 — Human-centred design for interactive systems](https://www.iso.org/standard/77520.html) | Supports understanding people and context, iterative evaluation, the whole experience and multidisciplinary design. The starter does not claim conformity with the standard. |
 | Whole-service quality | [GDS Service Standard](https://www.gov.uk/service-manual/service-standard) | User needs, joined-up channels, multidisciplinary work, iteration, privacy, performance and reliable operation are represented across the records. |
 | Problem framing, scope and constraints | [How discovery works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works) | State the underlying problem, challenge a preselected solution, understand boundaries and distinguish constraints that can be changed. |
 | User groups and needs | [Learning about users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs) | Needs describe what people need to achieve and why, use recognisable language and link to evidence. Include people who provide or support the service. |
@@ -29,7 +30,7 @@ The linked sources describe practices and expectations. The filenames, workbook 
 | Business rules terminology | [DfT street manager business rules](https://department-for-transport-streetmanager.github.io/street-manager-docs/articles/business-rules-version-2-00-service.html) | An example of the term in a public service. It does not mandate this starter’s register. |
 | AI retrieval context | [Anthropic: contextual retrieval](https://www.anthropic.com/research/contextual-retrieval) | Supports preserving context when extracting records and evaluating the chosen retrieval approach. The reference fields and example questions are framework choices, not a claim that this structure reproduces the research results. |
 
-The downloadable starter also links to the professional sources the AI skills use for advice, including standards from Australia, Canada and Singapore, W3C accessibility guidance and the Scrum and Kanban guides. [How the skills select guidance](../framework-template/ai-guidance.md#check-which-guidance-applies)
+The downloadable starter also links to the professional sources the AI skills use for advice, including standards from Australia, Canada and Singapore, W3C accessibility guidance and the Scrum and Kanban guides. [How the skills select guidance](../framework-template/AI-skills/ai-guidance.md#check-which-guidance-applies)
 
 ## Keep the relationship current
 

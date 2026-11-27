@@ -2,7 +2,20 @@
 
 ## Updating an existing project
 
-The target starter contains [upgrade instructions](../framework-template/how-to/README.md#upgrade-an-existing-project). Open those instructions from the version you downloaded and follow the file list for your starting version.
+When a future release requires an upgrade, follow its release notes and the target starter’s [upgrade guidance](../framework-template/how-to/README.md#upgrade-an-existing-project).
+
+## 0.6.0 — 2026-11-27 — peer review release
+
+- Consolidated related records while keeping distinct meanings, IDs and evidence links: scope, project people, outcomes and measures, research planning, design artefacts and requirements. The starter has 20 record workbooks and one document tracker.
+- Simplified the human guidance, project configuration and six AI skills; removed individual skill revision checks and repeated administration. The tracker remains the authoritative location of live records.
+- Cleared fictional starter rows, retaining example identifiers in workbook guidance. Kept four provisional user-need fulfilment totals and moved detailed checks to the integrity skill; added clearer definitions and fixed first-capture counting.
+- Added actual user groups represented in research sessions, consistent successor fields for superseded records, and a way to identify constraints that no longer apply. Improved evidence, dependency, decision and overlap guidance.
+- Improved skill portability, lightweight structural audits, evidence-impact checks and optional standards-based briefings. Clarified framework-owned guidance and templates versus project-owned records when upgrading.
+- Moved reusable research and journey templates away from live record locations. Teams copy only the material they need.
+
+Regression checked on disposable projects: all 24 Excel files opened in LibreOffice; fulfilment totals recalculated against empty, valid and deliberately faulty records; capture/import saves, independent integrity/evidence checks, template links and a guidance-only upgrade rehearsal passed. Desktop Excel, SharePoint and live Claude/Copilot integrations still need peer testing.
+
+This release changes some starter filenames, columns and locations. Use the new starter for a new project. For existing projects, preserve real records and local adaptations; reconcile affected record owners and fields before replacing any guidance or workbook.
 
 ## 0.5.5 — 2026-11-26 — peer review release
 

@@ -2,7 +2,7 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.5.5 · 26 November 2026 · for peer review**
+**Version 0.6.0 · 27 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,11 +14,13 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.5.5 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.5.5/ucd-project-foundations-v0.5.5.zip) or copy the [development template](framework-template/) into your approved workspace. The development copy may include changes that have yet to be released. Open the README inside.
-2. Name the service in the [project README](framework-template/README.md) and set the working folder in [project config](framework-template/project-config.md).
-3. Start with the [problem statement](framework-template/how-to/files/problem-statement.md), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
+1. Download the [v0.6.0 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.6.0/ucd-project-foundations-v0.6.0.zip) into your approved workspace and open the README inside.
+2. Name the service in the [project README](framework-template/README.md). Update [project config](framework-template/_project-config.md) if your team needs different working arrangements.
+3. Start with the [problem statement](framework-template/how-to/project-setup-and-management.md#problem-statement), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 
-The [team handbook](framework-template/how-to/README.md) shows which files to use for common tasks. The [worked service handoff](framework-template/how-to/worked-service-handoff.md) follows a finding from its source to a decision and outcome.
+The [development template](framework-template/) may include changes that have yet to be released.
+
+The [how-to guide](framework-template/how-to/README.md) shows which files to use for common tasks. The [worked equipment depot example](framework-template/how-to/worked-examples.md#collection-readiness-at-an-equipment-depot) follows a finding from its source to a decision and outcome.
 
 ## Core principles
 
@@ -29,9 +31,9 @@ Use the records that help with the work in front of you. Keep source material in
 ## What you get
 
 - An Excel document tracker for finding current project records and additional files.
-- Excel workbooks for structured records. Replace the **OVERWRITE ME** row with your first real record.
+- Excel workbooks for structured records, including scope, project people, design artefacts, and functional and non-functional requirements. Related outcomes and research planning records use clearly named tabs. Start with empty records; the ID column guidance shows example IDs.
 - A Markdown problem statement and guides to completing the records.
-- Folders for research materials and journey diagrams. The prototype register links to designs in the tools you use or to saved files.
+- Folders for research rounds, optional research templates and journey diagrams. The design artefacts register links to exact journey and prototype versions in the tools you use or to saved files.
 - [Reusable AI skills](framework-template/AI-skills/README.md) for finding, recording and checking information and preparing briefings.
 
 Use the template for the whole service, including staff and operations and the routes people use offline. Keep real participant data and research material in approved storage with the right permissions. The starter contains placeholders and fictional examples.
@@ -46,7 +48,7 @@ Use the template for the whole service, including staff and operations and the r
 
 ## Example workflows
 
-These examples follow a fictional equipment depot. Borrowers need to know when their equipment is ready so they can plan their trip (`UN-201`). The last two examples imagine what happens after the [worked service handoff](framework-template/how-to/worked-service-handoff.md).
+These examples follow a fictional equipment depot. Borrowers need to know when their equipment is ready so they can plan their trip (`UN-201`). The last two examples imagine what happens after the [worked equipment depot example](framework-template/how-to/worked-examples.md#collection-readiness-at-an-equipment-depot).
 
 ### After a research debrief
 
@@ -80,7 +82,7 @@ flowchart TD
 
 ### After testing a design
 
-In alpha, the team tests a separate collection message. Web borrowers who see it know when to travel, but some mistake the earlier booking email for permission to collect. The team marks the need **Partly met**, links the findings and records that the telephone route is still untested. It then decides to revise the booking email and test with telephone borrowers. [Assess whether the service meets the need](framework-template/how-to/files/user-needs.md#assess-whether-the-service-meets-the-need)
+In alpha, the team tests a separate collection message. Web borrowers who see it know when to travel, but some mistake the earlier booking email for permission to collect. The team marks the need **Partly met**, links the findings and records that the telephone route is still untested. It then decides to revise the booking email and test with telephone borrowers. [Assess whether the service meets the need](framework-template/how-to/design-and-development.md#assess-whether-the-service-meets-the-need)
 
 <details>
 <summary>View the design testing workflow</summary>
