@@ -4,6 +4,16 @@
 
 When a future release requires an upgrade, follow its release notes and the target starter’s [upgrade guidance](../framework-template/how-to/README.md#upgrade-an-existing-project).
 
+## 0.6.1 — 2026-11-27 — project-boundary fix
+
+- All six AI skills start by reading the intended project's `_project-config.md` and resolving its **Working folder** using an exact path or URL. Identical filenames and record IDs do not identify the same project.
+- Skills verify actual source and destination locations, reject out-of-project or unverified retrieval results, and report missing evidence rather than searching elsewhere. Explicitly authorised external records and supplied-file tasks remain supported.
+- Added practical SharePoint/Copilot setup guidance and a cross-project isolation test. The instructions reduce the risk of mixing evidence between projects; they are not a technical access boundary.
+
+A disposable two-project test used identical filenames and IDs with different content. The correct project was used, unrelated results were rejected, and authorised saves affected only the intended records. The existing evidence quick test and all local links passed. Live Copilot/SharePoint behaviour still needs testing.
+
+This is a guidance-only update. Existing project workbooks and folder structure do not change. Refresh the AI skills and guidance, preserving local adaptations and the working folder in project config.
+
 ## 0.6.0 — 2026-11-27 — peer review release
 
 - Consolidated related records while keeping distinct meanings, IDs and evidence links: scope, project people, outcomes and measures, research planning, design artefacts and requirements. The starter has 20 record workbooks and one document tracker.

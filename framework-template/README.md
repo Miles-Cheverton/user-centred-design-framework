@@ -1,6 +1,6 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations v0.6.0
+**Starter version:** UCD Project Foundations v0.6.1
 
 Keep research findings, user needs and decisions easy to find and check. **People think first. AI helps second.** The team forms its own ideas and interprets evidence. An assistant can help find sources, flag gaps and record what people agree.
 

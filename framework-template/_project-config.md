@@ -2,7 +2,7 @@
 
 **Working folder:** .
 
-The dot means the folder containing this file. If the folder is held elsewhere or you share this file on its own, give the working folder's path or approved URL.
+The dot means the actual folder containing this file. For SharePoint or a shared project where the assistant cannot determine the containing folder, use the exact project folder URL or path instead. Give the assistant this config or its exact location before it reads project records. Do not use a folder name alone. Use the tracker for explicitly agreed external record locations.
 
 ## Team conventions
 

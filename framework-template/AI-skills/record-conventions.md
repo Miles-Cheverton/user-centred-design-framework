@@ -78,7 +78,7 @@ Check all relevant sheets for the task, including populated rows outside their t
 - Withdrawn is historical and requires no successor: retain the ID and permitted reason where the owning guide specifies. Check current claims that actually rely on invalidated or superseded records; historical citations are not a defect. For partly replaced sources, read the recorded replacement scope.
 - Use local framework IDs for record identity. Qualify previous or external IDs with their source/tool in existing Source, Evidence or descriptive fields, or a team-added column mapped by ID. Do not put foreign IDs in canonical ID relationships.
 
-- For retained sources, use an exact path relative to the project root or a version-specific URL. Markdown links are relative to their own file. Name the other project in cross-project citations. Owner and reviewer names are descriptive text.
+- For retained sources, use an exact path relative to the project root or a version-specific URL. Markdown links are relative to their own file. Use a cross-project source or comparison only when specifically authorised; name the other project and never assume its facts apply here. Owner and reviewer names are descriptive text.
 
 ## Canonical relationships
 

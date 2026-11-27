@@ -4,7 +4,7 @@ Use the [document tracker](../document-tracker.xlsx) to find the current record.
 
 ## Frame the work
 
-1. Check [project config](../_project-config.md) for the working folder, standards and local conventions.
+1. Check [project config](../_project-config.md) for the working folder, standards and local conventions. For AI use, provide the config and exact project folder path or URL, particularly when working in SharePoint.
 2. Write the [problem statement](project-setup-and-management.md#problem-statement). Record the agreed [scope](project-setup-and-management.md#scope) and intended [outcomes](project-setup-and-management.md#outcomes).
 3. Capture the [user groups](design-and-development.md#user-groups), [needs](design-and-development.md#user-needs) and [project people](project-setup-and-management.md#project-people) relevant to the work. Record unknowns as [assumptions](project-setup-and-management.md#assumptions) or [research questions](research-and-evidence.md#research-questions).
 4. [Register the sources](research-and-evidence.md#source-register) the team relies on. Agree where records live. If work is already under way, keep your existing materials and use [Import an existing project](../AI-skills/import-existing-project/SKILL.md) if helpful.
