@@ -31,7 +31,7 @@ Start a record in the first blank row inside the Excel table. Choose a unique ID
 
 The guides explain the fields. For exact IDs, links and integrity checks, see [record conventions](../AI-skills/record-conventions.md).
 
-For AI assistance, use the [skills guide](../AI-skills/README.md) and give the assistant only material approved for it to process.
+For AI assistance, start with the [prompt library](../AI-skills/prompt-library.md) or use the [skills guide](../AI-skills/README.md). Give the assistant only material approved for it to process.
 
 ## Everyday work
 
@@ -50,8 +50,11 @@ For AI assistance, use the [skills guide](../AI-skills/README.md) and give the a
 | Prepare a review or handover | [Hand over or prepare a review](#hand-over-or-prepare-a-review) |
 | Upgrade the framework | [Upgrade an existing project](#upgrade-an-existing-project) |
 | Check records or repair an error | [Check evidence and records](../AI-skills/check-evidence-and-records/SKILL.md) |
+| See current project statistics or gaps | [Create or refresh a project health report](../AI-skills/check-evidence-and-records/SKILL.md#create-or-refresh-a-project-health-report) |
 
 See [worked examples](worked-examples.md) for how the records connect in practice and the [FAQ](faq.md) for common questions.
+
+Ask once to create the optional `project-health.xlsx`. Skills then automatically refresh it once after successful, verified record updates, if the assistant can save it. Read-only work does not change it. Manual edits appear on the next refresh; ask for one if needed. Check its date and scope before relying on it in a review: it is a snapshot, not a live dashboard or another record to maintain. Automatic refresh uses a quick structure check; a requested full check also examines evidence.
 
 ## Hand over or prepare a review
 

@@ -159,7 +159,7 @@ Apply this check to an invalid source, corrected observation, changed scope or c
 
 ## Check and repair project records
 
-Use the tracker, actual registers and relevant record guides. Identify competing owners or broken links. Unused starter registers and unlisted optional materials are not defects.
+Use the tracker, actual registers and relevant record guides. Identify competing owners or broken links. Unused starter registers and unlisted optional materials are not defects. For a requested or automatically refreshed [project health report](check-evidence-and-records/SKILL.md#create-or-refresh-a-project-health-report), report population and access by owner or sheet as well as actual issues.
 
 A **quick structure check** inspects actual record rows, owner/schema, IDs and keys, required fields, classifications, controlled values, workbook dropdowns and table controls, misplaced/orphan rows, replacements/cycles, referenced record IDs, links and recorded totals (including excluded rows). It does not open underlying research or other raw sources, assess current fulfilment or establish that evidence is usable. Report this limit. Flag possible reliance on superseded or withdrawn records for evidence review without assuming historical citations are defects. A full integrity check also verifies actual source evidence, applicability and affected claims.
 

@@ -7,7 +7,7 @@ description: Use for a factual project question, why a choice was made, a source
 
 For project work, open the specified project’s `_project-config.md` first. Resolve its **Working folder** using the [project boundary rules](../ai-guidance.md#confirm-the-project-boundary). Use only that confirmed folder and specifically authorised external sources; never search other projects by filename or ID. If the folder is unclear, ask for its exact path or URL; a task limited to supplied files may continue within that set. Resolve links from the canonical project path `AI-skills/find-and-explain/SKILL.md`, not the installed or copied skill location. Read the project’s `AI-skills/ai-guidance.md` [shared principles](../ai-guidance.md#shared-principles) and the applicable sections of `AI-skills/record-conventions.md` and record guides. If essential shared guidance is unavailable, say so; draft affected changes instead of saving. Continue independent, permitted work, including tasks limited to supplied files.
 
-People establish findings, needs, fulfilment and decisions. Never invent records, IDs, sources or agreement. Respect access, consent and authorisation; cite exact sources and limits. Save only authorised changes, and report Saved and verified, Not saved or Save unverified.
+People establish findings, needs, fulfilment and decisions. Never invent records, IDs, sources or agreement. Respect access, consent and authorisation; cite exact sources and limits. Save only authorised changes, and report Saved and verified, Not saved or Save unverified. Follow [project health after record changes](../ai-guidance.md#refresh-an-existing-project-health-report) when saving project records; read-only work does not refresh it.
 
 ## Copy-and-paste example
 

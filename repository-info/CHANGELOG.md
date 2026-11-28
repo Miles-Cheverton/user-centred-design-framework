@@ -4,6 +4,17 @@
 
 When a future release requires an upgrade, follow its release notes and the target starter’s [upgrade guidance](../framework-template/how-to/README.md#upgrade-an-existing-project).
 
+## 0.6.2 — 2026-11-28 — prompt library and project health
+
+- Added a [library of 17 copy-and-paste prompts](../framework-template/AI-skills/prompt-library.md) for common team tasks, including research and meeting follow-up, a single-document assessment, evidence tracing, development refinement and phase reviews. The prompts refer to the project's own skill files and linked guidance, so installing skills is optional. People establish conclusions and decisions; AI helps check and document them.
+- Extended Check evidence and records to generate an optional `project-health.xlsx` on request. Its Project overview and Issues and gaps sheets report recorded statistics, record coverage, missing information, duplicate IDs, broken references and review suggestions. It is a dated snapshot, not a source of truth or a verified measure of service quality.
+- All six skills refresh an existing generated health report once after verified project record updates, if accessible and authorised. Read-only tasks, drafts and tasks with no verified changes do not refresh it; manual edits appear on the next refresh. It is not created automatically or monitored in the background.
+- Clarified Copilot setup: turn Work IQ off where available, explicitly reference approved project material and verify source locations. Prompts do not technically restrict retrieval.
+
+All 17 prompt scenarios passed local role-play tests using a fictional repairs service, both with and without linked skill folders. Separate tests verified automatic report refresh after saved changes, no creation when absent, and preservation of an unrelated workbook. Live Claude and Copilot testing remains outstanding.
+
+No existing Excel workbook or record schema changes. To update from v0.6.1, merge `AI-skills/` (including the new prompt library) and `how-to/` with any local adaptations. Refresh separately installed or copied skills. Retain project config, data, sources and current record locations; merge the starter README version after checks. The health report is optional and is not included in the starter.
+
 ## 0.6.1 — 2026-11-27 — project-boundary fix
 
 - All six AI skills start by reading the intended project's `_project-config.md` and resolving its **Working folder** using an exact path or URL. Identical filenames and record IDs do not identify the same project.

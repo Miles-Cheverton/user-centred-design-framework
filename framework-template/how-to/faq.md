@@ -70,6 +70,10 @@ Use an approved assistant that can read the relevant project files. The [skills 
 
 People discuss the evidence, form their own conclusions and decide what it supports. Afterwards, AI can check sources, organise the evidence and help document the team's conclusions. [Human analysis before documentation](research-and-evidence.md#human-analysis-before-documentation).
 
+### When is the project health report updated?
+
+Ask for it once to create it. After that, AI-assisted record updates refresh the existing report when the assistant can access and save it. Manual edits and read-only tasks do not trigger an update. [How to refresh the report](README.md#everyday-work).
+
 ### How do we check an AI assistant's work?
 
 Ask for the record IDs, exact source locations and evidence limits. Review proposed changes and verify what was saved. Use [Check evidence and records](../AI-skills/check-evidence-and-records/SKILL.md) for a wider check.

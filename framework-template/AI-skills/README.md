@@ -1,12 +1,12 @@
 # AI skills
 
-Start with the [UCD project assistant](ucd-project-assistant/SKILL.md) or choose a task. Tell it the result you need and, for advice, the decision and audience. These skills support the [whole multidisciplinary team](ai-guidance.md#advise-an-experienced-team).
+Start with the [UCD project assistant](ucd-project-assistant/SKILL.md) or choose a task. Tell it the result you need and, for advice, the decision and audience. These skills support the [whole multidisciplinary team](ai-guidance.md#advise-an-experienced-team). Start with the [copy-and-paste prompt library](prompt-library.md) for everyday work, with or without installed skills.
 
 ## Choose a task
 
 - [Find and explain](find-and-explain/SKILL.md): answer questions or trace claims.
 - [Capture or update records](capture-or-update-records/SKILL.md): document the team's work and file supporting material.
-- [Check evidence and records](check-evidence-and-records/SKILL.md): verify claims, assessments, structure or a framework upgrade.
+- [Check evidence and records](check-evidence-and-records/SKILL.md): verify claims, assessments, structure or a framework upgrade; [generate or refresh an optional project health report](check-evidence-and-records/SKILL.md#create-or-refresh-a-project-health-report).
 - [Prepare a briefing](prepare-a-briefing/SKILL.md): refinement, playback, review or handover.
 - [Import an existing project](import-existing-project/SKILL.md): organise records from existing project documents.
 
@@ -16,7 +16,7 @@ Start with the exact project folder and its [project config](../_project-config.
 
 - **Codex:** open the project folder and point Codex to the skill. For selectable skills, link its folder under `.agents/skills`. [Codex skills](https://learn.chatgpt.com/docs/build-skills)
 - **Claude:** in Claude Code, open the project and point to the skill or link its folder under `.claude/skills`. In Claude chat, attach needed files and paste the instructions or upload a skill ZIP if enabled. [Claude Code](https://code.claude.com/docs/en/skills) · [Claude chat](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-- **Copilot on SharePoint:** provide the exact project folder URL and config, and reference the approved project folder or files directly. Use a source-scoped SharePoint agent or turn off broader work-data retrieval (Work IQ) and attach the needed files where those options are available. [Control sources](https://support.microsoft.com/en-us/microsoft-365-copilot/control-review-sources-copilot-chat) A prompt alone does not restrict Copilot’s search; check that cited sources belong to the project before accepting or saving changes. Use Site skills where available. [Reference files](https://support.microsoft.com/en-us/microsoft-365-copilot/refer-to-specific-files-and-more-in-microsoft-365-copilot) · [Site skills](https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-skills)
+- **Copilot on SharePoint:** in Copilot Chat, **turn Work IQ off** where the setting is available. Provide the exact project folder URL and config, and explicitly reference the approved folder or files. Work IQ off disables broader work-data grounding but does not exclude web or personalised context. If the setting is unavailable, use a source-scoped SharePoint agent where permitted, or work with explicitly supplied files. A prompt alone does not restrict Copilot’s search; verify the actual source locations before accepting or saving changes. Use Site skills where available. [Control sources](https://support.microsoft.com/en-us/microsoft-365-copilot/control-review-sources-copilot-chat) · [Reference files](https://support.microsoft.com/en-us/microsoft-365-copilot/refer-to-specific-files-and-more-in-microsoft-365-copilot) · [Site skills](https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-skills)
 
 For a chat interface, start with: “Use the project at [exact folder path or URL]. Read its `_project-config.md` first. Use only the confirmed working folder and explicitly authorised external sources. Cite the actual file locations; if you cannot retrieve the correct project records, report the gap rather than searching elsewhere.”
 
@@ -36,6 +36,10 @@ Start a fresh chat with [Find and explain](find-and-explain/SKILL.md), its linke
 
 Check for two need rows and two exact matching notes and timestamps for UN-941. FND-914 should be identified as withdrawn, with its reason and historical source. It supplies no current support for UN-914. Repeat with only the example needs workbook: check that the assistant gives the linked finding ID and asks for missing evidence.
 
+### Test the optional project health report
+
+In a disposable project, ask for the report, then use Capture or update records to save a new agreed record without requesting a refresh. Check that the report date/time and relevant counts are updated. Run a read-only question and confirm the workbook does not change. Try a record save with no report present: no report should be created.
+
 ### Check project isolation
 
 In a fresh chat, give the assistant the exact location of a fictional project and its config. Use two separate fictional project folders with the same workbook name and ID (for example `user-needs.xlsx`, `UN-001`) but different needs. Ask for the need in the selected project, then for information available only in the other project. Check that it gives a verifiable source location for the correct answer and reports missing evidence rather than borrowing the other project’s record. Repeat with an ambiguous folder name: it should ask for the exact location. This tests behaviour, not a guaranteed technical access boundary.
@@ -43,6 +47,10 @@ In a fresh chat, give the assistant the exact location of a fictional project an
 ## Use a skill
 
 For live work, use the project's actual IDs. For example, “Update [need ID] with our agreed wording. Keep its evidence links.”
+
+For an overview of the project, use the [Check project health prompt](prompt-library.md#check-project-health).
+
+Ask once to create the optional report. After that, skills [refresh it following verified project record updates](ai-guidance.md#refresh-an-existing-project-health-report) if they can access and save it. Read-only work and tasks with no verified record save do not trigger a refresh. Manual edits appear on the next refresh; ask for one before relying on the report.
 
 ## Shared working rules
 

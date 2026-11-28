@@ -2,7 +2,7 @@
 
 A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
 
-**Version 0.6.1 · 27 November 2026 · for peer review**
+**Version 0.6.2 · 28 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,7 +14,7 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.6.1 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.6.1/ucd-project-foundations-v0.6.1.zip) into your approved workspace and open the README inside.
+1. Download the [v0.6.2 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.6.2/ucd-project-foundations-v0.6.2.zip) into your approved workspace and open the README inside.
 2. Name the service in the [project README](framework-template/README.md). Update [project config](framework-template/_project-config.md) if your team needs different working arrangements.
 3. Start with the [problem statement](framework-template/how-to/project-setup-and-management.md#problem-statement), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 
@@ -34,7 +34,8 @@ Use the records that help with the work in front of you. Keep source material in
 - Excel workbooks for structured records, including scope, project people, design artefacts, and functional and non-functional requirements. Related outcomes and research planning records use clearly named tabs. Start with empty records; the ID column guidance shows example IDs.
 - A Markdown problem statement and guides to completing the records.
 - Folders for research rounds, optional research templates and journey diagrams. The design artefacts register links to exact journey and prototype versions in the tools you use or to saved files.
-- [Reusable AI skills](framework-template/AI-skills/README.md) for finding, recording and checking information and preparing briefings.
+- [Reusable AI skills](framework-template/AI-skills/README.md) and a [library of 17 copy-and-paste prompts](framework-template/AI-skills/prompt-library.md) for common team tasks, whether or not the skills are installed.
+- An optional project health report, generated on request and refreshed after verified AI-assisted record updates. It shows recorded statistics, gaps and integrity issues without becoming another record to maintain.
 
 Use the template for the whole service, including staff and operations and the routes people use offline. Keep real participant data and research material in approved storage with the right permissions. The starter contains placeholders and fictional examples.
 
