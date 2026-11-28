@@ -13,7 +13,7 @@ Use only the records you need. Record significant learning and choices during th
 
 ## Enter records
 
-Start a record in the first blank row inside the Excel table. Choose a unique ID using the example in the ID header comment or the instruction above the table. Enter what you know, use the dropdown choices and complete required fields before relying on the record. Extend the table as needed. Complete Markdown prompts only when relevant. If an assistant cannot save a change, ask for the target workbook and tab, record ID and field values ready to paste under the actual headings. Check pasted values and keep formulas and dropdowns intact.
+Start a record in the first blank row inside the Excel table. Choose a unique ID using the example in the ID header comment or the instruction above the table. Enter what you know, use the dropdown choices and complete required fields before relying on the record. Extend the table as needed. Complete Markdown prompts only when relevant. If an assistant cannot save a change, ask for the target workbook and tab, record ID and field values ready to paste under the actual headings. Check pasted values and keep formulas and dropdowns intact. Keep text wrapping enabled. If a long entry is clipped in your spreadsheet editor, use AutoFit Row Height (or equivalent). Use the frozen ID column and filters rather than shrinking text to fit wide tables.
 
 ## When records change
 

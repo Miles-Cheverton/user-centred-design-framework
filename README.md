@@ -1,8 +1,8 @@
 # UCD Project Foundations
 
-A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions and what evidence supports them. An AI assistant can help find and check the records.
+A framework for user-centred design teams to keep research findings, user needs and decisions easy to find. See what the team agreed, why it made those decisions, what evidence supports them and what still needs attention. An AI assistant can help find and check the records.
 
-**Version 0.6.2 · 28 November 2026 · for peer review**
+**Version 0.6.3 · 28 November 2026 · for peer review**
 
 ## Why the framework exists
 
@@ -14,7 +14,7 @@ Each kind of information has a named home. Links let a team follow a design choi
 
 ## Start here
 
-1. Download the [v0.6.2 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.6.2/ucd-project-foundations-v0.6.2.zip) into your approved workspace and open the README inside.
+1. Download the [v0.6.3 starter ZIP](https://github.com/Miles-Cheverton/user-centred-design-framework/releases/download/v0.6.3/ucd-project-foundations-v0.6.3.zip) into your approved workspace and open the README inside.
 2. Name the service in the [project README](framework-template/README.md). Update [project config](framework-template/_project-config.md) if your team needs different working arrangements.
 3. Start with the [problem statement](framework-template/how-to/project-setup-and-management.md#problem-statement), or use [Import an existing project](framework-template/AI-skills/import-existing-project/SKILL.md) if work is under way.
 
@@ -41,11 +41,12 @@ Use the template for the whole service, including staff and operations and the r
 
 ## Intended benefits
 
-- Help new team members find the evidence and reasoning behind decisions.
-- Reduce the effort of searching project files so the team can spend more time interpreting what it finds.
-- Reduce time spent finding and checking material for discovery, alpha and beta presentations.
-- See which user needs the service meets in full, which it partly meets and what still needs testing.
-- Find unanswered questions and gaps in the evidence behind a decision.
+- Get a clear view of project health: what has been recorded, what remains open, and where information is missing or inconsistent.
+- Help delivery managers and product owners identify blocked dependencies, open risks and unresolved decisions, so they can focus planning and review conversations.
+- See which user needs are recorded as met in full, partly met, not met or not yet assessed, and where more evidence is needed.
+- Trace decisions and design choices back to the evidence that informed them, including unanswered questions and gaps.
+- Help new team members understand the project and the reasoning behind decisions.
+- Reduce time spent searching for information and preparing discovery, alpha and beta presentations, so the team can spend more time interpreting and using the evidence.
 
 ## Example workflows
 

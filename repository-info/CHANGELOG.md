@@ -4,6 +4,17 @@
 
 When a future release requires an upgrade, follow its release notes and the target starter’s [upgrade guidance](../framework-template/how-to/README.md#upgrade-an-existing-project).
 
+## 0.6.3 — 2026-11-28 — workbook readability
+
+- Standardised all 24 starter Excel workbooks on Arial 12pt body text and bold column headings, with 18pt titles. Replaced strong blue bands with neutral light-grey headers and subtle alternating white and grey rows.
+- Improved readability of long entries with wrapping and automatic row sizing, and refined column widths in the widest registers. Retained frozen panes, filters, underlined links, explicit status labels and existing validation warnings.
+- Updated the guidance for adding records and generating optional project health reports so the same readability principles apply.
+- Clarified the framework’s intended benefits, including how project health helps delivery managers and product owners see outstanding work, risks, dependencies and gaps in records.
+
+All 24 workbooks and 26 worksheets passed regression checks. The existing cell contents, formulas, dropdowns, named tables, comments and links are unchanged. Contrast is at least 13:1 for the regular text and header/banded-background combinations; long-text and recalculation tests passed in LibreOffice Calc. Live Excel and SharePoint visual testing remains outstanding.
+
+This is a formatting-only workbook update; there are no record schema or folder changes. Existing projects can keep their populated workbooks. Do not replace them with the blank starter to obtain the new appearance; merge guidance or apply equivalent formatting to a recoverable copy if useful.
+
 ## 0.6.2 — 2026-11-28 — prompt library and project health
 
 - Added a [library of 17 copy-and-paste prompts](../framework-template/AI-skills/prompt-library.md) for common team tasks, including research and meeting follow-up, a single-document assessment, evidence tracing, development refinement and phase reviews. The prompts refer to the project's own skill files and linked guidance, so installing skills is optional. People establish conclusions and decisions; AI helps check and document them.

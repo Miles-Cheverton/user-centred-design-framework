@@ -5,7 +5,7 @@ Use only the sections relevant to the task. Locate live owners via the [document
 ## Edit records
 
 - Add records in the first empty named-table row under the headings; use the ID examples in column header comments or the instruction above the table, not as records. Ignore genuine legacy OVERWRITE ME example rows. Extend the table and its controls when needed.
-- Check actual headers, allowed values and IDs before editing; recheck pasted values. Preserve [extra columns](ai-guidance.md#read-and-preserve-extra-workbook-columns), controls and unrelated records.
+- Check actual headers, allowed values and IDs before editing; recheck pasted values. Preserve [extra columns](ai-guidance.md#read-and-preserve-extra-workbook-columns), controls and unrelated records. Retain readable formatting, text wrapping and row sizing when extending tables; fit long entries without reducing the font size.
 - Complete relevant Markdown prompts. Use YYYY-MM-DD for dates. Keep current information first; append dated historical notes or link longer notes. Preserve earlier evidence and wording in version history and record consequential choices in [Decisions](../how-to/project-setup-and-management.md#decisions).
 
 ## Stable identifiers and owner lookup

@@ -1,8 +1,8 @@
 # [Service or project name]
 
-**Starter version:** UCD Project Foundations v0.6.2
+**Starter version:** UCD Project Foundations v0.6.3
 
-Keep research findings, user needs and decisions easy to find and check. **People think first. AI helps second.** The team forms its own ideas and interprets evidence. An assistant can help find sources, flag gaps and record what people agree.
+Keep research findings, user needs and decisions easy to find and check. **People think first. AI helps second.** The team forms its own ideas and interprets evidence. An assistant can help find sources, flag gaps and record what people agree. The optional project health report shows what is recorded, what remains open and where information needs attention.
 
 Start with [How to use the project foundations](how-to/README.md). It tells you what to record, when to record it and where to find the guidance. The framework works without AI. For assistance, start with the [prompt library](AI-skills/prompt-library.md) or [AI skills](AI-skills/README.md).
 
